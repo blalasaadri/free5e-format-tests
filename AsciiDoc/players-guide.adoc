@@ -1,13 +1,15 @@
 = Free5e Player’s Guide
 (Title Pending, Preview Work-in-Progress)
-:revdate: May 1, 2025
 :doctype: book
-:reproducible:
 :icons: font
+:reproducible:
+:revdate: May 1, 2025
+:table-stripes: even
 :stem:
+:stylesheet: css/adoc-golo.css
 :toc: left
 :toclevels: 3
-:table-stripes: even
+// Custom attributes
 :url-newsletter: https://wyrmworkspublishing.com/hoard
 :url-kickstarter: https://www.kickstarter.com/projects/wyrmworkspublishing/free5e-a-free-open-source-dungeons-and-dragons-alternative?ref=dmx0j9
 :class-name-barbarian: Dreadnought
@@ -29,6 +31,8 @@ Playing a tabletop roleplaying game (TTRPG) is all about imagining a character i
 Choose a Game Master (GM).:: One player is the GM, who creates the story, controls the world, and describes everything and everyone around you.
 Create Your Character.:: Choose an ancestry, class, and background for your character. This is your hero in the game world!
 Playing an Encounter:: On your turn, you describe what your character does. Do you swing your sword, cast a spell, or talk to someone? To see whether you succeed, you roll a 20-sided die (d20) and add your ability score modifier and, maybe, a proficiency bonus. Higher rolls are better!
+
+.Example of play
 [example]
 ====
 **Grey (GM):** The village elder has asked you to investigate a strange ruin in the nearby forest. After hours of travel, you arrive at a crumbling stone structure covered in moss. Inside, the air is damp, and faint echoes of scratching come from within the stony depths.. What do you do?

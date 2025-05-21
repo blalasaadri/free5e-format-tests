@@ -17,6 +17,9 @@ One player is the GM, who creates the story, controls the world, and describes e
 Choose an ancestry, class, and background for your character. This is your hero in the game world!
 * **Playing an Encounter**\
 On your turn, you describe what your character does. Do you swing your sword, cast a spell, or talk to someone? To see whether you succeed, you roll a 20-sided die (d20) and add your ability score modifier and, maybe, a proficiency bonus. Higher rolls are better!
+
+**Example of play**
+
 ***Grey (GM):*** The village elder has asked you to investigate a strange ruin in the nearby forest. After hours of travel, you arrive at a crumbling stone structure covered in moss. Inside, the air is damp, and faint echoes of scratching come from within the stony depths.. What do you do?
 
 ***Susan (playing Sylvana, a halfling Bard):*** I step in quietly and take a closer look at the walls. Do I recognize any symbols or writing?
