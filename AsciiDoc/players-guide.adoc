@@ -5,7 +5,7 @@
 :reproducible:
 :icons: font
 :stem:
-:toc:
+:toc: left
 :toclevels: 3
 :table-stripes: even
 :url-newsletter: https://wyrmworkspublishing.com/hoard
