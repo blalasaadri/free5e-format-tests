@@ -1,0 +1,209 @@
+= Wizard Spells
+:doctype: book
+:icons: font
+:reproducible:
+:revdate: May 1, 2025
+:table-stripes: even
+:stem:
+:stylesheet: ../../css/adoc-golo.css
+:toc: left
+:toclevels: 4
+
+// Custom attributes
+include::../../attributes.adoc[]
+
+// tag::spell-list[]
+
+== Cantrips (0 Level)
+- <<spell-acid-splash>>
+- Chill Touch
+- Dancing Lights
+- Fire Bolt
+- Friends
+- Light
+- Mage Hand
+- Mending
+- Message
+- Minor Illusion
+- Poison Spray
+- Prestidigitation
+- Ray of Frost
+- Shocking Grasp
+- True Strike
+
+== 1st Level
+- Alarm
+- Burning Hands
+- Charm Person
+- Color Spray
+- Comprehend Languages
+- Detect Magic
+- Disguise Self
+- Expeditious Retreat
+- False Life
+- Feather Fall
+- Find Familiar
+- Floating Disk
+- Fog Cloud
+- Hideous Laughter
+- Illusory Script
+- Iz’zart's Swarm Limb
+- Longstrider
+- Magic Missile
+- Shield
+- Thunderwave
+
+== 2nd Level
+- Acid Arrow
+- Arcane Lock
+- Blindness/Deafness
+- Continual Flame
+- Darkvision
+- Enlarge/Reduce
+- Gentle Repose
+- Hold Person
+- Knock
+- Locate Object
+- Magic Weapon
+- Misty Step
+- Rope Trick
+- See Invisibility
+- Spider Climb
+- Web
+
+== 3rd Level
+- <<spell-animate-dead>>
+- Blink
+- Clairvoyance
+- Counterspell
+- Dispel Magic
+- Fear
+- Fireball
+- Fly
+- Gaseous Form
+- Glyph of Warding
+- Haste
+- Hypnotic Pattern
+- Lightning Bolt
+- Magic Circle
+- Major Image
+- Nondetection
+- Phantom Steed
+- Protection from Energy
+- Remove Curse
+- Sending
+- Sleet Storm
+- Slow
+- Stinking Cloud
+- Tiny Hut
+- Tongues
+- Vampiric Touch
+- Water Breathing
+
+== 4th Level
+- Arcane Eye
+- Banishment
+- Black Tentacles
+- Blight
+- Charm Monster
+- Confusion
+- Conjure Minor Elementals
+- Control Water
+- Dimension Door
+- Fabricate
+- Faithful Hound
+- Fire Shield
+- Greater Invisibility
+- Hallucinatory Terrain
+- Ice Storm
+- Locate Creature
+- Phantasmal Killer
+- Polymorph
+- Private Sanctum
+- Resilient Sphere
+- Secret Chest
+- Stone Shape
+- Stoneskin
+- Wall of Fire
+
+== 5th Level
+- <<spell-animate-objects>>
+- Arcane Hand
+- Cone of Cold
+- Contact Other Plane
+- Dominate Person
+- Geas
+- Legend Lore
+- Modify Memory
+- Planar Binding
+- Scrying
+- Seeming
+- Telepathic Bond
+- Wall of Force
+
+== 6th Level
+- Chain Lightning
+- Create Undead
+- Eyebite
+- Globe of Invulnerability
+- Instant Summons
+- Magic Jar
+- Move Earth
+- Sunbeam
+- Wall of Ice
+
+== 7th Level
+- Arcane Sword
+- Etherealness
+- Forcecage
+- Mirage Arcane
+- Prismatic Spray
+- Project Image
+- Reverse Gravity
+- Sequester
+- Simulacrum
+- Symbol
+- Teleport
+
+== 8th Level
+- Antimagic Field
+- Antipathy/Sympathy
+- Clone
+- Control Weather
+- Demiplane
+- Dominate Monster
+- Feeblemind
+- Incendiary Cloud
+- Maze
+- Mind Blank
+- Power Word Stun
+- Sunburst
+
+== 9th Level
+- Astral Projection
+- Foresight
+- Gate
+- Imprisonment
+- Meteor Swarm
+- Power Word Kill
+- Prismatic Wall
+- Shapechange
+- Time Stop
+- True Polymorph
+- Weird
+- Wish
+
+// end::spell-list[]
+
+// tag::spell-descriptions[]
+= Spells
+
+[#spell-acid-splash]
+== Acid Splash
+include::../Spell_Descriptions/Acid_Splash.adoc[leveloffset=+2, tag=spell-description]
+
+[#spell-animate-objects]
+== Animate Objects 
+include::../Spell_Descriptions/Animate_Objects.adoc[leveloffset=+2, tag=spell-description]
+
+// end::spell-descriptions[]

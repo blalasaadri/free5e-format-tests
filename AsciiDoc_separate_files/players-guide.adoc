@@ -1,0 +1,176 @@
+= Free5e Player’s Guide
+(Title Pending, Preview Work-in-Progress)
+:doctype: book
+:icons: font
+:reproducible:
+:revdate: May 24, 2025
+:sectnums:
+:sectnumlevels: 1
+:stem:
+:stylesdir: css
+:stylesheet: adoc-golo.css
+:table-stripes: even
+:toc: left
+:toclevels: 3
+
+// Custom attributes
+include::attributes.adoc[]
+
+[colophon]
+
+Updated {revdate} +
+#Highlighted Portions# are scheduled for significant modification. +
+Sign up to receive email updates at {url-newsletter} +
+Follow and Back the Kickstarter to make this a reality at {url-kickstarter}
+
+[preface]
+include::01_Introduction/Introduction.adoc[tag=content]
+
+<<<
+
+[#creating-a-character]
+= Creating a Character
+include::02_Creating_a_Character/Creating_a_Character.adoc[leveloffset=+0, tag=content]
+
+[#classes]
+== Classes
+include::02_Creating_a_Character/Classes/About_Classes.adoc[][leveloffset=+0, tag=name-changes]
+
+[#cleric-class]
+=== {class-name-cleric}
+include::02_Creating_a_Character/Classes/Cleric/Cleric.adoc[leveloffset=+2, tag=class]
+
+<<<
+
+[#dreadnought-class]
+=== {class-name-barbarian}
+include::02_Creating_a_Character/Classes/Dreadnought/Dreadnought.adoc[leveloffset=+2, tag=class]
+
+<<<
+
+[#vanguard-class]
+=== {class-name-paladin}
+include::02_Creating_a_Character/Classes/Vanguard/Vanguard.adoc[leveloffset=+2, tag=class]
+
+<<<
+
+[#wizard-class]
+=== {class-name-wizard}
+include::02_Creating_a_Character/Classes/Wizard/Wizard.adoc[leveloffset=+2, tag=class]
+
+<<<
+
+[#ancestries]
+== Ancestries
+
+include::02_Creating_a_Character/Ancestries/About_Ancestries.adoc[leveloffset=+1, tag=ancestries]
+
+<<<
+
+== Cultures
+
+include::02_Creating_a_Character/Cultures/About_Cultures.adoc[leveloffset=+1, tag=cultures]
+
+<<<
+
+== Level Advancement
+
+include::02_Creating_a_Character/Level_Advancement/Level_Advancement.adoc[leveloffset=+1, tag=level-advancement]
+
+<<<
+
+[#equipment]
+== Equipment
+include::02_Creating_a_Character/Equipment/Equipment.adoc[leveloffset=+0, tag=equipment]
+
+[#equipment-selling-treasure]
+=== Selling Treasure
+include::02_Creating_a_Character/Equipment/Selling_Treasure.adoc[leveloffset=+1, tag=equipment]
+
+[#equipment-armor]
+=== Armor
+include::02_Creating_a_Character/Equipment/Armor.adoc[leveloffset=+1, tag=equipment]
+
+<<<
+
+[#playing-the-game]
+= Playing the Game
+
+== Using Ability Scores
+include::03_Playing_the_Game/Using_Ability_Scores.adoc[leveloffset=+1, tag=abilities]
+
+<<<
+
+[#spellcasting]
+= Spellcasting
+
+include::04_Rules_of_Magic/About_Spellcasting.adoc[leveloffset=+0, tag=spellcasting]
+
+== Spell Lists
+
+[#spell-list-cleric]
+=== {class-name-cleric} Spells
+
+include::04_Rules_of_Magic/Spell_Lists/Cleric_Spells.adoc[leveloffset=+2, tag=spell-list]
+
+[#spell-list-vanguard]
+=== {class-name-paladin} Spells
+
+include::04_Rules_of_Magic/Spell_Lists/Vanguard_Spells.adoc[leveloffset=+2, tag=spell-list]
+
+[#spell-list-wizard]
+=== {class-name-wizard} Spells
+
+include::04_Rules_of_Magic/Spell_Lists/Wizard_Spells.adoc[leveloffset=+2, tag=spell-list]
+
+<<<
+
+== Spell Descriptions
+
+include::04_Rules_of_Magic/All_Spell_Descriptions.adoc[leveloffset=+1, tag=spell-descriptions]
+
+<<<
+
+[appendix]
+= Credits
+[horizontal]
+Project Lead & Writer:: Dale Critchley https://wyrmworkspublishing.com 
+Collaborator, Writer, & Editor:: PJ Coffey https://homebrewandhacking.com/ 
+Layout & Accessibility:: Chris Hopper https://bio.link/chrishopper 
+
+=== Artists
+
+=== Primary Sources
+This project was made possible by Sly Flourish, EN Publishing, KibblesTasty, and Wizards of the Coast, who generously made content available under a Creative Commons license.
+We are deeply grateful for their contributions.
+
+[appendix]
+= Legal
+This work includes material taken from the A5E System Reference Document (A5ESRD) by EN Publishing and available at A5ESRD.com, based on Level Up: Advanced 5th Edition, available at www.levelup5e.com[].
+The A5ESRD is licensed under the Creative Commons Attribution 4.0 International License available at https://creativecommons.org/licenses/by/4.0/legalcode[].
+
+This work includes material taken from the System Reference Document 5.1 (“SRD 5.1”) by Wizards of the Coast LLC and available at https://dnd.Wizards.com/resources/systems-reference-document[].
+The SRD 5.1 is licensed under the Creative Commons Attribution 4.0 International License available at https://creativecommons.org/licenses/by/4.0/legalcode.
+
+This work includes material taken from the Lazy GM's Resource Document by Michael E. Shea of SlyFlourish.com, available under a Creative Commons Attribution 4.0 International License.
+
+This work includes content from Kibbles’ Compendium of Legends and Legacies by KibblesTasty Homebrew LLC and available at https://www.kthomebrew.com/krd[].
+The Kibbles’ Compendium of Legends and Legacies is licensed under the Creative Commons Attribution 4.0 International License (CC-BY-4.0) available at https://creativecommons.org/licenses/by/4.0/legalcode[].
+
+The text of Free5e Player's Guide © 2025 by Wyrmworks Publishing and available at https://free5e.com[] is licensed under Creative Commons Attribution 4.0 International.
+To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/ 
+You are free to use this content in any manner permitted by that license as long as you include the following attribution statement in your own work:
+
+This work includes material adapted from the **Free5e Player's Guide**, © 2025 by Wyrmworks Publishing, and available at https://free5e.com[].
+The Free5e Player's Guide is licensed under the Creative Commons Attribution 4.0 International License (CC-BY-4.0).
+To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/[].
+
+This adaptation also includes material originally taken from:
+
+- The **A5E System Reference Document (A5ESRD)** by EN Publishing, available at A5ESRD.com and licensed under CC-BY-4.0.
+- The **System Reference Document 5.1 (SRD 5.1)** by Wizards of the Coast LLC, available at https://dnd.Wizards.com/resources/systems-reference-document[] and licensed under CC-BY-4.0.
+- The **Lazy GM’s Resource Document** by Michael E. Shea of SlyFlourish.com, licensed under CC-BY-4.0.
+- The **Kibbles’ Compendium of Legends and Legacies** by KibblesTasty Homebrew LLC, available at https://www.kthomebrew.com/krd[] and licensed under CC-BY-4.0.
+
+All artwork contained in this book is licensed under CC-BY-4.0 or CC-0. To use that artwork outside of this project, see the accompanying document with specific licensing and credit information.
+If you received this copy without that document, you can obtain a copy at https://free5e.com[].

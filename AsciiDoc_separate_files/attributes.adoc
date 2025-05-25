@@ -1,0 +1,24 @@
+:url-newsletter: https://wyrmworkspublishing.com/hoard
+:url-kickstarter: https://www.kickstarter.com/projects/wyrmworkspublishing/free5e-a-free-open-source-dungeons-and-dragons-alternative?ref=dmx0j9
+:class-name-barbarian: Dreadnought
+:subclass-name-barbarian-berserker: Path of the Berserker
+:subclass-name-barbarian-dragon: Path of the Dragon
+:class-name-cleric: Cleric
+:subclass-name-cleric-martyr: Martyr Domain
+:subclass-name-cleric-sacred-mandate: Sacred Mandate
+:class-name-druid: Primal
+:class-name-monk: Adept
+:class-name-paladin: Vanguard
+:subclass-name-paladin-devotion: Oath of Devotion
+:subclass-name-paladin-silence: Oath of Silence
+:class-name-wizard: Wizard
+:subclass-name-wizard-arcanist: Arcanist
+:subclass-name-wizard-theurge: Theurge
+
+:spellcasting-casting-time: Casting Time
+:spellcasting-range: Range
+:spellcasting-target: Target
+:spellcasting-components: Components
+:spellcasting-duration: Duration
+:spellcasting-saving-throw: Saving Throw
+:spellcasting-at-higher-levels: At Higher Levels

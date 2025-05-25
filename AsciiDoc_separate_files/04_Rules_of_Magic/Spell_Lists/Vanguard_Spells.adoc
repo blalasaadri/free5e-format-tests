@@ -1,0 +1,74 @@
+= Vanguard Spells
+:doctype: book
+:icons: font
+:reproducible:
+:revdate: May 1, 2025
+:table-stripes: even
+:stem:
+:stylesheet: ../../css/adoc-golo.css
+:toc: left
+:toclevels: 4
+
+// Custom attributes
+include::../../attributes.adoc[]
+
+// tag::spell-list[]
+
+== 1st Level
+- <<spell-bless>>
+- Command
+- <<spell-cure-wounds>>
+- Detect Evil and Good
+- Detect Magic
+- Detect Poison and Disease
+- Divine Favor
+- Heroism
+- Protection from Evil and Good
+- Purify Food and Drink
+- Shield of Faith
+
+== 2nd Level
+- <<spell-aid>>
+- Branding Smite
+- Find Steed
+- Lesser Restoration
+- Locate Object
+- Magic Weapon
+- Protection from Poison
+- Zone of Truth
+
+== 3rd Level
+- Create Food and Water
+- Daylight
+- Dispel Magic
+- Magic Circle
+- Remove Curse
+- Revivify
+
+== 4th Level
+- Banishment
+- Locate Creature
+
+== 5th Level
+- Dispel Evil and Good
+- Raise Dead
+
+// end::spell-list[]
+
+// tag::spell-descriptions[]
+
+= Spells
+
+[#spell-aid]
+== Aid
+include::../Spell_Descriptions/Aid.adoc[leveloffset=+2, tag=spell-description]
+
+[#spell-bless]
+== Bless
+include::../Spell_Descriptions/Bless.adoc[leveloffset=+2, tag=spell-description]
+
+[#spell-cure-wounds]
+== Cure Wounds
+include::../Spell_Descriptions/Cure_Wounds.adoc[leveloffset=+2, tag=spell-description]
+
+// end::spell-descriptions[]

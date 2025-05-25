@@ -1,0 +1,29 @@
+= Aid
+:doctype: book
+:icons: font
+:reproducible:
+:revdate: May 1, 2025
+:table-stripes: even
+:stem:
+:stylesdir: ../../css
+:stylesheet: adoc-golo.css
+
+// Custom attributes
+include::../../attributes.adoc[]
+
+// tag::spell-description[]
+
+_2nd-level abjuration_
+[horizontal]
+{spellcasting-casting-time}:: 1 action
+{spellcasting-range}:: 60 feet
+{spellcasting-target}:: Up to three creatures
+{spellcasting-components}:: V, S, M (measure of spirits)
+{spellcasting-duration}:: 8 hours
+
+You draw upon divine power, imbuing the targets with fortitude.
+Until the spell ends, each target increases its hit point maximum and current hit points by 5.
+
+{spellcasting-at-higher-levels}.:: The granted hit points increase by an additional 5 for each slot level above 2nd.
+
+// end::spell-description[]

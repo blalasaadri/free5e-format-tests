@@ -1,0 +1,27 @@
+= Cure Wounds
+:doctype: book
+:icons: font
+:reproducible:
+:revdate: May 1, 2025
+:table-stripes: even
+:stem:
+:stylesdir: ../../css
+:stylesheet: adoc-golo.css
+
+// Custom attributes
+include::../../attributes.adoc[]
+
+// tag::spell-description[]
+
+_1st-level evocation_
+[horizontal]
+{spellcasting-casting-time}:: 1 action
+{spellcasting-range}:: Touch
+{spellcasting-components}:: V, S
+{spellcasting-duration}:: Instantaneous
+
+One creature that is neither a construct nor undead regains hit points equal to 1d8 + your spellcasting ability modifier.
+
+{spellcasting-at-higher-levels}.:: The hit points regained increase by 1d8 for each slot level above 1st. 
+
+// end::spell-description[]

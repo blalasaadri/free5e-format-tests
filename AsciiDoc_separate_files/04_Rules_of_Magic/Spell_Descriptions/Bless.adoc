@@ -1,0 +1,27 @@
+= Bless
+:doctype: book
+:icons: font
+:reproducible:
+:revdate: May 1, 2025
+:table-stripes: even
+:stem:
+:stylesdir: ../../css
+:stylesheet: adoc-golo.css
+
+// Custom attributes
+include::../../attributes.adoc[]
+
+// tag::spell-description[]
+
+_1st-level enchantment_
+[horizontal]
+{spellcasting-casting-time}:: 1 action
+{spellcasting-range}:: 30 feet
+{spellcasting-components}:: V, S, M (a sprinkling of holy water) 
+{spellcasting-duration}:: Concentration, up to 1 minute
+
+Until the spell ends, a d4 is added to attack rolls and saving throws made by a target.
+
+{spellcasting-at-higher-levels}.:: You target one additional creature for each slot level above 1st.
+
+// end::spell-description[]

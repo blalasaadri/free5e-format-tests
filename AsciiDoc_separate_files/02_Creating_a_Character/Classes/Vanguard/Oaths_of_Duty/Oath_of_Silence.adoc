@@ -1,0 +1,87 @@
+= Oath of Devotion
+:doctype: book
+:icons: font
+:reproducible:
+:revdate: May 1, 2025
+:table-stripes: even
+:stem:
+:stylesdir: ../../../../css
+:stylesheet: adoc-golo.css
+:toc: left
+
+// Custom attributes
+include::../../../../attributes.adoc[]
+
+// tag::subclass[]
+
+The {subclass-name-paladin-silence} is taken by those that have seen the chaos of the world and have chosen to take a stand.
+Rather than shout over the clamor, they lead by example and action, showing that the world needs not fiery rhetoric or the manipulations of honeyed words, but people to act as they should with purpose and pride.
+{class-name-paladin}s of this oath can come from many backgrounds and espouse endless variants of their conviction, but most often tend to be Lawful.
+They often believe that the power of words should be in the reason and virtue they carry, rather than volume or, worst of all, manipulating magics that twist the minds of those they fall on.
+
+== Tenets of Silence
+Though the exact words and strictures of the {subclass-name-paladin-silence} vary, {class-name-paladin}s of this oath share these tenets.
+[horizontal]
+Temperance.:: Whispering in silence conveys greater power than shouting in clamor.
+Precision.:: Speak with purpose and say what must be said.
+Sanctuary.:: Be the port in the storm, be the tranquility in the chaos.
+Purpose.:: Actions speak louder than words. Let your sword and shield be your voice.
+Sacred.:: Be wary of those that use their voice to bend the world to their will for their own gain, and rebuke those that use their voice to bend creatures to their will for their own gain.
+
+== Oath Spells
+You gain oath spells at the {class-name-paladin} levels listed.
+
+[#vanguard-oath-of-silence-spells]
+.Oath of Silence Spells (table)
+[%header,cols="1,3"]
+|===
+| Level | {class-name-paladin} Spells
+
+| 3rd
+| Sanctuary, Sleep
+
+| 5th
+| Blindness/Deafness, Silence
+
+| 9th
+| Counterspell, Dispel Magic
+
+| 13th
+| Banishment, Divination
+
+| 17th
+| Hallow, Mislead
+|===
+
+== Channel Divinity
+When you take this oath at 3rd level, you gain the following two Channel Divinity options.
+
+Shroud of Silence.:: As a bonus action, you present your holy symbol and whisper a prayer, shrouding one creature within 60 feet in an aura of silence. For 10 minutes, the target makes no noise.
+It cannot speak (including the verbal components of spells) and gains advantage on Dexterity (Stealth) ability checks.
+An unwilling creature makes a Wisdom saving throw against your spell save DC to prevent the effect when targeted, and can repeat the saving throw at the end of each of their turns to end the effect on a success.
+Sanctuary of the Sacrosanct.:: As an action, you present your holy symbol and whisper prayer to bring refugees from the turmoil of the world.
+All creatures of your choice within 30 feet gain temporary hit points equal to your {class-name-paladin} level + your Charisma modifier, and if they are under the effect of a condition or spell they can normally save against the end of their turn, they can immediately make a save against the effect, ending it on success as normal.
+
+== Aura of Serenity
+Starting at 7th level, you permeate an aura of quiet serenity, reducing the volume of all noises within 10 feet.
+You and friendly creatures in the aura gain resistance to thunder damage, and armor does not give disadvantage on Dexterity (Stealth) checks for creatures within the aura.
+
+At 18th level, the range of this aura increases to 30 feet.
+
+== Rebuke
+Starting at 15th level, when a creature within your Aura of Serenity attempts to speak, attack, or cast a spell, you can rebuke them as a reaction, causing them to take radiant damage equal to your Charisma modifier and forcing them to make a Wisdom saving throw.
+On a failed saving throw their attempt to speak fails, and they are silenced until the start of their next turn.
+
+== Ordered World
+At 20th level, as an action, you can bring ordered tranquility to the world around you for 1 minute.
+Your Aura of Serenity doubles in size, and you can use Rebuke without expending your reaction a number of times equal to your Charisma modifier, regaining all uses at the start of your next turn.
+For the duration, all creatures of your choice have advantage on saving throws against the charmed and frightened conditions, or the effects of spells.
+
+== Optional Feature: Vow of Silence
+Some {class-name-paladin}s of this oath take their calling very seriously, and commit to never speaking again.
+When you select this option, you gain the ability to speak telepathically to creatures with which you share at least one language with a range of 60 feet.
+This telepathy is one way, and they cannot reply.
+Additionally, all verbal components of spells (as well as the whispered prayers of your Channel Divinity options) are replaced by somatic components for you.
+If you ever speak, this vow is broken, and you lose these additional powers.
+
+// end::subclass[]

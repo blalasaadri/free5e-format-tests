@@ -1,0 +1,30 @@
+= Cultures
+:doctype: book
+:icons: font
+:reproducible:
+:revdate: May 1, 2025
+:table-stripes: even
+:stem:
+:stylesdir: ../../css
+:stylesheet: adoc-golo.css
+:toc: left
+
+// Custom attributes
+include::../../attributes.adoc[]
+
+// tag::cultures[]
+
+Choose a culture for your character.
+While some cultures are closely associated with a specific ancestry, depending on your character’s past, you may choose any culture for them. Each culture has unique traits.
+You gain all traits associated with your chosen culture, unless otherwise stated.
+Characters raised in a culture share common traits.
+
+[#culture-cosmopolitan]
+== Cosmopolitan
+include::Cultures/Cosmopolitan.adoc[leveloffset=+1, tag=culture]
+
+[#culture-lone-wanderer]
+== Lone Wanderer
+include::Cultures/Lone_Wanderer.adoc[leveloffset=+1, tag=culture]
+
+// end::cultures[]

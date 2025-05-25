@@ -1,0 +1,56 @@
+= Classes
+:doctype: book
+:icons: font
+:reproducible:
+:revdate: May 1, 2025
+:table-stripes: even
+:stem:
+:stylesdir: ../../css
+:stylesheet: adoc-golo.css
+:toc: left
+:toclevels: 3
+
+// Custom attributes
+include::../../attributes.adoc[]
+
+// tag::name-changes[]
+
+.Class Name Changes
+[sidebar]
+****
+Some class names in Free5e have been updated to remove outdated or problematic references while staying true to their themes.
+They use the same game mechanics as the original classes.
+
+Barbarian -> {class-name-barbarian}:: Replacing a derogatory cultural slur
+Druid -> {class-name-druid}:: Removed inaccurate and appropriated portrayal of real-world religion
+Monk -> {class-name-monk}:: Expanding the concept without appropriating a cultural tradition
+Paladin -> {class-name-paladin}:: Removing the association with a real-world religious conflict}
+****
+
+// end::name-changes[]
+
+// tag::classes[]
+
+[#cleric-class]
+== {class-name-cleric}
+//include::Cleric/Cleric.adoc[leveloffset=+1, tag=class]
+
+<<<
+
+[#dreadnought-class]
+== {class-name-barbarian}
+//include::Dreadnought/Dreadnought.adoc[leveloffset=+1, tag=class]
+
+<<<
+
+[#vanguard-class]
+== {class-name-paladin}
+//include::Vanguard/Vanguard.adoc[leveloffset=+1, tag=class]
+
+<<<
+
+[#wizard-class]
+== {class-name-wizard}
+//include::Wizard/Wizard.adoc[leveloffset=+1, tag=class]
+
+// end::classes[]

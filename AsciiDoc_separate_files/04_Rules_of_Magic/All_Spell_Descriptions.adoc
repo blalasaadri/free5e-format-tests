@@ -1,0 +1,41 @@
+= Spell Descriptions
+:doctype: book
+:icons: font
+:reproducible:
+:revdate: May 1, 2025
+:table-stripes: even
+:stem:
+:stylesheet: ../css/adoc-golo.css
+:toc: left
+:toclevels: 2
+
+// Custom attributes
+include::../attributes.adoc[]
+
+// tag::spell-descriptions[]
+
+[#spell-acid-splash]
+== Acid Splash
+include::Spell_Descriptions/Acid_Splash.adoc[leveloffset=+2, tag=spell-description]
+
+[#spell-aid]
+== Aid
+include::Spell_Descriptions/Aid.adoc[leveloffset=+2, tag=spell-description]
+
+[#spell-animate-dead]
+== Animate Dead 
+include::Spell_Descriptions/Animate_Dead.adoc[leveloffset=+2, tag=spell-description]
+
+[#spell-animate-objects]
+== Animate Objects 
+include::Spell_Descriptions/Animate_Objects.adoc[leveloffset=+2, tag=spell-description]
+
+[#spell-bless]
+== Bless
+include::Spell_Descriptions/Bless.adoc[leveloffset=+2, tag=spell-description]
+
+[#spell-cure-wounds]
+== Cure Wounds
+include::Spell_Descriptions/Cure_Wounds.adoc[leveloffset=+2, tag=spell-description]
+
+// end::spell-descriptions[]

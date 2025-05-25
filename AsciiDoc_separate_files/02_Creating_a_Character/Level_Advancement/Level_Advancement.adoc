@@ -1,0 +1,94 @@
+= Level Advancement
+:doctype: book
+:icons: font
+:reproducible:
+:revdate: May 1, 2025
+:table-stripes: even
+:stem:
+:stylesheet: ../../css/adoc-golo.css
+
+// Custom attributes
+include::../../attributes.adoc[]
+
+// tag::level-advancement[]
+
+As your character gains experience points and levels up, they gain additional features and proficiency bonuses.
+Each level also grants an extra Hit Die, which can be rolled and added to your hit point maximum, or used as a fixed value.
+When your Constitution modifier increases, your hit point maximum increases by 1 for each level.
+The <<level-advancement-character-advancement-table,Character Advancement table>> summarizes the XP needed to level up from 1 to 20 and the proficiency bonus for each level.
+Refer to your character’s class description for other level-based improvements.
+
+[#level-advancement-character-advancement-table]
+.Character Advancement (table)
+[%header,cols="2,1,2",format=dsv,separator=;]
+|===
+include::character-advancement.csv[]
+|===
+
+== Multiclassing
+Multiclassing lets you gain levels in multiple classes, mixing their abilities to create unique character concepts.
+You can gain a level in a new class whenever you advance, instead of your current class.
+Levels in all classes add up to determine your character level.
+For instance, three Wizard levels and two Fighter levels make you a 5th-level character.
+
+As you level up, you may stay in your original class with a few levels in another, or change course entirely.
+You might even start progressing in a third or fourth class.
+Compared to a single-class character of the same level, you sacrifice focus for versatility.
+
+=== Prerequisites
+To qualify for a new class, meet the ability score prerequisites for both your current and new classes, as shown in the <<multiclassing-prerequisites-table,Multiclassing Prerequisites table>>.
+For instance, a {class-name-barbarian} multiclassing into {class-name-druid} must have 13 or higher Strength and Wisdom scores.
+Without the training of a beginning character, you must be a quick learner with natural aptitude reflected by higher-than-average ability scores.
+
+[#multiclassing-prerequisites-table]
+.Multiclassing Prerequisites (table)
+[%header,cols="1,4",format=dsv,separator=;]
+|===
+include::multiclassing-prerequisites.csv[]
+|===
+
+== Proficiencies
+When you gain your first level in a class other than your initial class, you gain only some of new class’s starting proficiencies, as shown in the <<multiclassing-proficiencies-table,Multiclassing Proficiencies table>>.
+
+[#multiclassing-proficiencies-table]
+.Multiclassing Proficiencies (table)
+[%header,cols="1,4",format=dsv,separator=;]
+|===
+include::multiclassing-proficiencies.csv[]
+|===
+
+[#languages]
+=== Languages
+Your culture determines your default languages that you can read, speak, write, and sign, provided there is no disability or condition that prevents you from doing so.
+Your background may grant access to additional languages of your choice.
+Note these languages on your character sheet.
+
+Choose from the <<languages-standard-table,Standard Languages table>>, or a common language in your campaign.
+With your GM’s permission, you can choose an <<languages-exotic-table,exotic language>> if it fits your background.
+
+Some languages are families with many dialects.
+For instance, the Primordial language includes Auran, Aquan, Ignan, and Terran dialects for each elemental plane.
+Creatures speaking different dialects of the same language can communicate.
+
+[#languages-standard-table]
+.Standard Languages (table)
+[%header,cols="1,1,1",format=dsv,separator=;]
+|===
+include::common-languages.csv[]
+|===
+
+[#languages-exotic-table]
+.Exotic Languages (table)
+[%header,cols="1,1,1",format=dsv,separator=;]
+|===
+include::exotic-languages.csv[]
+|===
+
+.Signing
+[sidbebar]
+****
+You must have at least one hand free to communicate by sign, and the creature you are communicating with must be able to see you.
+When attempting to make subtle signs, to remain unnoticed you must succeed on a Sleight of Hand check against the passive Perception scores of observers.
+****
+
+// end::level-advancement[]

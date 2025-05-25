@@ -1,0 +1,24 @@
+= Lone Wanderer
+:doctype: book
+:icons: font
+:reproducible:
+:revdate: May 1, 2025
+:table-stripes: even
+:stem:
+:stylesdir: ../../../css
+:stylesheet: adoc-golo.css
+
+// Custom attributes
+include::../../../attributes.adoc[]
+
+// tag::culture[]
+
+This culture, characterized by its independent spirit, values self-reliance and adaptability. Its members are resourceful and embrace unique paths in life.
+
+Culture of My Own.:: You gain four skill or tool proficiencies of your choice.
+
+Heirloom.:: Choose one weapon worth 100 gold or less. You begin play with a masterwork version of that weapon.
+
+Languages.:: You can speak, read, write, and sign Common and two additional languages.
+
+// end::culture[]
