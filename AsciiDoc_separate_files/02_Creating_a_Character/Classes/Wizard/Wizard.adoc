@@ -198,17 +198,17 @@ include::Arcane_Traditions/Theurge.adoc[leveloffset=+2, tag=subclass]
 // tag::spell-list
 
 [#spell-list-wizard]
-=== {class-name-wizard} Spells
+== {class-name-wizard} Spells
 
-include::../../../04_Rules_of_Magic/Spell_Lists/Wizard_Spells.adoc[leveloffset=+2, tag=spell-list]
+include::../../../04_Rules_of_Magic/Spell_Lists/Wizard_Spells.adoc[leveloffset=+1, tag=spell-list]
 
 // end::spell-list
 
 // tag::spell-descriptions
 
 [#spell-descriptions-wizard]
-=== {class-name-wizard} Spell Descriptions
+== {class-name-wizard} Spell Descriptions
 
-include::../../../04_Rules_of_Magic/Spell_Lists/Wizard_Spells.adoc[leveloffset=+2, tag=spell-descriptions]
+include::../../../04_Rules_of_Magic/Spell_Lists/Wizard_Spells.adoc[leveloffset=+1, tag=spell-descriptions]
 
 // end::spell-descriptions
