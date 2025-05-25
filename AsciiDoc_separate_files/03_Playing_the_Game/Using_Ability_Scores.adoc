@@ -1,6 +1,7 @@
 = Using Ability Scores
 :doctype: book
 :icons: font
+:lang: en-US
 :reproducible:
 :revdate: May 1, 2025
 :table-stripes: even

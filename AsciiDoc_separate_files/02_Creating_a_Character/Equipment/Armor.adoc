@@ -1,6 +1,7 @@
 = Armor
 :doctype: book
 :icons: font
+:lang: en-US
 :reproducible:
 :revdate: May 1, 2025
 :stem:

@@ -1,6 +1,7 @@
 = Sacred Mandate
 :doctype: book
 :icons: font
+:lang: en-US
 :reproducible:
 :revdate: May 24, 2025
 :stem:
