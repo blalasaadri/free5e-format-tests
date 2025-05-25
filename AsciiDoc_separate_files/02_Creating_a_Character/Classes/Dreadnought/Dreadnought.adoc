@@ -46,125 +46,85 @@ You start with the following equipment, in addition to the equipment granted by 
 |===
 | Level | Proficiency Bonus | Features | Rages | Rage Damage
 
-| 1st
-| +2
+|       1st | +2
 | <<dreadnought-feature-rage>>, <<dreadnought-feature-unarmored-defense>>
-| 2
-| +2
+|         2 | +2
 
-| 2nd
-| +2
+|       2nd | +2
 | <<dreadnought-feature-reckless-attack>>, <<dreadnought-feature-danger-sense>>
-| 2
-| +2
+|         2 | +2
 
-| 3rd
-| +2
+|       3rd | +2
 | <<dreadnought-feature-path>>
-| 3
-| +2
+|         3 | +2
 
-| 4th
-| +2
+|       4th | +2
 | <<dreadnought-feature-asi>>
-| 3
-| +2
+|         3 | +2
 
-| 5th
-| +3
+|       5th | +3
 | <<dreadnought-feature-extra-attack>>, <<dreadnought-feature-fast-movement>>
-| 3
-| +2
+|         3 | +2
 
-| 6th
-| +3
+|       6th | +3
 | Path feature
-| 4
-| +2
+|         4 | +2
 
-| 7th
-| +3
+|       7th | +3
 | <<dreadnought-feature-feral-instinct>>
-| 4
-| +2
+|         4 | +2
 
-| 8th
-| +3
+|       8th | +3
 | <<dreadnought-feature-asi>>
-| 4
-| +2
+|         4 | +2
 
-| 9th
-| +4
+|       9th | +4
 | <<dreadnought-feature-brutal-critical>> (1 die)
-| 4
-| +3
+|         4 | +3
 
-| 10th
-| +4
+|      10th | +4
 | Path feature
-| 4
-| +3
+|         4 | +3
 
-| 11th
-| +4
+|      11th | +4
 | <<dreadnought-feature-relentless-rage>>
-| 4
-| +3
+|         4 | +3
 
-| 12th
-| +4
+|      12th | +4
 | <<dreadnought-feature-asi>>
-| 5
-| +3
+|         5 | +3
 
-| 13th
-| +5
+|      13th | +5
 | <<dreadnought-feature-brutal-critical>> (2 dice)
-| 5
-| +3
+|         5 | +3
 
-| 14th
-| +5
+|      14th | +5
 | Path feature
-| 5
-| +3
+|         5 | +3
 
-| 15th
-| +5
+|      15th | +5
 | <<dreadnought-feature-persistent-rage>>
-| 5
-| +3
+|         5 | +3
 
-| 16th
-| +5
+|      16th | +5
 | <<dreadnought-feature-asi>>
-| 5
-| +4
+|         5 | +4
 
-| 17th
-| +6
+|      17th | +6
 | <<dreadnought-feature-brutal-critical>> (3 dice)
-| 6
-| +4
+|         6 | +4
 
-| 18th
-| +6
+|      18th | +6
 | <<dreadnought-feature-indomitable-might>>
-| 6
-| +4
+|         6 | +4
 
-| 19th
-| +6
+|      19th | +6
 | <<dreadnought-feature-asi>>
-| 6
-| +4
+|         6 | +4
 
-| 20th
-| +6
+|      20th | +6
 | <<dreadnought-feature-primal-champion>>
-| Unlimited
-| +4
+| Unlimited | +4
 |===
 
 [#dreadnought-feature-rage]

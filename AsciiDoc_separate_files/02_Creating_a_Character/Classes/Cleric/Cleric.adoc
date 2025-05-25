@@ -48,284 +48,64 @@ You start with the following equipment, in addition to the equipment granted by 
 |===
 | Level | Proficiency Bonus | Cantrips Known | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th | Features
 
-| 1st
-| +2
-| 3
-| 2
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
+|  1st | +2 | 3 | 2 | - | - | - | - | - | - | - | -
 | <<cleric-feature-spellcasting>>, <<cleric-feature-divine-domain>>
 
-| 2nd
-| +2
-| 3
-| 3
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
+|  2nd | +2 | 3 | 3 | - | - | - | - | - | - | - | -
 | <<cleric-feature-channel-divinity>> (1/rest), <<cleric-feature-divine-domain>> feature
 
-| 3rd
-| +2
-| 3
-| 4
-| 2
-| -
-| -
-| -
-| -
-| -
-| -
-| -
+|  3rd | +2 | 3 | 4 | 2 | - | - | - | - | - | - | -
 | -
 
-| 4th
-| +2
-| 4
-| 4
-| 3
-| -
-| -
-| -
-| -
-| -
-| -
-| -
+|  4th | +2 | 4 | 4 | 3 | - | - | - | - | - | - | -
 | <<cleric-feature-asi>>
 
-| 5th
-| +3
-| 4
-| 4
-| 3
-| 2
-| -
-| -
-| -
-| -
-| -
-| -
+|  5th | +3 | 4 | 4 | 3 | 2 | - | - | - | - | - | -
 | <<cleric-feature-destroy-undead>> (CR 1/2)
 
-| 6th
-| +3
-| 4
-| 4
-| 3
-| 3
-| -
-| -
-| -
-| -
-| -
-| -
+|  6th | +3 | 4 | 4 | 3 | 3 | - | - | - | - | - | -
 | <<cleric-feature-channel-divinity>> (2/rest), <<cleric-feature-divine-domain>> feature
 
-| 7th
-| +3
-| 4
-| 4
-| 3
-| 3
-| 1
-| -
-| -
-| -
-| -
-| -
+|  7th | +3 | 4 | 4 | 3 | 3 | 1 | - | - | - | - | -
 | -
 
-| 8th
-| +3
-| 4
-| 4
-| 3
-| 3
-| 2
-| -
-| -
-| -
-| -
-| -
+|  8th | +3 | 4 | 4 | 3 | 3 | 2 | - | - | - | - | -
 | <<cleric-feature-asi>>, <<cleric-feature-destroy-undead>> (CR 1), <<cleric-feature-divine-domain>> feature
 
-| 9th
-| +4
-| 4
-| 4
-| 3
-| 3
-| 3
-| 1
-| -
-| -
-| -
-| -
+|  9th | +4 | 4 | 4 | 3 | 3 | 3 | 1 | - | - | - | -
 | -
 
-| 10th
-| +4
-| 5
-| 4
-| 3
-| 3
-| 3
-| 2
-| -
-| -
-| -
-| -
+| 10th | +4 | 5 | 4 | 3 | 3 | 3 | 2 | - | - | - | -
 | <<cleric-feature-divine-intervention>>
 
-| 11th
-| +4
-| 5
-| 4
-| 3
-| 3
-| 3
-| 2
-| 1
-| -
-| -
-| -
+| 11th | +4 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | - | - | -
 | <<cleric-feature-destroy-undead>> (CR 2)
 
-| 12th
-| +4
-| 5
-| 4
-| 3
-| 3
-| 3
-| 2
-| 1
-| -
-| -
-| -
+| 12th | +4 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | - | - | -
 | <<cleric-feature-asi>>
 
-| 13th
-| +5
-| 5
-| 4
-| 3
-| 3
-| 3
-| 2
-| 1
-| 1
-| -
-| -
+| 13th | +5 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | - | -
 | -
 
-| 14th
-| +5
-| 5
-| 4
-| 3
-| 3
-| 3
-| 2
-| 1
-| 1
-| -
-| -
+| 14th | +5 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | - | -
 | <<cleric-feature-destroy-undead>> (CR 3)
 
-| 15th
-| +5
-| 5
-| 4
-| 3
-| 3
-| 3
-| 2
-| 1
-| 1
-| 1
-| -
+| 15th | +5 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | -
 | -
 
-| 16th
-| +5
-| 5
-| 4
-| 3
-| 3
-| 3
-| 2
-| 1
-| 1
-| 1
-| -
+| 16th | +5 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | -
 | <<cleric-feature-asi>>
 
-| 17th
-| +6
-| 5
-| 4
-| 3
-| 3
-| 3
-| 2
-| 1
-| 1
-| 1
-| 1
+| 17th | +6 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | 1
 | <<cleric-feature-destroy-undead>> (CR 4), <<cleric-feature-divine-domain>> feature
 
-| 18th
-| +6
-| 5
-| 4
-| 3
-| 3
-| 3
-| 3
-| 1
-| 1
-| 1
-| 1
+| 18th | +6 | 5 | 4 | 3 | 3 | 3 | 3 | 1 | 1 | 1 | 1
 | <<cleric-feature-channel-divinity>> (3/rest)
 
-| 19th
-| +6
-| 5
-| 4
-| 3
-| 3
-| 3
-| 3
-| 2
-| 1
-| 1
-| 1
+| 19th | +6 | 5 | 4 | 3 | 3 | 3 | 3 | 2 | 1 | 1 | 1
 | <<cleric-feature-asi>>
 
-| 20th
-| +6
-| 5
-| 4
-| 3
-| 3
-| 3
-| 3
-| 2
-| 2
-| 1
-| 1
+| 20th | +6 | 5 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 1 | 1
 | <<cleric-feature-divine-intervention>> improvement
 
 |===
@@ -424,20 +204,11 @@ Starting at 5th level, when an undead fails its saving throw against your Turn U
 |===
 | {class-name-cleric} Level | Destroys Undead of CR...
 
-| 5th
-| 1/2 or lower
-
-| 8th
-| 1 or lower
-
-| 11th
-| 2 or lower
-
-| 14th
-| 3 or lower
-
-| 17th
-| 4 or lower
+|  5th                      | stem:[1/2] or lower
+|  8th                      | 1 or lower
+| 11th                      | stem:[2] or lower
+| 14th                      | stem:[3] or lower
+| 17th                      | stem:[4] or lower
 |===
 
 [#cleric-feature-divine-intervention]

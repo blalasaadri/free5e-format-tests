@@ -2,11 +2,13 @@
 (Title Pending, Preview Work-in-Progress)
 :doctype: book
 :icons: font
+:partnums:
+:!part-signifier:
 :revdate: May 24, 2025
 :sectnums:
 :sectnumlevels: 1
 :stylesdir: css
-:toclevels: 3
+:toclevels: 4
 // Custom attributes
 :class-name-cleric: Cleric
 :class-name-druid: Primal
@@ -25,6 +27,7 @@ Sign up to receive email updates at {url-newsletter} +
 Follow and Back the Kickstarter to make this a reality at {url-kickstarter}
 
 [preface]
+= Preface
 include::01_Introduction/Introduction.adoc[tag=content]
 
 <<<
