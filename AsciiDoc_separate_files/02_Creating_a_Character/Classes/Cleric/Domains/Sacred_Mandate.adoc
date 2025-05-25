@@ -43,7 +43,7 @@ These spells count as {class-name-cleric} spells for you and are always prepared
 | Legend Lore, Scrying
 
 | Life
-| Cure Wounds, Bless
+| <<spell-cure-wounds>>, <<spell-bless>>
 | Lesser Restoration, Spiritual Weapon
 | Beacon of Hope, Revivify
 | Death Ward, Guardian of Faith
@@ -93,16 +93,19 @@ Starting at 1st level, you gain a unique gift granted by your divine mandate.
 You may use this feature a number of times equal to your Wisdom modifier (minimum of once) per long rest.
 
 Guided Smite (War, Storm, Light, Trickery)::
-When you take the Attack action, you may make an additional weapon attack as a bonus action. This attack deals extra radiant, thunder, lightning, or psychic damage (choose one).
-10th Level: On a critical hit, you can make another weapon attack as part of the same action.
-Protective Intercession (Life, Light, Knowledge)
+When you take the Attack action, you may make an additional weapon attack as a bonus action.
+This attack deals extra radiant, thunder, lightning, or psychic damage (choose one).
++
+When you reach 10th Level, on a critical hit, you can make another weapon attack as part of the same action.
+
+Protective Intercession (Life, Light, Knowledge)::
 When a creature within 30 feet takes damage, you can use your reaction to reduce the damage by 1d10 + your Wisdom modifier.
 +
 When you reach 10th Level, the creature gains temporary hit points equal to your {class-name-cleric} level.
 
 Insightful Surge (Knowledge, Trickery)::
 As a bonus action, you grant a creature that can see or hear you within 30 feet advantage on their next attack roll, ability check, or saving throw.
-
++
 When you reach 10th Level, when using this ability, you also give a creature within range that can see or hear you, disadvantage on its next attack roll or ability check as you momentarily distract it or otherwise exploit a subtle weakness.
 
 == Channel Divinity
@@ -159,12 +162,13 @@ Divine Strike.:: Your weapon attacks deal an extra 1d8 damage of a type appropri
 +
 Suggested Damage Types:
 +
-- Knowledge: Psychic
-- Life: Radiant
-- Light: Radiant
-- Storm: Lightning or Thunder (choose one)
-- Trickery: Poison or Acid (choose one)
-- War: Bludgeoning, Piercing, or Slashing (choose one)
+[horizontal]
+Knowledge::: Psychic
+Life::: Radiant
+Light::: Radiant
+Storm::: Lightning or Thunder (choose one)
+Trickery::: Poison or Acid (choose one)
+War::: Bludgeoning, Piercing, or Slashing (choose one)
 
 Potent Spellcasting.:: You add your Wisdom modifier to the damage you deal with {class-name-cleric} cantrips.
 
@@ -185,3 +189,17 @@ The locations of anyone within 30 feet of you become difficult for enemies to de
 Enemies must succeed on a Wisdom saving throw or target a random creature when trying to attack any creature within range.
 
 // end::subclass[]
+
+// tag::spell-descriptions[]
+
+= Spells
+
+[#spell-bless]
+== Bless
+include::../../../../04_Rules_of_Magic/Spell_Descriptions/Bless.adoc[leveloffset=+2, tag=spell-description]
+
+[#spell-cure-wounds]
+== Cure Wounds
+include::../../../../04_Rules_of_Magic/Spell_Descriptions/Cure_Wounds.adoc[leveloffset=+2, tag=spell-description]
+
+// end::spell-descriptions[]

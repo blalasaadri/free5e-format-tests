@@ -1,7 +1,0 @@
-Coin          ; CP          ; SP          ; EP          ; GP            ; PP
-
-Copper (cp)   ; stem:[1]    ; stem:[1/10] ; stem:[1/50] ; stem:[1/100]  ; stem:[1/1000] 
-Silver (sp)   ; stem:[10]   ; stem:[1]    ; stem:[1/5]  ; stem:[1/10]   ; stem:[1/100]
-Electrum (ep) ; stem:[50]   ; stem:[5]    ; stem:[1]    ; stem:[1/2]    ; stem:[1/20]
-Gold (gp)     ; stem:[100]  ; stem:[10]   ; stem:[2]    ; stem:[1]      ; stem:[1/10]
-Platinum (pp) ; stem:[1000] ; stem:[100]  ; stem:[20]   ; stem:[10]     ; stem:[1]

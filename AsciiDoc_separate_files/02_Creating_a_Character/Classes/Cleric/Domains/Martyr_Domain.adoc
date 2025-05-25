@@ -102,6 +102,6 @@ Starting at 17th level, while you are concentrating on a {class-name-cleric} spe
 
 [#spell-cure-wounds]
 == Cure Wounds
-include::../../../../04_Rules_of_Magic/Spell_Descriptions//Cure_Wounds.adoc[leveloffset=+2, tag=spell-description]
+include::../../../../04_Rules_of_Magic/Spell_Descriptions/Cure_Wounds.adoc[leveloffset=+2, tag=spell-description]
 
 // end::spell-descriptions[]
