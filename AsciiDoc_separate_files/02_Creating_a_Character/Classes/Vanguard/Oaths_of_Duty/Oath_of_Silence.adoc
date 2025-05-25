@@ -1,9 +1,11 @@
-= Oath of Devotion
+= {subclass-name-paladin-silence}
 :doctype: book
 :icons: font
 :revdate: May 1, 2025
 :stylesdir: ../../../../css
 // Custom attributes
+:class-name-paladin: Vanguard
+:subclass-name-paladin-silence: Oath of Silence
 ifndef::env-github[]
 include::../../../../attributes.adoc[]
 endif::[]

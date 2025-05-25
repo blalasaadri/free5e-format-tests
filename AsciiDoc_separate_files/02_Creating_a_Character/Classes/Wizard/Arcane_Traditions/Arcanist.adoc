@@ -1,9 +1,11 @@
-= Arcanist
+= {subclass-name-wizard-arcanist}
 :doctype: article
 :icons: font
 :revdate: May 1, 2025
 :stylesdir: ../../../../css
 // Custom attributes
+:class-name-wizard: Wizard
+:subclass-name-wizard-arcanist: Arcanist
 ifndef::env-github[]
 include::../../../../attributes.adoc[]
 endif::[]

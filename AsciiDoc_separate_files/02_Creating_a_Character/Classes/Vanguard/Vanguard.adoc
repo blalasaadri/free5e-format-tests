@@ -1,10 +1,13 @@
-= Vanguard
+= {class-name-paladin}
 :doctype: book
 :icons: font
 :revdate: May 1, 2025
 :stylesdir: ../../../css
 :toclevels: 4
 // Custom attributes
+:class-name-paladin: Vanguard
+:subclass-name-paladin-devotion: Oath of Devotion
+:subclass-name-paladin-silence: Oath of Silence
 ifndef::env-github[]
 include::../../../attributes.adoc[]
 endif::[]

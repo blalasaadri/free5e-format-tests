@@ -1,10 +1,13 @@
-= Dreadnought
+= {class-name-barbarian}
 :doctype: book
 :icons: font
 :revdate: May 1, 2025
 :stylesdir: ../../../css
 :toclevels: 4
 // Custom attributes
+:class-name-barbarian: Dreadnought
+:subclass-name-barbarian-berserker: Path of the Berserker
+:subclass-name-barbarian-dragon: Path of the Dragon
 ifndef::env-github[]
 include::../../../attributes.adoc[]
 endif::[]

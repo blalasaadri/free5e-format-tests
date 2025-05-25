@@ -1,10 +1,12 @@
-= Theurge
+= {subclass-name-wizard-theurge}
 :doctype: book
 :icons: font
 :revdate: May 1, 2025
 :stem:
 :stylesdir: ../../../../css
 // Custom attributes
+:class-name-wizard: Wizard
+:subclass-name-wizard-theurge: Theurge
 ifndef::env-github[]
 include::../../../../attributes.adoc[]
 endif::[]
@@ -12,15 +14,15 @@ endif::[]
 // tag::subclass[]
 
 Not all wizards focus on one of the traditional 8 schools of magic.
-Wizards of this pursuit delve what other Wizards consider untouchable.
+{class-name-wizard}s of this pursuit delve what other {class-name-wizard}s consider untouchable.
 The secrets of the divine.
 They discover and delve the paths of power that divine magic activates, and seek to recreate it through precise understanding and deep knowledge.
 Some are deeply religious, devoted to gods and seeking to understand them at a higher level, some follow unrestrained academic curiosity, and yet others seek this power for blasphemous reasons.
 
 == Study of the Divine
 Beginning at 2nd level, you delve the secrets of the divine, prying into magic usually denied to the arcane paths.
-Whenever you gain a Wizard level, you can replace one of the Wizard spells you add to your spellbook with a spell from the <<spell-list-cleric,Cleric spell list>>.
-Any Cleric spell you gain from this feature is considered a Wizard spell for you and is recorded in your spellbook, but other Wizards are unable to copy these spells into their own spellbooks.
+Whenever you gain a {class-name-wizard} level, you can replace one of the {class-name-wizard} spells you add to your spellbook with a spell from the <<spell-list-cleric,Cleric spell list>>.
+Any Cleric spell you gain from this feature is considered a {class-name-wizard} spell for you and is recorded in your spellbook, but other {class-name-wizard}s are unable to copy these spells into their own spellbooks.
 The spell must be of a level for which you have spell slots, and can never be a spell level higher than your proficiency bonus (meaning you will be unable to learn Cleric spells of 7th level or higher).
 
 Your ability to recreate divine magic using arcane magic is limited.
@@ -42,7 +44,7 @@ Additionally, when you deal fire or lightning damage, you can replace half the d
 
 == Divine Synthesis
 Starting at 14th level, your research into the synthesis of divine and arcane reveals to you a greater harmony of power.
-When you cast a 1st level or higher spell from the Wizard spell list or a spell from the Cleric spell list as your action, you can cast a 1st level or higher spell from the other list with a casting time of an action or bonus action as a bonus action (regardless of its casting time).
-The total level of the two spells combined cannot exceed your half your Wizard level (rounded down).
+When you cast a 1st level or higher spell from the {class-name-wizard} spell list or a spell from the Cleric spell list as your action, you can cast a 1st level or higher spell from the other list with a casting time of an action or bonus action as a bonus action (regardless of its casting time).
+The total level of the two spells combined cannot exceed your half your {class-name-wizard} level (rounded down).
 
 // end::subclass[]

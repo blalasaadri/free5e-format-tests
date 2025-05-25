@@ -5,7 +5,15 @@
 :stylesdir: ../../css
 :toclevels: 3
 // Custom attributes
+:class-name-barbarian: Dreadnought
+:class-name-cleric: Cleric
+:class-name-druid: Primal
+:class-name-monk: Adept
+:class-name-paladin: Vanguard
+:class-name-wizard: Wizard
+ifndef::env-github[]
 include::../../attributes.adoc[]
+endif::[]
 
 // tag::name-changes[]
 

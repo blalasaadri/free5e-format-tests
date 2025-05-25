@@ -1,9 +1,11 @@
-= Oath of Devotion
+= {subclass-name-paladin-devotion}
 :doctype: book
 :icons: font
 :revdate: May 1, 2025
 :stylesdir: ../../../../css
 // Custom attributes
+:class-name-paladin: Vanguard
+:subclass-name-paladin-devotion: Oath of Devotion
 ifndef::env-github[]
 include::../../../../attributes.adoc[]
 endif::[]
@@ -13,7 +15,7 @@ endif::[]
 The {subclass-name-paladin-devotion} binds a {class-name-paladin} to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, the {class-name-paladin}s meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods’ tenets as the measure of their devotion. They hold angels—the perfect servants of good—as their ideals, and incorporate images of angelic wings into their helmets or coats of arms.
 
 == Tenets of Devotion
-Though the exact words and strictures of the Oath of Devotion vary, {class-name-paladin}s of this oath share these tenets.
+Though the exact words and strictures of the {subclass-name-paladin-devotion} vary, {class-name-paladin}s of this oath share these tenets.
 [horizontal]
 Honesty.:: Don’t lie or cheat. Let your word be your promise.
 Courage.:: Never fear to act, though caution is wise.
@@ -25,7 +27,7 @@ Duty.:: Be responsible for your actions and their consequences, protect those en
 You gain oath spells at the {class-name-paladin} levels listed.
 
 [#vanguard-oath-of-devotion-spells]
-.Oath of Devotion Spells (table)
+.{subclass-name-paladin-devotion} Spells (table)
 [%header,cols="1,3"]
 |===
 | {class-name-paladin} Level | Spells

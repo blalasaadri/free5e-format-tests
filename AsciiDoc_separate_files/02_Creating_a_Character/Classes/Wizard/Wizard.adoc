@@ -1,10 +1,13 @@
-= Wizard
+= {class-name-wizard}
 :doctype: article
 :icons: font
 :revdate: May 1, 2025
 :stylesdir: ../../../css
 :toclevels: 4
 // Custom attributes
+:class-name-wizard: Wizard
+:subclass-name-wizard-arcanist: Arcanist
+:subclass-name-wizard-theurge: Theurge
 ifndef::env-github[]
 include::../../../attributes.adoc[]
 endif::[]

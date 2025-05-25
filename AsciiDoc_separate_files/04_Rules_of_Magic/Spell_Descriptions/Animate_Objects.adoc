@@ -4,6 +4,13 @@
 :revdate: May 1, 2025
 :stylesdir: ../../css
 // Custom attributes
+:spellcasting-casting-time: Casting Time
+:spellcasting-range: Range
+:spellcasting-target: Target
+:spellcasting-components: Components
+:spellcasting-duration: Duration
+:spellcasting-saving-throw: Saving Throw
+:spellcasting-at-higher-levels: At Higher Levels
 ifndef::env-github[]
 include::../../attributes.adoc[]
 endif::[]

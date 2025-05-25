@@ -1,9 +1,11 @@
-= Martyr Domain
+= {subclass-name-cleric-martyr}
 :doctype: book
 :icons: font
 :revdate: May 1, 2025
 :stylesdir: ../../../../css
 // Custom attributes
+:class-name-cleric: Cleric
+:subclass-name-cleric-martyr: Martyr Domain
 ifndef::env-github[]
 include::../../../../attributes.adoc[]
 endif::[]
@@ -16,7 +18,7 @@ While typically altruistic, sometimes their motivations are further afield, belo
 
 [#cleric-subclass-matryr-domain-spells]
 == Domain Spells
-You gain domain spells at the {class-name-cleric} levels listed on the <<cleric-domain-martry-spells-table,Martyr Domain Spells table>>.
+You gain domain spells at the {class-name-cleric} levels listed on the <<cleric-domain-martry-spells-table,{subclass-name-cleric-martyr} Spells table>>.
 Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.
 If you have a domain spell that doesn't appear on the {class-name-cleric} spell list, the spell is nonetheless a {class-name-cleric} spell for you.
 

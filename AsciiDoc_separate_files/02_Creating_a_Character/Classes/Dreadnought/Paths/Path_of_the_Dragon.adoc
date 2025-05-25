@@ -1,9 +1,11 @@
-= Path of the Dragon
+= {subclass-name-barbarian-dragon}
 :doctype: book
 :icons: font
 :revdate: May 1, 2025
 :stylesdir: ../../../../css
 // Custom attributes
+:class-name-barbarian: Dreadnought
+:subclass-name-barbarian-dragon: Path of the Dragon
 ifndef::env-github[]
 include::../../../../attributes.adoc[]
 endif::[]

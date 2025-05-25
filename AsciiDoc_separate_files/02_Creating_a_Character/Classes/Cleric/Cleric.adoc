@@ -1,10 +1,13 @@
-== Cleric
+= {class-name-cleric}
 :doctype: book
 :icons: font
 :revdate: May 1, 2025
 :stylesdir: ../../../css
 :toclevels: 4
 // Custom attributes
+:class-name-cleric: Cleric
+:subclass-name-cleric-martyr: Martyr Domain
+:subclass-name-cleric-sacred-mandate: Sacred Mandate
 ifndef::env-github[]
 include::../../../attributes.adoc[]
 endif::[]

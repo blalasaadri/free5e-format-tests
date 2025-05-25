@@ -1,16 +1,18 @@
-= Path of the Berserker
+= {subclass-name-barbarian-berserker}
 :doctype: book
 :icons: font
 :revdate: May 1, 2025
 :stylesdir: ../../../../css
 // Custom attributes
+:class-name-barbarian: Dreadnought
+:subclass-name-barbarian-berserker: Path of the Berserker
 ifndef::env-github[]
 include::../../../../attributes.adoc[]
 endif::[]
 
 // tag::subclass[]
 
-For some {class-name-barbarian}s, rage is a means to an end— that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker’s rage, you thrill in the chaos of battle, heedless of your own health or well-being.
+For some {class-name-barbarian}s, rage is a means to an end— that end being violence. The {subclass-name-barbarian-berserker} is a path of untrammeled fury, slick with blood. As you enter the berserker’s rage, you thrill in the chaos of battle, heedless of your own health or well-being.
 
 [#dreadnought-subclasse-berserker-feature-frenzy]
 == Frenzy

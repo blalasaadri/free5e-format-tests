@@ -1,9 +1,11 @@
-= Sacred Mandate
+= {subclass-name-cleric-sacred-mandate}
 :doctype: book
 :icons: font
 :revdate: May 24, 2025
 :stylesdir: ../../../../css
 // Custom attributes
+:class-name-cleric: Cleric
+:subclass-name-cleric-sacred-mandate: Sacred Mandate
 ifndef::env-github[]
 include::../../../../attributes.adoc[]
 endif::[]
@@ -25,7 +27,7 @@ Your mandate grants you a collection of features as outlined below.
 == Mandate Spells
 
 You gain the spell list associated with your selected domain.
-These spells count as cleric spells for you and are always prepared.
+These spells count as {class-name-cleric} spells for you and are always prepared.
 
 [#cleric-subclass-sacred-mandate-spells-table]
 .The Mandate Spells (table)
@@ -96,7 +98,7 @@ When you take the Attack action, you may make an additional weapon attack as a b
 Protective Intercession (Life, Light, Knowledge)
 When a creature within 30 feet takes damage, you can use your reaction to reduce the damage by 1d10 + your Wisdom modifier.
 +
-When you reach 10th Level, the creature gains temporary hit points equal to your cleric level.
+When you reach 10th Level, the creature gains temporary hit points equal to your {class-name-cleric} level.
 
 Insightful Surge (Knowledge, Trickery)::
 As a bonus action, you grant a creature that can see or hear you within 30 feet advantage on their next attack roll, ability check, or saving throw.
@@ -112,7 +114,7 @@ Channel Divinity: War Cry (War, Storm)::
 As a bonus action, choose a number of creatures equal to your Wisdom modifier (minimum 1) that you can see within 30 feet.
 Each target can immediately use their reaction to move up to half their speed without provoking an opportunity attack and make one weapon attack.
 +
-When you reach 6th Level, targets add your cleric level to their damage roll for this attack.
+When you reach 6th Level, targets add your {class-name-cleric} level to their damage roll for this attack.
 
 Channel Divinity: Luminous Infusion (Light, Storm)::
 As an action, you cause divine light to flare in a 15-foot radius centered on yourself.
@@ -164,7 +166,7 @@ Suggested Damage Types:
 - Trickery: Poison or Acid (choose one)
 - War: Bludgeoning, Piercing, or Slashing (choose one)
 
-Potent Spellcasting.:: You add your Wisdom modifier to the damage you deal with cleric cantrips.
+Potent Spellcasting.:: You add your Wisdom modifier to the damage you deal with {class-name-cleric} cantrips.
 
 == Exalted Mandate
 At 17th level, choose one matching your mandate.
