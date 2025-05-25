@@ -1,3 +1,16 @@
+// General attributes (https://docs.asciidoctor.org/asciidoc/latest/attributes/document-attributes-ref/)
+:author:
+:authorinitials:
+:authors:
+:copyright: Creative Commons Attribution 4.0 International License (CC-BY-4.0)
+:lang: en-US
+:reproducible:
+:stem:
+:stylesheet: adoc-golo.css
+:table-stripes: even
+:toc: left
+
+// Custom attributes
 :url-newsletter: https://wyrmworkspublishing.com/hoard
 :url-kickstarter: https://www.kickstarter.com/projects/wyrmworkspublishing/free5e-a-free-open-source-dungeons-and-dragons-alternative?ref=dmx0j9
 :class-name-barbarian: Dreadnought

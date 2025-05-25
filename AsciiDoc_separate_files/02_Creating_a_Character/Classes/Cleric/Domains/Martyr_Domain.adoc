@@ -1,15 +1,8 @@
 = Martyr Domain
 :doctype: book
 :icons: font
-:lang: en-US
-:reproducible:
 :revdate: May 1, 2025
-:stem:
 :stylesdir: ../../../../css
-:stylesheet: adoc-golo.css
-:table-stripes: even
-:toc: left
-
 // Custom attributes
 ifndef::env-github[]
 include::../../../../attributes.adoc[]

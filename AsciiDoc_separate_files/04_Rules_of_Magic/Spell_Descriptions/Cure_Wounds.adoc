@@ -1,14 +1,8 @@
 = Cure Wounds
 :doctype: book
 :icons: font
-:lang: en-US
-:reproducible:
 :revdate: May 1, 2025
-:stem:
 :stylesdir: ../../css
-:stylesheet: adoc-golo.css
-:table-stripes: even
-
 // Custom attributes
 ifndef::env-github[]
 include::../../attributes.adoc[]

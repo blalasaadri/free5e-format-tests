@@ -1,16 +1,9 @@
 = Using Ability Scores
 :doctype: book
 :icons: font
-:lang: en-US
-:reproducible:
 :revdate: May 1, 2025
-:table-stripes: even
-:stem:
 :stylesdir: ../css
-:stylesheet: adoc-golo.css
-:toc:
 :toclevels: 3
-
 // Custom attributes
 ifndef::env-github[]
 include::../attributes.adoc[]
