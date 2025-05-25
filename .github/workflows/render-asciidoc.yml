@@ -1,5 +1,5 @@
-name: Render AsciiDoc
-run-name: Rendering branch ${{ github.ref }}
+name: Render AsciiDoc to various formats
+run-name: ${{ github.actor }} triggered a rendering on branch ${{ github.ref }}...
 on: [push]
 jobs:
   Render-AsciiDoc_separate_files:
@@ -9,7 +9,6 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
       - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
-      #- run: cd "${{ github.workspace }}/${{ inputs.basedir }}"
       - name: Render the files
         uses: ./.github/render-action
       - name: List the generated files

@@ -2,7 +2,8 @@ name: Render AsciiDoc
 description: Render action for an AsciiDoc file
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  #image: 'Dockerfile'
+  image: 'blalasaadri/free5e-render-asciidoc'
   env:
     ADOC_BASEDIR: AsciiDoc_separate_files
     ADOC_FILE_BASE_NAME: players-guide
