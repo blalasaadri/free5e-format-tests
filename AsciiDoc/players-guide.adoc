@@ -4,9 +4,9 @@
 :icons: font
 :reproducible:
 :revdate: May 1, 2025
-:table-stripes: even
 :stem:
 :stylesheet: css/adoc-golo.css
+:table-stripes: even
 :toc: left
 :toclevels: 3
 // Custom attributes

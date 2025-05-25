@@ -11,7 +11,9 @@
 :toclevels: 1
 
 // Custom attributes
+ifndef::env-github[]
 include::../attributes.adoc[]
+endif::[]
 
 // tag::content[]
 

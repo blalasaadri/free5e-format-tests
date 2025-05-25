@@ -3,12 +3,15 @@
 :icons: font
 :reproducible:
 :revdate: May 1, 2025
-:table-stripes: even
 :stem:
-:stylesheet: ../../css/adoc-golo.css
+:stylesdir: ../../css
+:stylesheet: adoc-golo.css
+:table-stripes: even
 
 // Custom attributes
+ifndef::env-github[]
 include::../../attributes.adoc[]
+endif::[]
 
 // tag::level-advancement[]
 
