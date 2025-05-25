@@ -5,10 +5,8 @@
 :copyright: Creative Commons Attribution 4.0 International License (CC-BY-4.0)
 :lang: en-US
 :reproducible:
-:stem:
 :stylesheet: adoc-golo.css
 :table-stripes: even
-:toc: left
 
 // Custom attributes
 :url-newsletter: https://wyrmworkspublishing.com/hoard

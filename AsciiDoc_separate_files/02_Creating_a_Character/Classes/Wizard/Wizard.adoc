@@ -2,7 +2,9 @@
 :doctype: article
 :icons: font
 :revdate: May 1, 2025
+:stem:
 :stylesdir: ../../../css
+:toc: left
 :toclevels: 4
 // Custom attributes
 :class-name-wizard: Wizard

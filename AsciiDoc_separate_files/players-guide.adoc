@@ -7,6 +7,7 @@
 :revdate: May 24, 2025
 :sectnums:
 :sectnumlevels: 1
+:stem:
 :stylesdir: css
 :toclevels: 4
 // Custom attributes

@@ -2,13 +2,16 @@
 :doctype: book
 :icons: font
 :revdate: May 1, 2025
+:stem:
 :stylesdir: ../../css
-:toclevels: 4
+:toc: left
+:toclevels: 2
 // Custom attributes
 ifndef::env-github[]
 include::../../attributes.adoc[]
 endif::[]
 
+= Spell List
 // tag::spell-list[]
 
 == Cantrips (0 Level)
@@ -109,9 +112,8 @@ endif::[]
 
 // end::spell-list[]
 
-// tag::spell-descriptions[]
-
 = Spells
+// tag::spell-descriptions[]
 
 [#spell-aid]
 == Aid

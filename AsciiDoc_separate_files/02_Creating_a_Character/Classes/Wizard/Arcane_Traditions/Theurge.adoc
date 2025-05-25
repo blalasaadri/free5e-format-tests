@@ -4,6 +4,7 @@
 :revdate: May 1, 2025
 :stem:
 :stylesdir: ../../../../css
+:toc: left
 // Custom attributes
 :class-name-wizard: Wizard
 :subclass-name-wizard-theurge: Theurge
