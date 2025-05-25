@@ -5,7 +5,8 @@ runs:
   #image: 'Dockerfile'
   image: 'blalasaadri/free5e-render-asciidoc'
   env:
-    ADOC_BASEDIR: AsciiDoc_separate_files
+    ADOC_BASEDIR: .
+    ADOC_DIR: AsciiDoc_separate_files
     ADOC_FILE_BASE_NAME: players-guide
     ADOC_FILE: players-guide.adoc
-    TARGET_DIR: generated
+    ADOC_TARGET_DIR: generated
