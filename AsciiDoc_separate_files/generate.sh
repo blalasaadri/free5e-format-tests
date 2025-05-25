@@ -22,3 +22,6 @@ pandoc --from docbook --to docx --output generated/${FILE_BASE_NAME}.docx genera
 pandoc --from docbook --to odt --output generated/${FILE_BASE_NAME}.odt generated/${FILE_BASE_NAME}.xml
 
 pandoc --from docbook --to latex --output generated/${FILE_BASE_NAME}.tex generated/${FILE_BASE_NAME}.xml
+
+# For GitHub, combine the various files into one (since it doesn't support the include directive; see https://github.com/github/markup/issues/1095 for details)
+asciidoctor-reducer --preserve-conditionals -o generated/players-guide_single-file.adoc players-guide.adoc

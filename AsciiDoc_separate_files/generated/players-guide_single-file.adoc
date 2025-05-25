@@ -1,0 +1,3466 @@
+= Free5e Player’s Guide
+(Title Pending, Preview Work-in-Progress)
+:doctype: book
+:icons: font
+:reproducible:
+:revdate: May 24, 2025
+:sectnums:
+:sectnumlevels: 1
+:stem:
+:stylesdir: css
+:stylesheet: adoc-golo.css
+:table-stripes: even
+:toc: left
+:toclevels: 3
+
+// Custom attributes
+:url-newsletter: https://wyrmworkspublishing.com/hoard
+:url-kickstarter: https://www.kickstarter.com/projects/wyrmworkspublishing/free5e-a-free-open-source-dungeons-and-dragons-alternative?ref=dmx0j9
+:class-name-barbarian: Dreadnought
+:subclass-name-barbarian-berserker: Path of the Berserker
+:subclass-name-barbarian-dragon: Path of the Dragon
+:class-name-cleric: Cleric
+:subclass-name-cleric-martyr: Martyr Domain
+:subclass-name-cleric-sacred-mandate: Sacred Mandate
+:class-name-druid: Primal
+:class-name-monk: Adept
+:class-name-paladin: Vanguard
+:subclass-name-paladin-devotion: Oath of Devotion
+:subclass-name-paladin-silence: Oath of Silence
+:class-name-wizard: Wizard
+:subclass-name-wizard-arcanist: Arcanist
+:subclass-name-wizard-theurge: Theurge
+
+:spellcasting-casting-time: Casting Time
+:spellcasting-range: Range
+:spellcasting-target: Target
+:spellcasting-components: Components
+:spellcasting-duration: Duration
+:spellcasting-saving-throw: Saving Throw
+:spellcasting-at-higher-levels: At Higher Levels
+
+[colophon]
+
+Updated {revdate} +
+#Highlighted Portions# are scheduled for significant modification. +
+Sign up to receive email updates at {url-newsletter} +
+Follow and Back the Kickstarter to make this a reality at {url-kickstarter}
+
+[preface]
+
+= Introduction
+Welcome to the Free5e Player’s Guide, brought to you by Wyrmworks Publishing. Our mission is to enhance inclusivity and accessibility in tabletop roleplaying. This guide is designed to help you create unique characters, embark on exciting adventures, and explore worlds where everyone can play, create, and share.
+
+== How to Play
+Playing a tabletop roleplaying game (TTRPG) is all about imagining a character in a fantasy world and using dice to determine what happens. Here’s how it works:
+
+Choose a Game Master (GM).:: One player is the GM, who creates the story, controls the world, and describes everything and everyone around you.
+Create Your Character.:: Choose an ancestry, class, and background for your character. This is your hero in the game world!
+Playing an Encounter:: On your turn, you describe what your character does. Do you swing your sword, cast a spell, or talk to someone? To see whether you succeed, you roll a 20-sided die (d20) and add your ability score modifier and, maybe, a proficiency bonus. Higher rolls are better!
+
+.Example of play
+[example]
+====
+**Grey (GM):** The village elder has asked you to investigate a strange ruin in the nearby forest. After hours of travel, you arrive at a crumbling stone structure covered in moss. Inside, the air is damp, and faint echoes of scratching come from within the stony depths.. What do you do?
+
+**Susan (playing Sylvana, a halfling Bard):** I step in quietly and take a closer look at the walls. Do I recognize any symbols or writing?
+
+**GM:** Make an Investigation check, using Intelligence.
+
+**Susan:** (Rolls d20) That’s a 12, plus 1 for Intelligence and 2 from my Investigation proficiency, so 15 total.
+
+**GM:** You recognize some faded symbols of an ancient order dedicated to protecting the forest. This was likely a Primal temple.
+
+**Owen (playing Osmus, a human Ranger):** I listen closely to pinpoint where the scratching is coming from. Perception check?
+
+**GM:** Go ahead.
+
+**Owen:** (Rolls d20) I got a 10, plus 4 for Wisdom is 14.
+
+**GM:** The scratching is coming from behind a door at the far end of a corridor leading inside the temple.
+
+**Sylvana:** I cautiously open the door and peek inside.
+
+**GM:** The door creaks open, revealing dim light glinting off something large in the shadows. Its long, slimy tentacles sway as it shifts, and you hear its beak click. It hisses, sensing you. Perched on the ceiling, it stares down.
+
+**Osmus:** What is that thing? It looks dangerous!
+
+**GM:** It’s certainly not friendly. Roll Initiative! (Rolls d20) With its Dexterity bonus, it gets a 9.
+
+**Osmus:** (Rolls d20) 9, plus 3 for Dexterity is 12.
+
+**Sylvana:** (Rolls d20) 15! I’m first! I try to confuse it with a quick spell. I cast Vicious Mockery, shouting, ‘You look like something the forest spit out!’ It needs to make a Wisdom saving throw.
+
+**GM:** (Rolls for the creature) That’s a 6. It fails.
+
+**Sylvana:** (Rolls 1d4) It takes 3 psychic damage and has disadvantage on its next attack!
+
+**GM:** The creature seems momentarily stunned, its many eyes narrowing as it hisses. Osmus, your turn!
+
+**Osmus:** I fire an arrow at it! (Rolls d20) That’s a 17, plus 5 to hit. Does that hit?
+
+**GM:** Yes, that hits. Roll for damage.
+
+**Osmus:** (Rolls 1d8) That’s a 2, but I add my Dexterity so that’s a total 5 damage!
+
+**GM:** The arrow strikes true, but the creature’s tough hide absorbs some of the blow. It lunges with its tentacles!
+
+**GM (as the creature):** (Rolls to attack Osmus with the tentacles) That’s a 22 to hit versus your Armor Class.
+
+**Osmus:** Ouch, I’ve only got 15 so that hits!
+
+**GM:** (Rolls for damage) You take 10 bludgeoning damage, and I need you to make a Strength saving throw to avoid being pulled in.
+
+**Osmus:** (Rolls d20) That’s a 14, plus 3 for Strength, so 17.
+
+**GM:** You hold your ground, but the creature’s tentacles are still trying to wrap around you. It’ll try again. What’s your next move?
+
+**Sylvana:** I step back and cast Command on the creature and shout “Flee!” to force it to flee! It needs to make a Wisdom saving throw, DC 13.
+
+**GM:** (Rolls for the creature) That’s a 9. It fails!
+
+**Sylvana:** It must use its reaction to move as far away as possible!
+
+**GM:** The creature screeches in pain, skittering across the ceiling to the far corner, giving you space. It looks weakened but still dangerous.
+
+**Osmus:** Let’s finish this!
+====
+The battle continues, with the party using teamwork and clever spells to face down the fearsome creature!
+
+In every game, describe your actions, roll dice to succeed, and react to the unfolding story. The rules guide you, but the fun comes from your shared stories. Let your imagination soar!
+
+
+<<<
+
+[#creating-a-character]
+= Creating a Character
+:leveloffset: +0
+
+
+As a player, begin by creating a character on the character sheet in the back of this book or a color-coded one at [LINK]. If you're using a paper copy, we recommend writing in an erasable medium like pencil.
+
+. Think of a fantasy character concept that you'd like to play
+. Determine ability scores
+. Choose your class
+. Choose your ancestry
+. Choose your heritage
+. Choose your background
+. Choose your starting equipment
+. Choose starting spells if applicable
+. Add details like appearance, personality, etc. Consider drawing a picture of your character. It doesn't have to be fancy! It's just for your friends! (If you'd like to commission a professional portrait of your character, check the credits of this book for some great artists who love illustrating characters!)
+
+== Determine Ability Scores
+Use the following scores: 15, 14, 13, 12, 10, 8. Assign each of these numbers to one of your character's six abilities: Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma. Then add 3 points to the character’s abilities, no more than two to any single ability.
+
+== Variant: Ability Score Point Buy
+You have 27 points to spend on ability scores. The cost of each score is shown on the Ability Score Point Cost table. Then add 3 points to the character’s abilities, no more than two to any single ability.
+
+.Ability Score Point Cost
+[%header,cols="1,1"]
+|===
+| Score | Cost
+
+|  8 | 0
+|  9 | 1
+| 10 | 2
+| 11 | 3
+| 12 | 4
+| 13 | 5
+| 14 | 7
+| 15 | 9
+|===
+
+== Ability Modifiers
+Your final ability scores determine your modifiers. Find your modifier by subtracting 10 from the ability score and dividing by 2 (round down).
+
+
+:leveloffset!:
+
+[#classes]
+== Classes
+
+.Class Name Changes
+[sidebar]
+****
+Some class names in Free5e have been updated to remove outdated or problematic references while staying true to their themes.
+They use the same game mechanics as the original classes.
+
+Barbarian -> {class-name-barbarian}:: Replacing a derogatory cultural slur
+Druid -> {class-name-druid}:: Removed inaccurate and appropriated portrayal of real-world religion
+Monk -> {class-name-monk}:: Expanding the concept without appropriating a cultural tradition
+Paladin -> {class-name-paladin}:: Removing the association with a real-world religious conflict}
+****
+
+
+[#cleric-class]
+=== {class-name-cleric}
+:leveloffset: +2
+
+
+{class-name-cleric}s wield divine power as weapons and shields, serving as living conduits of their deity’s will.
+
+== Class Features
+As a {class-name-cleric}, you gain the following class features.
+
+=== Hit Points
+[horizontal]
+Hit Dice:: 1d8 per {class-name-cleric} level
+Hit Points at 1st Level:: 8 + your Constitution modifier
+Hit Points at Higher Levels:: 1d8 (or 5) + your Constitution modifier per {class-name-cleric} level after 1st
+
+=== Proficiencies
+[horizontal]
+Armor:: Light armor, medium armor, shields
+Weapons:: Simple weapons
+Tools:: None
+Saving Throws:: Wisdom, Charisma
+Skills:: Choose two from History, Insight, Medicine, Persuasion, and Religion
+
+=== Equipment
+You start with the following equipment, in addition to the equipment granted by your background:
+
+- (a) a mace or (b) a warhammer (if proficient)
+- (a) scale mail, (b) leather armor, or (c) chain mail (if proficient)
+- (a) a light crossbow and 20 bolts or (b) any simple weapon
+- (a) a priest’s pack or (b) an explorer’s pack
+- A shield and a holy symbol
+
+[#cleric-table]
+.The {class-name-cleric} (table)
+[%header,cols="3,6,^5,^2,^2,^2,^2,^2,^2,^2,^2,^2,8"]
+|===
+| Level | Proficiency Bonus | Cantrips Known | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th | Features
+
+| 1st
+| +2
+| 3
+| 2
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| <<cleric-feature-spellcasting>>, <<cleric-feature-divine-domain>>
+
+| 2nd
+| +2
+| 3
+| 3
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| <<cleric-feature-channel-divinity>> (1/rest), <<cleric-feature-divine-domain>> feature
+
+| 3rd
+| +2
+| 3
+| 4
+| 2
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+
+| 4th
+| +2
+| 4
+| 4
+| 3
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| <<cleric-feature-asi>>
+
+| 5th
+| +3
+| 4
+| 4
+| 3
+| 2
+| -
+| -
+| -
+| -
+| -
+| -
+| <<cleric-feature-destroy-undead>> (CR 1/2)
+
+| 6th
+| +3
+| 4
+| 4
+| 3
+| 3
+| -
+| -
+| -
+| -
+| -
+| -
+| <<cleric-feature-channel-divinity>> (2/rest), <<cleric-feature-divine-domain>> feature
+
+| 7th
+| +3
+| 4
+| 4
+| 3
+| 3
+| 1
+| -
+| -
+| -
+| -
+| -
+| -
+
+| 8th
+| +3
+| 4
+| 4
+| 3
+| 3
+| 2
+| -
+| -
+| -
+| -
+| -
+| <<cleric-feature-asi>>, <<cleric-feature-destroy-undead>> (CR 1), <<cleric-feature-divine-domain>> feature
+
+| 9th
+| +4
+| 4
+| 4
+| 3
+| 3
+| 3
+| 1
+| -
+| -
+| -
+| -
+| -
+
+| 10th
+| +4
+| 5
+| 4
+| 3
+| 3
+| 3
+| 2
+| -
+| -
+| -
+| -
+| <<cleric-feature-divine-intervention>>
+
+| 11th
+| +4
+| 5
+| 4
+| 3
+| 3
+| 3
+| 2
+| 1
+| -
+| -
+| -
+| <<cleric-feature-destroy-undead>> (CR 2)
+
+| 12th
+| +4
+| 5
+| 4
+| 3
+| 3
+| 3
+| 2
+| 1
+| -
+| -
+| -
+| <<cleric-feature-asi>>
+
+| 13th
+| +5
+| 5
+| 4
+| 3
+| 3
+| 3
+| 2
+| 1
+| 1
+| -
+| -
+| -
+
+| 14th
+| +5
+| 5
+| 4
+| 3
+| 3
+| 3
+| 2
+| 1
+| 1
+| -
+| -
+| <<cleric-feature-destroy-undead>> (CR 3)
+
+| 15th
+| +5
+| 5
+| 4
+| 3
+| 3
+| 3
+| 2
+| 1
+| 1
+| 1
+| -
+| -
+
+| 16th
+| +5
+| 5
+| 4
+| 3
+| 3
+| 3
+| 2
+| 1
+| 1
+| 1
+| -
+| <<cleric-feature-asi>>
+
+| 17th
+| +6
+| 5
+| 4
+| 3
+| 3
+| 3
+| 2
+| 1
+| 1
+| 1
+| 1
+| <<cleric-feature-destroy-undead>> (CR 4), <<cleric-feature-divine-domain>> feature
+
+| 18th
+| +6
+| 5
+| 4
+| 3
+| 3
+| 3
+| 3
+| 1
+| 1
+| 1
+| 1
+| <<cleric-feature-channel-divinity>> (3/rest)
+
+| 19th
+| +6
+| 5
+| 4
+| 3
+| 3
+| 3
+| 3
+| 2
+| 1
+| 1
+| 1
+| <<cleric-feature-asi>>
+
+| 20th
+| +6
+| 5
+| 4
+| 3
+| 3
+| 3
+| 3
+| 2
+| 2
+| 1
+| 1
+| <<cleric-feature-divine-intervention>> improvement
+
+|===
+
+[#cleric-feature-spellcasting]
+== Spellcasting
+As a conduit for divine power, you can cast {class-name-cleric} spells.
+
+=== Cantrips
+At 1st level, you know three cantrips of your choice from the <<spell-list-cleric,{class-name-cleric} spell list>>.
+You learn additional {class-name-cleric} cantrips of your choice at higher levels, as shown in the Cantrips Known column of the <<cleric-table,{class-name-cleric} table>>.
+
+=== Preparing and Casting Spells
+The <<cleric-table,{class-name-cleric} table>> shows how many spell slots you have to cast your spells of 1st level and higher.
+To cast one of these spells, you must expend a slot of the spell’s level or higher.
+You regain all expended spell slots when you finish a long rest.
+
+You prepare the list of {class-name-cleric} spells that are available for you to cast, choosing from the <<spell-list-cleric,{class-name-cleric} spell list>>.
+When you do so, choose a number of {class-name-cleric} spells equal to your Wisdom modifier + your {class-name-cleric} level (minimum of one spell).
+The spells must be of a level for which you have spell slots.
+
+For example, if you are a 3rd-level {class-name-cleric}, you have four 1st-level and two 2nd-level spell slots.
+With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination.
+If you prepare the 1st-level spell Cure Wounds, you can cast it using a 1st-level or 2nd-level slot.
+Casting the spell doesn’t remove it from your list of prepared spells.
+
+You can change your list of prepared spells when you finish a long rest.
+Preparing a new list of {class-name-cleric} spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.
+
+=== Spellcasting Ability
+Wisdom is your spellcasting ability for your {class-name-cleric} spells.
+The power of your spells comes from your devotion to your deity.
+You use your Wisdom whenever a {class-name-cleric} spell refers to your spellcasting ability.
+In addition, you use your Wisdom modifier when setting the saving throw DC for a {class-name-cleric} spell you cast and when making an attack roll with one.
+
+[horizontal]
+Spell save DC:: = 8 + your proficiency bonus + your Wisdom modifier
+Spell attack modifier:: = your proficiency bonus + your Wisdom modifier
+
+=== Ritual Casting
+You can cast a {class-name-cleric} spell as a ritual if that spell has the ritual tag and you have the spell prepared.
+
+=== Spellcasting Focus
+You can use a holy symbol (see chapter <<equipment,"Equipment">>) as a spellcasting focus for your {class-name-cleric} spells.
+
+[#cleric-feature-divine-domain]
+== Divine Domain
+Choose one <<cleric-subclasses,domain related to your deity>>.
+Your choice grants you domain spells and other features when you choose it at 1st level.
+It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels.
+
+[#cleric-feature-divine-domain-spells]
+=== Domain Spells
+Each domain has a list of spells—its domain spells—that you gain at the {class-name-cleric} levels noted in the domain description.
+Once you gain a domain spell, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day.
+
+If you have a domain spell that doesn’t appear on the {class-name-cleric} spell list, the spell is nonetheless a {class-name-cleric} spell for you.
+
+[#cleric-feature-channel-divinity]
+== Channel Divinity
+At 2nd level, you gain the ability to channel divine energy directly from your deity, using that energy to fuel magical effects.
+You start with two such effects: <<cleric-feature-channel-divinity-turn-undead,Turn Undead>> and an effect determined by your domain.
+Some domains grant you additional effects as you advance in levels, as noted in the domain description.
+
+When you use your Channel Divinity, you choose which effect to create.
+You must then finish a short or long rest to use your Channel Divinity again.
+
+Some Channel Divinity effects require saving throws.
+When you use such an effect from this class, the DC equals your {class-name-cleric} spell save DC.
+
+Beginning at 6th level, you can use your Channel Divinity twice between rests, and beginning at 18th level, you can use it three times between rests.
+When you finish a short or long rest, you regain your expended uses.
+
+[#cleric-feature-channel-divinity-turn-undead]
+=== Channel Divinity: Turn Undead
+As an action, you present your holy symbol and speak a prayer censuring the undead.
+Each undead that can see or hear you within 30 feet of you must make a Wisdom saving throw.
+If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.
+
+A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions.
+For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving.
+If there’s nowhere to move, the creature can use the Dodge action.
+
+[#cleric-feature-asi]
+== Ability Score Improvement
+When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1.
+As normal, you can’t increase an ability score above 20 using this feature.
+
+[#cleric-feature-destroy-undead]
+== Destroy Undead
+Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold, as shown in the <<cleric-feature-destroy-undead-table,Destroy Undead table>>.
+
+[#cleric-feature-destroy-undead-table]
+.Destroy Undead (table)
+[%header,cols="1,4"]
+|===
+| {class-name-cleric} Level | Destroys Undead of CR...
+
+| 5th
+| 1/2 or lower
+
+| 8th
+| 1 or lower
+
+| 11th
+| 2 or lower
+
+| 14th
+| 3 or lower
+
+| 17th
+| 4 or lower
+|===
+
+[#cleric-feature-divine-intervention]
+== Divine Intervention
+Beginning at 10th level, you can call on your deity to intervene on your behalf when your need is great.
+
+Imploring your deity’s aid requires you to use your action.
+Describe the assistance you seek, and roll percentile dice.
+If you roll a number equal to or lower than your {class-name-cleric} level, your deity intervenes.
+The GM chooses the nature of the intervention; the effect of any {class-name-cleric} spell or {class-name-cleric} domain spell would be appropriate.
+
+If your deity intervenes, you can’t use this feature again for 7 days.
+Otherwise, you can use it again after you finish a long rest.
+
+At 20th level, your call for intervention succeeds automatically, no roll required.
+
+[#cleric-subclasses]
+== {class-name-cleric} Domains
+
+=== {subclass-name-cleric-martyr}
+:leveloffset: +2
+
+
+Followers of gods that believe in taking on the suffering of those around them.
+Stalwart and unflinching, these intrepid souls seek to ease the suffering of those around them.
+While typically altruistic, sometimes their motivations are further afield, belonging to strange cults of suffering or acceptance.
+
+[#cleric-subclass-matryr-domain-spells]
+== Domain Spells
+You gain domain spells at the {class-name-cleric} levels listed on the <<cleric-domain-martry-spells-table,Martyr Domain Spells table>>.
+Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.
+If you have a domain spell that doesn't appear on the {class-name-cleric} spell list, the spell is nonetheless a {class-name-cleric} spell for you.
+
+[#cleric-domain-martry-spells-table]
+.{subclass-name-cleric-martyr} Domain Spells (table)
+[%header,cols="1,3"]
+|===
+| {class-name-cleric} Level | Spells
+
+| 1st
+| <<spell-cure-wounds>>, Shield of Faith
+
+| 3rd
+| Lesser Restoration, Warding Bond
+
+| 5th
+| Remove Curse, Revivify
+
+| 7th
+| Death Ward, Resilient Sphere
+
+| 9th
+| Greater Restoration, Mass Cure Wounds
+|===
+
+[#cleric-subclass-matryr-clad-in-grace]
+== Clad in Grace
+Starting at 1st level, while you are not wearing any armor, your Armor Class equals 10 + your Constitution modifier + your Wisdom modifier.
+You can use a shield and still gain this benefit.
+
+[#cleric-subclass-matryr-relieve-suffering]
+== Relieve Suffering
+Starting at 1st level, when you cast a spell of 1st level or higher that restores hit points, you can expend some of your own hit points to increase the amount another creature that is healed by the spell regains, expending a number of hit points up to your {class-name-cleric} level to increase the amount one creature is healed by an equivalent value.
+
+Additionally, you can touch a creature suffering a disease or the blinded, deafened, paralyzed or poisoned condition and transfer that disease or condition to yourself.
+Starting at 9th level, the range of conditions you can take increases, including exhaustion (1 level at a time), petrified, stunned, the effect of a curse, or any reduction to their ability scores.
+You are afflicted by the effect in the same manner the creature you took it was, for the same duration and possible methods of ending the effect.
+
+You can transfer a condition affecting another creature to yourself a number of times equal to your Wisdom modifier, regaining all uses on a long rest.
+
+[#cleric-subclass-matryr-channel-divinity-bear-the-burden]
+== Channel Divinity: Bear the Burden
+Starting at 2nd level, you can use your <<cleric-feature-channel-divinity,Channel Divinity>> to bring all the suffering your allies suffer onto yourself.
+
+As an action, you present your holy symbol and enter a divine trance.
+Until the start of your next turn, your movement speed becomes zero and you gain temporary hit points equal to twice your {class-name-cleric} level.
+Any time an allied creature within 30 feet of you takes damage, they have resistance to the damage taken, but you take damage equal to the damage they take.
+
+[#cleric-subclass-matryr-overcome-adversity]
+== Overcome Adversity
+Starting at 6th level, when you use your <<cleric-subclass-matryr-relieve-suffering>> to take the condition affecting a creature, you can repeat the original saving throw against the feature if it had one.
+On success, the condition ends instead of being transferred.
+
+Additionally, when you take damage as a result of the Warding Bond spell, you have resistance to that damage.
+
+[#cleric-subclass-matryr-divine-empowerment]
+== Divine Empowerment
+At 8th level, pick one of the following options:
+
+[#cleric-subclass-matryr-divine-strike]
+Divine Strike::
+At 8th level, you gain the ability to infuse your weapon strikes with divine energy.
+Once on each of your turns when you hit a creature with a weapon attack made as part of the attack action, you can cause the attack to deal an extra 1d8 radiant damage to the target.
++
+When you reach 11th level, the extra damage increases to 2d8, and when you reach 17th level, the extra damage increases to 3d8.
+
+[#cleric-subclass-matryr-potent-spellcasting]
+Potent Spellcasting::
+Starting at 8th level, you add your Wisdom modifier to the damage you deal with any {class-name-cleric} cantrip.
+
+[#cleric-subclass-matryr-unyielding-concentration]
+== Unyielding Concentration
+Starting at 17th level, while you are concentrating on a {class-name-cleric} spell that targets you or your allies, your concentration can’t be broken as a result of taking damage.
+
+
+
+:leveloffset: 2
+
+=== {subclass-name-cleric-sacred-mandate}
+:leveloffset: +2
+
+
+[sidebar]
+****
+Your deity doesn’t assign you a job—they grant you a mandate.
+****
+
+You embody a divine imperative—an expression of your deity’s focus.
+This Sacred Mandate grants you access to specific powers that you shape through your chosen domain.
+
+At 1st level, you choose a **Mandate Domain**, such as Knowledge, Life, or War.
+Your mandate grants you a collection of features as outlined below.
+
+[#cleric-subclass-sacred-mandate-spells]
+== Mandate Spells
+
+You gain the spell list associated with your selected domain.
+These spells count as cleric spells for you and are always prepared.
+
+[#cleric-subclass-sacred-mandate-spells-table]
+.The Mandate Spells (table)
+[%header,cols="1,3,3,3,3,3"]
+|===
+| Domain | 1st Level | 3rd Level | 5th Level | 7th Level | 9th Level
+
+| Knowledge
+| Identify, Command
+| Augury, Detect Thoughts
+| Clairvoyance, Speak with Dead
+| Arcane Eye, Divination
+| Legend Lore, Scrying
+
+| Life
+| Cure Wounds, Bless
+| Lesser Restoration, Spiritual Weapon
+| Beacon of Hope, Revivify
+| Death Ward, Guardian of Faith
+| Mass Cure Wounds, Raise Dead
+
+| Light
+| Color Spray, Guiding Bolt
+| Continual Flame, Moonbeam
+| Daylight, Spirit Guardians
+| Arcane Eye, Divination
+| Dream, Scrying
+
+| Storm
+| Thunderwave, Fog Cloud
+| Gust of Wind, Shatter
+| Call Lightning, Wind Wall
+| Control Water, Ice Storm
+| Control Weather, Flame Strike
+
+| Trickery
+| Disguise Self, Charm Person
+| Mirror Image, Pass Without Trace
+| Bestow Curse, Major Image
+| Greater Invisibility, Hallucinatory Terrain
+| Mislead, Seeming
+
+| War
+| Divine Favor, Shield of Faith
+| Magic Weapon, Spiritual Weapon
+| Revivify, Slow
+| Stoneskin, Freedom of Movement
+| Hold Monster, Flame Strike
+|===
+
+== Mandate Proficiency
+When you choose this domain at 1st level, choose one additional proficiency from a list thematic to your mandate:
+[horizontal]
+Knowledge:: One language, Arcana or History
+Life:: Medicine or Herbalism Kit
+Light:: Performance or Persuasion
+Storm:: Athletics or Nature
+Trickery:: Deception or Sleight of Hand
+War:: Martial weapon or Heavy armor
+
+== Divine Gift
+Starting at 1st level, you gain a unique gift granted by your divine mandate.
+You may use this feature a number of times equal to your Wisdom modifier (minimum of once) per long rest.
+
+Guided Smite (War, Storm, Light, Trickery)::
+When you take the Attack action, you may make an additional weapon attack as a bonus action. This attack deals extra radiant, thunder, lightning, or psychic damage (choose one).
+10th Level: On a critical hit, you can make another weapon attack as part of the same action.
+Protective Intercession (Life, Light, Knowledge)
+When a creature within 30 feet takes damage, you can use your reaction to reduce the damage by 1d10 + your Wisdom modifier.
++
+When you reach 10th Level, the creature gains temporary hit points equal to your cleric level.
+
+Insightful Surge (Knowledge, Trickery)::
+As a bonus action, you grant a creature that can see or hear you within 30 feet advantage on their next attack roll, ability check, or saving throw.
+
+When you reach 10th Level, when using this ability, you also give a creature within range that can see or hear you, disadvantage on its next attack roll or ability check as you momentarily distract it or otherwise exploit a subtle weakness.
+
+== Channel Divinity
+Starting at 2nd level, you gain one of the following Channel Divinity options.
+
+When you reach 6th level, the effects improve or gain additional features.
+
+Channel Divinity: War Cry (War, Storm)::
+As a bonus action, choose a number of creatures equal to your Wisdom modifier (minimum 1) that you can see within 30 feet.
+Each target can immediately use their reaction to move up to half their speed without provoking an opportunity attack and make one weapon attack.
++
+When you reach 6th Level, targets add your cleric level to their damage roll for this attack.
+
+Channel Divinity: Luminous Infusion (Light, Storm)::
+As an action, you cause divine light to flare in a 15-foot radius centered on yourself.
+Choose one damage type: radiant, lightning, or fire. Until the start of your next turn, any creature that enters or ends its turn in the area or hits you with a melee attack takes 3 damage.
+The damage increases by 2 each time your proficiency bonus increases.
++
+When you reach 6th Level, allies in the aura deal +1d4 + your proficiency bonus damage of the chosen type on weapon attacks.
+
+Channel Divinity: Revelatory Surge (Knowledge, Life, Trickery)::
+You call forth a flash of divine understanding as an action that momentarily reveals hidden truths.
+For 1 minute, you and allies in the area gain advantage on one Intelligence, Wisdom, or Charisma check of your choice, as divine clarity sharpens your senses and mind.
++
+When you reach 6th Level, you and each creature of your choice within 30 feet have truesight for one minute.
+
+Channel Divinity: Phantom’s Whim (Trickery, Knowledge)::
+As a bonus action, you cloak a creature that you choose within 30 feet in illusions.
+Until the start of your next turn, each target has partial cover and can take the Hide action as a bonus action.
++
+When you reach 6th Level, the number of affected creatures increases by your proficiency bonus.
+
+Channel Divinity: Aegis of Faith (Life, War)::
+As an action, you conjure a divine shield around an ally within 30 feet.
+Until the end of their next turn, the target adds your proficiency bonus to AC or resistance to necrotic or radiant damage.
++
+When you reach 6th Level, the target also gains temporary hit points equal to 2d6 + your Wisdom modifier when you use this feature.
+
+Channel Divinity: Echo of Command (Trickery, War)::
+As a bonus action, choose a creature whose location you know within 30 feet.
++
+If the creature is an ally, it can immediately use its reaction to make one weapon attack or cast a cantrip.
+It adds your Wisdom modifier to the attack roll.
++
+If the creature is an enemy, it must make a Wisdom saving throw.
+On a failure, it uses its reaction to make a weapon attack or a spell attack with a cantrip, targeting a creature you choose.
++
+When you reach 6th Level, when you use this ability, you may choose whether affected creatures can be frightened or charmed until the end of their next turn.
+
+== Divine Strike or Potent Spellcasting
+When you reach 8th level, choose one of the following:
+
+Divine Strike.:: Your weapon attacks deal an extra 1d8 damage of a type appropriate to your mandate, increasing to 2d8 at 14th level.
++
+Suggested Damage Types:
++
+- Knowledge: Psychic
+- Life: Radiant
+- Light: Radiant
+- Storm: Lightning or Thunder (choose one)
+- Trickery: Poison or Acid (choose one)
+- War: Bludgeoning, Piercing, or Slashing (choose one)
+
+Potent Spellcasting.:: You add your Wisdom modifier to the damage you deal with cleric cantrips.
+
+== Exalted Mandate
+At 17th level, choose one matching your mandate.
+You can use this feature once per long rest.
+
+Avatar of War (War, Storm)::
+When reduced to 0 hit points, you drop to 1 hit pointinstead and may use your reaction to make one weapon attack.
+You also gain resistance to bludgeoning, piercing, and slashing damage for 1 minute.
+
+Illuminated Soul (Light, Life)::
+As an action, you emit a 30 foot aura for 1 minute.
+Allies in the area gain advantage on saving throws against being blinded, charmed, or frightened and regain 1d6 HP at the start of their turns.
+
+Shifting Facade (Trickery, Knowledge)::
+The locations of anyone within 30 feet of you become difficult for enemies to determine for one minute, as all creatures that you choose, including you, seem to switch places with each other.
+Enemies must succeed on a Wisdom saving throw or target a random creature when trying to attack any creature within range.
+
+
+:leveloffset: 2
+
+
+:leveloffset!:
+
+<<<
+
+[#dreadnought-class]
+=== {class-name-barbarian}
+:leveloffset: +2
+
+
+Unstoppable in battle, {class-name-barbarian}s draw strength from raw emotion, turning fury and resilience into unmatched combat prowess.
+
+== Class Features
+As a {class-name-barbarian}, you gain the following class features.
+
+=== Hit Points
+[horizontal]
+Hit Dice:: 1d12 per {class-name-barbarian} level
+Hit Points at 1st Level:: 12 + your Constitution modifier
+Hit Points at Higher Levels:: 1d12 (or 7) + your Constitution modifier per {class-name-barbarian} level after 1st
+
+=== Proficiencies
+[horizontal]
+Armor:: Light armor, medium armor, shields
+Weapons:: Simple weapons, martial weapons
+Tools:: None
+Saving Throws:: Strength, Constitution
+Skills:: Choose two from Animal Handling, Athletics, Intimidation, Nature, Perception, and Survival
+
+=== Equipment
+You start with the following equipment, in addition to the equipment granted by your background:
+
+- (a) a greataxe or (b) any martial melee weapon
+- (a) two handaxes or (b) any simple weapon
+- An explorer’s pack and four javelins
+
+[#dreadnought-table]
+.The {class-name-barbarian} (table)
+[%header,cols="1,2,4,^1,1"]
+|===
+| Level | Proficiency Bonus | Features | Rages | Rage Damage
+
+| 1st
+| +2
+| <<dreadnought-feature-rage>>, <<dreadnought-feature-unarmored-defense>>
+| 2
+| +2
+
+| 2nd
+| +2
+| <<dreadnought-feature-reckless-attack>>, <<dreadnought-feature-danger-sense>>
+| 2
+| +2
+
+| 3rd
+| +2
+| <<dreadnought-feature-path>>
+| 3
+| +2
+
+| 4th
+| +2
+| <<dreadnought-feature-asi>>
+| 3
+| +2
+
+| 5th
+| +3
+| <<dreadnought-feature-extra-attack>>, <<dreadnought-feature-fast-movement>>
+| 3
+| +2
+
+| 6th
+| +3
+| Path feature
+| 4
+| +2
+
+| 7th
+| +3
+| <<dreadnought-feature-feral-instinct>>
+| 4
+| +2
+
+| 8th
+| +3
+| <<dreadnought-feature-asi>>
+| 4
+| +2
+
+| 9th
+| +4
+| <<dreadnought-feature-brutal-critical>> (1 die)
+| 4
+| +3
+
+| 10th
+| +4
+| Path feature
+| 4
+| +3
+
+| 11th
+| +4
+| <<dreadnought-feature-relentless-rage>>
+| 4
+| +3
+
+| 12th
+| +4
+| <<dreadnought-feature-asi>>
+| 5
+| +3
+
+| 13th
+| +5
+| <<dreadnought-feature-brutal-critical>> (2 dice)
+| 5
+| +3
+
+| 14th
+| +5
+| Path feature
+| 5
+| +3
+
+| 15th
+| +5
+| <<dreadnought-feature-persistent-rage>>
+| 5
+| +3
+
+| 16th
+| +5
+| <<dreadnought-feature-asi>>
+| 5
+| +4
+
+| 17th
+| +6
+| <<dreadnought-feature-brutal-critical>> (3 dice)
+| 6
+| +4
+
+| 18th
+| +6
+| <<dreadnought-feature-indomitable-might>>
+| 6
+| +4
+
+| 19th
+| +6
+| <<dreadnought-feature-asi>>
+| 6
+| +4
+
+| 20th
+| +6
+| <<dreadnought-feature-primal-champion>>
+| Unlimited
+| +4
+|===
+
+[#dreadnought-feature-rage]
+== Rage
+In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action.
+While raging, you gain the following benefits if you aren’t wearing heavy armor:
+
+- You have advantage on Strength checks and Strength saving throws.
+- When you make a melee weapon attack using Strength, you gain a bonus to the damage roll that increases as you gain levels as a {class-name-barbarian}, as shown in the Rage Damage column of the <<dreadnought-table,{class-name-barbarian} table>>.
+- You have resistance to bludgeoning, piercing, and slashing damage.
+
+If you are able to cast spells, you can’t cast them or concentrate on them while raging.
+Your rage lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven’t attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.
+Once you have raged the number of times shown for your {class-name-barbarian} level in the Rages column of the <<dreadnought-table,{class-name-barbarian} table>>, you must finish a long rest before you can rage again.
+
+[#dreadnought-feature-unarmored-defense]
+== Unarmored Defense
+While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit.
+
+[#dreadnought-feature-reckless-attack]
+== Reckless Attack
+Starting at 2nd level, you can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.
+
+[#dreadnought-feature-danger-sense]
+== Danger Sense
+At 2nd level, you gain an uncanny sense of when things nearby aren’t as they should be, giving you an edge when you dodge away from danger.
+You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can’t be blinded, deafened, or incapacitated.
+
+[#dreadnought-feature-path]
+== {class-name-barbarian} Path
+At 3rd level, you choose a <<dreadnought-subclasses,path>> that shapes the nature of your rage. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels.
+
+[#dreadnought-feature-asi]
+== Ability Score Improvement
+When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
+
+[#dreadnought-feature-extra-attack]
+== Extra Attack
+Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
+
+[#dreadnought-feature-fast-movement]
+== Fast Movement
+Starting at 5th level, your speed increases by 10 feet while you aren’t wearing heavy armor.
+
+[#dreadnought-feature-feral-instinct]
+== Feral Instinct
+By 7th level, your instincts are so honed that you have advantage on initiative rolls.
+Additionally, if you are surprised at the beginning of combat and aren’t incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.
+
+[#dreadnought-feature-brutal-critical]
+== Brutal Critical
+Beginning at 9th level, you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.
+This increases to two additional dice at 13th level and three additional dice at 17th level.
+
+[#dreadnought-feature-relentless-rage]
+== Relentless Rage
+Starting at 11th level, your rage can keep you fighting despite grievous wounds. If you drop to 0 hit points while you’re raging and don’t die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hit point instead.
+Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10.
+
+[#dreadnought-feature-persistent-rage]
+== Persistent Rage
+Beginning at 15th level, your rage is so fierce that it ends early only if you fall unconscious or if you choose to end it.
+
+[#dreadnought-feature-indomitable-might]
+== Indomitable Might
+Beginning at 18th level, if your total for a Strength check is less than your Strength score, you can use that score in place of the total.
+
+[#dreadnought-feature-primal-champion]
+== Primal Champion
+At 20th level, you embody the power of the wilds. Your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.
+
+[#dreadnought-subclasses]
+== {class-name-barbarian} Paths
+
+[#dreadnought-subclasse-berserker]
+=== {subclass-name-barbarian-berserker}
+:leveloffset: +2
+
+
+For some {class-name-barbarian}s, rage is a means to an end— that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker’s rage, you thrill in the chaos of battle, heedless of your own health or well-being.
+
+[#dreadnought-subclasse-berserker-feature-frenzy]
+== Frenzy
+Starting when you choose this path at 3rd level, you can go into a frenzy when you rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of exhaustion (as described in appendix A).
+
+[#dreadnought-subclasse-berserker-feature-mindless-rage]
+== Mindless Rage
+Beginning at 6th level, you can’t be charmed or frightened while raging. If you are charmed or frightened when you enter your rage, the effect is suspended for the duration of the rage.
+
+[#dreadnought-subclasse-berserker-feature-intimidating-resence]
+== Intimidating Presence
+Beginning at 10th level, you can use your action to frighten someone with your menacing presence. When you do so, choose one creature that you can see within 30 feet of you. If the creature can see or hear you, it must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier) or be frightened of you until the end of your next turn. On subsequent turns, you can use your action to extend the duration of this effect on the frightened creature until the end of your next turn. This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you.
+If the creature succeeds on its saving throw, you can’t use this feature on that creature again for 24 hours.
+
+[#dreadnought-subclasse-berserker-feature-retaliation]
+== Retaliation
+Starting at 14th level, when you take damage from a creature that is within 5 feet of you, you can use your reaction to make a melee weapon attack against that creature.
+
+
+:leveloffset: 2
+
+[#dreadnought-subclasse-dragon]
+=== {subclass-name-barbarian-dragon}
+:leveloffset: +2
+
+
+{class-name-barbarian}s tap into primal powers, and a {class-name-barbarian} of this path taps into one of the most ancient and primeval of them all: the power of dragons.
+Some say this path was born during the rage of dragons by mortals tapping into the primal rage as it washed across the world, others say that only those with latent dragon blood coursing through them can walk this path. What all can agree on is the result is a being to be feared.
+As with most {class-name-barbarian} paths, ones following this path tend toward chaos, as they contain potent destructive power that paces at the edges of the cage, just waiting to be unleashed. Some, particularly those rare individuals that channel metallic colors, may be exceptions to this tendency.
+
+== {subclass-name-barbarian-dragon} Features
+When you choose this path at 3rd level, when you enter a rage, you can choose to make your Rage bonus damage deal elemental damage matching your draconic type (shown on the <<dreadnought-path-of-the-dragon-table,table>> below).
+
+Additionally, when you enter a rage you can take on aspects of a draconic entity, growing vicious natural weapons as claws grow from your hands, fangs sprout from your maw, and a vicious lashing tail grows from your back.
+Your claws deal 1d4 slashing damage.
+Your fangs deal 1d8 piercing damage, and your lashing tail deals 1d6 bludgeoning damage and has the reach property.
+
+Whenever you attack with one of these natural weapons using the Attack action on your turn, if you are not carrying any weapon or shield, you can make a single unarmed strike with your claws as a bonus action.
+
+When you gain this feature, you pick a color, and gain resistance corresponding to the element type of that color on the following <<dreadnought-path-of-the-dragon-table>> table below while raging.
+
+[#dreadnought-path-of-the-dragon-table]
+.{subclass-name-barbarian-dragon} Elements
+[%header,cols="1,1"]
+|===
+| Dragon Color | Element Type
+
+| Black
+| Acid
+
+| Blue
+| Lightning
+
+| Green
+| Poison
+
+| Red
+| Fire
+
+| White
+| Cold
+|===
+
+== Unleashed Brutality
+Starting at 6th level, once during a rage, as an attack as part of the Attack action, you can unleash your rage into pure energy, exhaling a blast of elemental power. Creatures within a 15-foot cone must make a Dexterity saving throw. The DC of this saving throw is 8 + your proficiency modifier + your strength modifier. A creature takes 6d6 damage of the Elemental Type of your Dragon Color on a failed save. The damage and range of this breath weapon increases at 10th level (to 8d6 in a 30-foot cone), at 14th level (10d6 in a 45-foot cone), and at 18th level (12d6 in a 60 foot cone)
+
+== Primal Weapons
+Additionally at 6th level, the natural weapons you gain while raging now count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
+
+== Dragonhide
+Starting at 10th level, the marks of your Draconic path now remain outside of your rage, manifesting as heavy scales that grant you resistance to bludgeoning, piercing, and slashing damage from nonmagical sources even when you are not raging.
+Additionally, you gain resistance to your dragon color’s elemental type even when you are not raging.
+
+== Tyrant of the Skies
+By 14th level, when you enter a rage, you can sprout massive dragon wings from your back.
+If you are not wearing heavy armor, you gain a flying speed equal to your movement speed.
+
+If you choose to manifest natural weapons and wings when you enter a rage, you can choose to entirely take on a draconic form while raging, becoming Large sized.
+When you take on a full draconic form, you choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it.
+
+
+:leveloffset: 2
+
+
+:leveloffset!:
+
+<<<
+
+[#vanguard-class]
+=== {class-name-paladin}
+:leveloffset: +2
+
+
+{class-name-paladin}s channel divine strength, standing as unyielding champions of causes greater than themselves.
+
+== Class Features
+As a {class-name-paladin}, you gain the following class features.
+
+=== Hit Points
+[horizontal]
+Hit Dice:: 1d10 per {class-name-paladin} level
+Hit Points at 1st Level:: 10 + your Constitution modifier
+Hit Points at Higher Levels:: 1d10 (or 6) + your Constitution modifier per {class-name-paladin} level after 1st
+
+=== Proficiencies
+[horizontal]
+Armor:: All armor, shields
+Weapons:: Simple weapons, martial weapons
+Tools:: None
+Saving Throws:: Wisdom, Charisma
+Skills:: Choose two from Athletics, Insight, Intimidation, Medicine, Persuasion, and Religion
+
+=== Equipment
+You start with the following equipment, in addition to the equipment granted by your background:
+
+- (a) a martial weapon and a shield or (b) two martial weapons
+- (a) five javelins or (b) any simple melee weapon
+- (a) a priest’s pack or (b) an explorer’s pack
+- Chain mail and a holy symbol
+
+[#vanguard-table]
+.The {class-name-paladin} (table)
+[%header,cols="1,2,4,^1,^1,^1,^1,^1"]
+|===
+| Level | Proficiency Bonus | Features | 1st | 2nd | 3rd | 4th | 5th
+
+| 1st
+| +2
+| <<vanguard-feature-divine-sense>>, <<vanguard-feature-lay-on-hands>>
+| -
+| -
+| -
+| -
+| -
+
+| 2nd
+| +2
+| <<vanguard-feature-fighting-style>>, <<vanguard-feature-spellcasting>>, <<vanguard-feature-divine-smite>>
+| 2
+| -
+| -
+| -
+| -
+
+| 3rd
+| +2
+| <<vanguard-feature-divine-health>>, <<vanguard-feature-oath-of-duty>>
+| 3
+| -
+| -
+| -
+| -
+
+| 4th
+| +2
+| <<vanguard-feature-asi>>
+| 3
+| -
+| -
+| -
+| -
+
+| 5th
+| +3
+| <<vanguard-feature-extra-attack>>
+| 4
+| 2
+| -
+| -
+| -
+
+| 6th
+| +3
+| <<vanguard-feature-aura-of-protection>>
+| 4
+| 2
+| -
+| -
+| -
+
+| 7th
+| +3
+| Oath of Duty feature
+| 4
+| 3
+| -
+| -
+| -
+
+| 8th
+| +3
+| <<vanguard-feature-asi>>
+| 4
+| 3
+| -
+| -
+| -
+
+| 9th
+| +4
+| -
+| 4
+| 3
+| 2
+| -
+| -
+
+| 10th
+| +4
+| <<vanguard-feature-aura-of-courage>>
+| 4
+| 3
+| 2
+| -
+| -
+
+| 11th
+| +4
+| <<vanguard-feature-improved-divine-smite>>
+| 4
+| 3
+| 3
+| -
+| -
+
+| 12th
+| +4
+| <<vanguard-feature-asi>>
+| 4
+| 3
+| 3
+| -
+| -
+
+| 13th
+| +5
+| -
+| 4
+| 3
+| 3
+| 1
+| -
+
+| 14th
+| +5
+| <<vanguard-feature-cleansing-touch>>
+| 4
+| 3
+| 3
+| 1
+| -
+
+| 15th
+| +5
+| Oath of Duty feature
+| 4
+| 3
+| 3
+| 2
+| -
+
+| 16th
+| +5
+| <<vanguard-feature-asi>>
+| 4
+| 3
+| 3
+| 2
+| -
+
+| 17th
+| +6
+| -
+| 4
+| 3
+| 3
+| 3
+| 1
+
+| 18th
+| +6
+| Aura improvements
+| 4
+| 3
+| 3
+| 3
+| 1
+
+| 19th
+| +6
+| <<vanguard-feature-asi>>
+| 4
+| 3
+| 3
+| 3
+| 2
+
+| 20th
+| +6
+| Oath of Duty feature
+| 4
+| 3
+| 3
+| 3
+| 2
+|===
+
+[#vanguard-feature-divine-sense]
+== Divine Sense
+The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the vampire Count Strahd von Zarovich, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the Hallow spell.
+You can use this feature a number of times equal to 1 + your Charisma modifier. When you finish a long rest, you regain all expended uses.
+
+[#vanguard-feature-lay-on-hands]
+== Lay on Hands
+Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your {class-name-paladin} level × 5.
+
+As an action, you can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in your pool.
+
+Alternatively, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Lay on Hands, expending hit points separately for each one.
+
+This feature has no effect on undead and constructs.
+
+[#vanguard-feature-fighting-style]
+== Fighting Style
+At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.
+
+[#vanguard-feature-fighting-style-defense]
+Defense::
+While you are wearing armor, you gain a +1 bonus to AC.
+
+[#vanguard-feature-fighting-style-dueling]
+Dueling::
+When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.
+
+[#vanguard-feature-fighting-style-gwf]
+Great Weapon Fighting::
+When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit.
+
+[#vanguard-feature-lay-fighting-style-protection]
+Protection::
+When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.
+
+[#vanguard-feature-spellcasting]
+== Spellcasting
+By 2nd level, you have learned to draw on divine magic through meditation and prayer to cast spells as a Cleric does.
+
+=== Preparing and Casting Spells
+The <<vanguard-table,{class-name-paladin} table>> shows how many spell slots you have to cast your spells.
+To cast one of your {class-name-paladin} spells of 1st level or higher, you must expend a slot of the spell’s level or higher.
+You regain all expended spell slots when you finish a long rest.
+
+You prepare the list of {class-name-paladin} spells that are available for you to cast, choosing from the <<spell-list-vanguard,{class-name-paladin} spell list>>.
+When you do so, choose a number of {class-name-paladin} spells equal to your Charisma modifier + half your {class-name-paladin} level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.
+
+For example, if you are a 5th-level {class-name-paladin}, you have four 1st-level and two 2nd-level spell slots. With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell Cure Wounds, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn’t remove it from your list of prepared spells.
+
+You can change your list of prepared spells when you finish a long rest. Preparing a new list of {class-name-paladin} spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.
+
+=== Spellcasting Ability
+Charisma is your spellcasting ability for your {class-name-paladin} spells, since their power derives from the strength of your convictions. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a {class-name-paladin} spell you cast and when making an attack roll with one.
+
+[horizontal]
+Spell save DC:: = 8 + your proficiency bonus + your Charisma modifier
+Spell attack modifier:: = your proficiency bonus + your Charisma modifier
+
+=== Spellcasting Focus
+You can use a holy symbol as a spellcasting focus for your {class-name-paladin} spells.
+
+[#vanguard-feature-divine-smite]
+== Divine Smite
+Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon’s damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend.
+
+[#vanguard-feature-divine-health]
+== Divine Health
+By 3rd level, the divine magic flowing through you makes you immune to disease.
+
+[#vanguard-feature-oath-of-duty]
+== Oath of Duty
+When you reach 3rd level, you swear the <<vanguard-subclasses,oath>> that binds you as a {class-name-paladin} forever. Up to this time you have been in a preparatory stage, committed to the path but not yet sworn to it. Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level. Those features include oath spells and the Channel Divinity feature.
+
+[#vanguard-feature-oath-of-duty-oath-spells]
+=== Oath Spells
+Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don’t count against the number of spells you can prepare each day.
+If you gain an oath spell that doesn’t appear on the {class-name-paladin} spell list, the spell is nonetheless a {class-name-paladin} spell for you.
+
+[#vanguard-feature-oath-of-duty-channel-divinity]
+=== Channel Divinity
+Your oath allows you to channel divine energy to fuel magical effects. Each Channel Divinity option provided by your oath explains how to use it.
+When you use your Channel Divinity, you choose which option to use. You must then finish a short or long rest to use your Channel Divinity again.
+Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your {class-name-paladin} spell save DC.
+
+[#vanguard-feature-asi]
+== Ability Score Improvement
+When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1.
+As normal, you can’t increase an ability score above 20 using this feature.
+
+[#vanguard-feature-extra-attack]
+== Extra Attack
+Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
+
+[#vanguard-feature-aura-of-protection]
+== Aura of Protection
+Starting at 6th level, whenever you or a friendly creature within 10 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.
+
+At 18th level, the range of this aura increases to 30 feet.
+
+[#vanguard-feature-aura-of-courage]
+== Aura of Courage
+Starting at 10th level, you and friendly creatures within 10 feet of you can’t be frightened while you are conscious.
+
+At 18th level, the range of this aura increases to 30 feet.
+
+[#vanguard-feature-improved-divine-smite]
+== Improved Divine Smite
+By 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 radiant damage. If you also use your Divine Smite with an attack, you add this damage to the extra damage of your Divine Smite.
+
+[#vanguard-feature-cleansing-touch]
+== Cleansing Touch
+Beginning at 14th level, you can use your action to end one spell on yourself or on one willing creature that you touch.
+You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain expended uses when you finish a long rest.
+
+[#vanguard-subclasses]
+== Oaths of Duty
+Becoming a {class-name-paladin} involves taking vows that commit the {class-name-paladin} to the cause of righteousness, an active path of fighting wickedness. The final oath, taken when he or she reaches 3rd level, is the culmination of all the {class-name-paladin}'s training. Some characters with this class don’t consider themselves true {class-name-paladin}s until they have reached 3rd level and made this oath. For others, the actual swearing of the oath is a formality, an official stamp on what has always been true in the {class-name-paladin}'s heart.
+
+[#vanguard-subclasse-oath-of-devotion]
+=== {subclass-name-paladin-devotion}
+:leveloffset: +2
+
+
+The {subclass-name-paladin-devotion} binds a {class-name-paladin} to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, the {class-name-paladin}s meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods’ tenets as the measure of their devotion. They hold angels—the perfect servants of good—as their ideals, and incorporate images of angelic wings into their helmets or coats of arms.
+
+== Tenets of Devotion
+Though the exact words and strictures of the Oath of Devotion vary, {class-name-paladin}s of this oath share these tenets.
+[horizontal]
+Honesty.:: Don’t lie or cheat. Let your word be your promise.
+Courage.:: Never fear to act, though caution is wise.
+Compassion.:: Aid others, protect the weak, and punish those who threaten them. Show mercy to your foes, but temper it with wisdom.
+Honor.:: Treat others with fairness, and let your honorable deeds be an example to them. Do as much good as possible while causing the least amount of harm.
+Duty.:: Be responsible for your actions and their consequences, protect those entrusted to your care, and obey those who have just authority over you.
+
+== Oath Spells
+You gain oath spells at the {class-name-paladin} levels listed.
+
+[#vanguard-oath-of-devotion-spells]
+.Oath of Devotion Spells (table)
+[%header,cols="1,3"]
+|===
+| {class-name-paladin} Level | Spells
+
+| 3rd
+| Protection From Evil And Good, Sanctuary
+
+| 5th
+| Lesser Restoration, Zone of Truth
+
+| 9th
+| Beacon of Hope, Dispel Magic
+
+| 13th
+| Freedom of Movement, Guardian of Faith
+
+| 17th
+| Commune, Flame Strike
+|===
+
+== Channel Divinity
+When you take this oath at 3rd level, you gain the following two Channel Divinity options.
+
+Sacred Weapon.:: As an action, you can imbue one weapon that you are holding with positive energy, using your Channel Divinity. For 1 minute, you add your Charisma modifier to attack rolls made with that weapon (with a minimum bonus of +1). The weapon also emits bright light in a 20-foot radius and dim light 20 feet beyond that. If the weapon is not already magical, it becomes magical for the duration.
++
+You can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends.
+
+Turn the Unholy.:: As an action, you present your holy symbol and speak a prayer censuring fiends and undead, using your Channel Divinity. Each fiend or undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.
++
+A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.
+
+== Aura of Devotion
+Starting at 7th level, you and friendly creatures within 10 feet of you can’t be charmed while you are conscious.
+
+At 18th level, the range of this aura increases to 30 feet.
+
+== Purity of Spirit
+Beginning at 15th level, you are always under the effects of a Protection from Evil and Good spell.
+
+== Holy Nimbus
+At 20th level, as an action, you can emanate an aura of sunlight. For 1 minute, bright light shines from you in a 30-foot radius, and dim light shines 30 feet beyond that.
+Whenever an enemy creature starts its turn in the bright light, the creature takes 10 radiant damage.
+
+In addition, for the duration, you have advantage on saving throws against spells cast by fiends or undead.
+
+Once you use this feature, you can’t use it again until you finish a long rest.
+
+
+:leveloffset: 2
+
+=== {subclass-name-paladin-silence}
+:leveloffset: +2
+
+
+The {subclass-name-paladin-silence} is taken by those that have seen the chaos of the world and have chosen to take a stand.
+Rather than shout over the clamor, they lead by example and action, showing that the world needs not fiery rhetoric or the manipulations of honeyed words, but people to act as they should with purpose and pride.
+{class-name-paladin}s of this oath can come from many backgrounds and espouse endless variants of their conviction, but most often tend to be Lawful.
+They often believe that the power of words should be in the reason and virtue they carry, rather than volume or, worst of all, manipulating magics that twist the minds of those they fall on.
+
+== Tenets of Silence
+Though the exact words and strictures of the {subclass-name-paladin-silence} vary, {class-name-paladin}s of this oath share these tenets.
+[horizontal]
+Temperance.:: Whispering in silence conveys greater power than shouting in clamor.
+Precision.:: Speak with purpose and say what must be said.
+Sanctuary.:: Be the port in the storm, be the tranquility in the chaos.
+Purpose.:: Actions speak louder than words. Let your sword and shield be your voice.
+Sacred.:: Be wary of those that use their voice to bend the world to their will for their own gain, and rebuke those that use their voice to bend creatures to their will for their own gain.
+
+== Oath Spells
+You gain oath spells at the {class-name-paladin} levels listed.
+
+[#vanguard-oath-of-silence-spells]
+.Oath of Silence Spells (table)
+[%header,cols="1,3"]
+|===
+| Level | {class-name-paladin} Spells
+
+| 3rd
+| Sanctuary, Sleep
+
+| 5th
+| Blindness/Deafness, Silence
+
+| 9th
+| Counterspell, Dispel Magic
+
+| 13th
+| Banishment, Divination
+
+| 17th
+| Hallow, Mislead
+|===
+
+== Channel Divinity
+When you take this oath at 3rd level, you gain the following two Channel Divinity options.
+
+Shroud of Silence.:: As a bonus action, you present your holy symbol and whisper a prayer, shrouding one creature within 60 feet in an aura of silence. For 10 minutes, the target makes no noise.
+It cannot speak (including the verbal components of spells) and gains advantage on Dexterity (Stealth) ability checks.
+An unwilling creature makes a Wisdom saving throw against your spell save DC to prevent the effect when targeted, and can repeat the saving throw at the end of each of their turns to end the effect on a success.
+Sanctuary of the Sacrosanct.:: As an action, you present your holy symbol and whisper prayer to bring refugees from the turmoil of the world.
+All creatures of your choice within 30 feet gain temporary hit points equal to your {class-name-paladin} level + your Charisma modifier, and if they are under the effect of a condition or spell they can normally save against the end of their turn, they can immediately make a save against the effect, ending it on success as normal.
+
+== Aura of Serenity
+Starting at 7th level, you permeate an aura of quiet serenity, reducing the volume of all noises within 10 feet.
+You and friendly creatures in the aura gain resistance to thunder damage, and armor does not give disadvantage on Dexterity (Stealth) checks for creatures within the aura.
+
+At 18th level, the range of this aura increases to 30 feet.
+
+== Rebuke
+Starting at 15th level, when a creature within your Aura of Serenity attempts to speak, attack, or cast a spell, you can rebuke them as a reaction, causing them to take radiant damage equal to your Charisma modifier and forcing them to make a Wisdom saving throw.
+On a failed saving throw their attempt to speak fails, and they are silenced until the start of their next turn.
+
+== Ordered World
+At 20th level, as an action, you can bring ordered tranquility to the world around you for 1 minute.
+Your Aura of Serenity doubles in size, and you can use Rebuke without expending your reaction a number of times equal to your Charisma modifier, regaining all uses at the start of your next turn.
+For the duration, all creatures of your choice have advantage on saving throws against the charmed and frightened conditions, or the effects of spells.
+
+== Optional Feature: Vow of Silence
+Some {class-name-paladin}s of this oath take their calling very seriously, and commit to never speaking again.
+When you select this option, you gain the ability to speak telepathically to creatures with which you share at least one language with a range of 60 feet.
+This telepathy is one way, and they cannot reply.
+Additionally, all verbal components of spells (as well as the whispered prayers of your Channel Divinity options) are replaced by somatic components for you.
+If you ever speak, this vow is broken, and you lose these additional powers.
+
+
+:leveloffset: 2
+
+== Breaking Your Oath
+A {class-name-paladin} tries to hold to the highest standards of conduct, but even the most virtuous {class-name-paladin} is fallible. Sometimes the right path proves too demanding, sometimes a situation calls for the lesser of two evils, and sometimes the heat of emotion causes a {class-name-paladin} to transgress his or her oath.
+
+A {class-name-paladin} who has broken a vow typically seeks absolution from a Cleric who shares his or her faith or from another {class-name-paladin} of the same order. The {class-name-paladin} might spend an all- night vigil in prayer as a sign of penitence, or undertake a fast or similar act of self-denial. After a rite of confession and forgiveness, the {class-name-paladin} starts fresh.
+
+If a {class-name-paladin} willfully violates his or her oath and shows no sign of repentance, the consequences can be more serious. At the GM’s discretion, an impenitent {class-name-paladin} might be forced to abandon this class and adopt another.
+
+
+:leveloffset!:
+
+<<<
+
+[#wizard-class]
+=== {class-name-wizard}
+:leveloffset: +2
+
+
+Through study, discipline, and boundless curiosity, {class-name-wizard}s unravel the secrets of magic, bending reality through sheer knowledge.
+
+== Class Features
+As a {class-name-wizard}, you gain the following class features.
+
+=== Hit Points
+[horizontal]
+Hit Dice:: 1d6 per {class-name-wizard} level
+Hit Points at 1st Level:: 6 + your Constitution modifier
+Hit Points at Higher Levels:: 1d6 (or 4) + your Constitution modifier per {class-name-wizard} level after 1st
+
+=== Proficiencies
+[horizontal]
+Armor:: None
+Weapons:: Daggers, darts, slings, quarterstaffs, light crossbows
+Tools:: None
+Saving Throws:: Intelligence, Wisdom
+Skills:: Choose two from Arcana, History, Insight, Investigation, Medicine, and Religion
+
+=== Equipment
+You start with the following equipment, in addition to the equipment granted by your background:
+
+- (a) a quarterstaff or (b) a dagger
+- (a) a component pouch or (b) an arcane focus
+- (a) a scholar’s pack or (b) an explorer’s pack
+- A spellbook
+
+[#wizard-table]
+.The {class-name-wizard} (table)
+[%header,cols="3,6,^5,^2,^2,^2,^2,^2,^2,^2,^2,^2,8"]
+|===
+| Level | Proficiency Bonus | Cantrips Known | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th | Features
+
+| 1st
+| +2
+| 3
+| 2
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| <<wizard-feature-spellcasting>>, <<wizard-feature-arcane-recovery>>
+
+| 2nd
+| +2
+| 3
+| 3
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| <<wizard-feature-arcane-tradition>>
+
+| 3rd
+| +2
+| 3
+| 4
+| 2
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+
+| 4th
+| +2
+| 4
+| 4
+| 3
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| <<wizard-feature-asi>>
+
+| 5th
+| +3
+| 4
+| 4
+| 3
+| 2
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+
+| 6th
+| +3
+| 4
+| 4
+| 3
+| 3
+| -
+| -
+| -
+| -
+| -
+| -
+| Arcane Tradition feature
+
+| 7th
+| +3
+| 4
+| 4
+| 3
+| 3
+| 1
+| -
+| -
+| -
+| -
+| -
+| -
+
+| 8th
+| +3
+| 4
+| 4
+| 3
+| 3
+| 2
+| -
+| -
+| -
+| -
+| -
+| <<wizard-feature-asi>>
+
+| 9th
+| +4
+| 4
+| 4
+| 3
+| 3
+| 3
+| 1
+| -
+| -
+| -
+| -
+| -
+
+| 10th
+| +4
+| 5
+| 4
+| 3
+| 3
+| 3
+| 2
+| -
+| -
+| -
+| -
+| Arcane Tradition feature
+
+| 11th
+| +4
+| 5
+| 4
+| 3
+| 3
+| 3
+| 2
+| 1
+| -
+| -
+| -
+| -
+
+| 12th
+| +4
+| 5
+| 4
+| 3
+| 3
+| 3
+| 2
+| 1
+| -
+| -
+| -
+| <<wizard-feature-asi>>
+
+| 13th
+| +5
+| 5
+| 4
+| 3
+| 3
+| 3
+| 2
+| 1
+| 1
+| -
+| -
+| -
+
+| 14th
+| +5
+| 5
+| 4
+| 3
+| 3
+| 3
+| 2
+| 1
+| 1
+| -
+| -
+| Arcane Tradition feature
+
+| 15th
+| +5
+| 5
+| 4
+| 3
+| 3
+| 3
+| 2
+| 1
+| 1
+| 1
+| -
+| -
+
+| 16th
+| +5
+| 5
+| 4
+| 3
+| 3
+| 3
+| 2
+| 1
+| 1
+| 1
+| -
+| <<wizard-feature-asi>>
+
+| 17th
+| +6
+| 5
+| 4
+| 3
+| 3
+| 3
+| 2
+| 1
+| 1
+| 1
+| 1
+| -
+
+| 18th
+| +6
+| 5
+| 4
+| 3
+| 3
+| 3
+| 3
+| 1
+| 1
+| 1
+| 1
+| <<wizard-feature-spell-mastery>>
+
+| 19th
+| +6
+| 5
+| 4
+| 3
+| 3
+| 3
+| 3
+| 2
+| 1
+| 1
+| 1
+| <<wizard-feature-asi>>
+
+| 20th
+| +6
+| 5
+| 4
+| 3
+| 3
+| 3
+| 3
+| 2
+| 2
+| 1
+| 1
+| <<wizard-feature-signature-spells>>
+|===
+
+[#wizard-feature-spellcasting]
+== Spellcasting
+As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power.
+
+=== Cantrips
+At 1st level, you know three cantrips of your choice from the {class-name-wizard} spell list. You learn additional {class-name-wizard} cantrips of your choice at higher levels, as shown in the Cantrips Known column of the <<wizard-table,{class-name-wizard} table>>.
+
+=== Spellbook
+At 1st level, you have a spellbook containing six 1st-level {class-name-wizard} spells of your choice. Your spellbook is the repository of the {class-name-wizard} spells you know, except your cantrips, which are fixed in your mind.
+
+=== Your Spellbook
+The spells you add to your spellbook reflect your arcane research and intellectual breakthroughs about the multiverse. You might find other spells during adventures, like a scroll in an evil {class-name-wizard}’s chest or a dusty tome in an ancient library.
+
+Copying a Spell into the Book.:: When you find a {class-name-wizard} spell of 1st level or higher, you can add it to your spellbook if it is of a spell level you can prepare and if you can spare the time to decipher and copy it.
+Copying a spell into your spellbook involves reproducing its basic form and deciphering its unique notation. Practice until you understand the sounds and gestures, then transcribe it using your notation.
+Each level takes 2 hours and costs 50 gp. This includes material components and fine inks for experimentation and recording. Once mastered, you can prepare the spell like other spells.
+
+Replacing the Book.:: You can copy a spell from your own spellbook into another book—for example, if you want to make a backup copy of your spellbook. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.
+If you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal. For this reason, many {class-name-wizard}s keep backup spellbooks in a safe place.
+
+The Book’s Appearance.:: Your spellbook is a unique compilation of spells, with its own decorative flourishes and margin notes.
+It might be a plain, functional leather volume that you received as a gift from your master, a finely bound gilt-edged tome you found in an ancient library, or even a loose collection of notes scrounged together after you lost your previous spellbook in a mishap.
+
+=== Preparing and Casting Spells
+The <<wizard-table,{class-name-wizard} table>> shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.
+You prepare the list of {class-name-wizard} spells that are available for you to cast. To do so, choose a number of {class-name-wizard} spells from your spellbook equal to your Intelligence modifier + your {class-name-wizard} level (minimum of one spell). The spells must be of a level for which you have spell slots.
+For example, if you’re a 3rd-level {class-name-wizard}, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination, chosen from your spellbook. If you prepare the 1st-level spell Magic Missile, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn’t remove it from your list of prepared spells.
+You can change your list of prepared spells when you finish a long rest. Preparing a new list of {class-name-wizard} spells requires time spent studying your spellbook and memorizing the incantations and gestures you must make to cast the spell: at least 1 minute per spell level for each spell on your list.
+
+=== Spellcasting Ability
+Intelligence is your spellcasting ability for your {class-name-wizard} spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a {class-name-wizard} spell you cast and when making an attack roll with one.
+
+[horizontal]
+Spell save DC:: = 8 + your proficiency bonus + your Intelligence modifier
+Spell attack modifier:: = your proficiency bonus + your Intelligence modifier
+
+=== Ritual Casting
+You can cast a {class-name-wizard} spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don’t need to have the spell prepared.
+
+=== Spellcasting Focus
+You can use an arcane focus as a spellcasting focus for your {class-name-wizard} spells.
+
+=== Learning Spells of 1st Level and Higher
+Each time you gain a {class-name-wizard} level, you can add two {class-name-wizard} spells of your choice to your spellbook for free. Each of these spells must be of a level for which you have spell slots, as shown on the <<wizard-table,{class-name-wizard} table>>. On your adventures, you might find other spells that you can add to your spellbook (see the “Your Spellbook” sidebar).
+
+[#wizard-feature-arcane-recovery]
+== Arcane Recovery
+You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your {class-name-wizard} level (rounded up), and none of the slots can be 6th level or higher.
+For example, if you’re a 4th-level {class-name-wizard}, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level spell slot or two 1st-level spell slots.
+
+[#wizard-feature-arcane-tradition]
+== Arcane Tradition
+When you reach 2nd level, you choose an <<wizard-subclasses,arcane tradition>>. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.
+
+[#wizard-feature-asi]
+== Ability Score Improvement
+When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
+
+[#wizard-feature-spell-mastery]
+== Spell Mastery
+At 18th level, you have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level {class-name-wizard} spell and a 2nd-level {class-name-wizard} spell that are in your spellbook. You can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal.
+
+By spending 8 hours in study, you can exchange one or both of the spells you chose for different spells of the same levels.
+
+[#wizard-feature-signature-spells]
+== Signature Spells
+When you reach 20th level, you gain mastery over two powerful spells and can cast them with little effort. Choose two 3rd-level {class-name-wizard} spells in your spellbook as your signature spells. You always have these spells prepared, they don’t count against the number of spells you have prepared, and you can cast each of them once at 3rd level without expending a spell slot. When you do so, you can’t do so again until you finish a short or long rest.
+If you want to cast either spell at a higher level, you must expend a spell slot as normal.
+
+[#wizard-subclasses]
+== Arcane Traditions
+The study of Wizardry, dating back to early magical discoveries, is prevalent in fantasy gaming worlds with diverse magical traditions.
+
+The most common arcane traditions revolve around the eight schools of magic, cataloged by {class-name-wizard}s throughout history: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy and Transmutation. These schools can be literal institutions, like the School of Illusion, or academic departments with rival faculties. Even {class-name-wizard}s who train apprentices use the school division as a learning device, as each school requires mastery of different techniques.
+
+[#wizard-subclass-arcanist]
+=== {subclass-name-wizard-arcanist}
+:leveloffset: +2
+
+
+[#wizard-subclass-arcanist-scholarly-speciality]
+== Scholarly Specialty
+When you take this archetype at 2nd level, choose one classical school of magic as your Scholarly Specialty: abjuration, conjuration, divination, enchantment, evocation, illusion, necromancy, or transmutation. The gold and time you must spend to copy spells from this school into your spellbook is halved. If a feature refers to your chosen school, it refers to the school selected in this feature.
+
+[#wizard-subclass-arcanist-esoteric-talent]
+== Esoteric Talent
+Also at 2nd level, you gain one of the following benefits:
+
+[#wizard-subclass-arcanist-esoteric-talent-bend-magic]
+Bend Magic::
+When you cast a wizard spell with an instantaneous duration that deals damage to an area, you can choose a number of creatures in the area that you can see equal to your Intelligence modifier (minimum one creature).
+The chosen creatures take no damage from the spell.
+
+[#wizard-subclass-arcanist-esoteric-talent-flash-of-insight]
+Flash of Insight::
+You can use a bonus action to roll a d20, record the result, and choose a creature you can see within 30 feet.
+The next time that creature makes an attack roll, ability check, or saving throw, it takes that d20 result instead of rolling.
+If you use this feature again before you finish a short rest, you must expend a spell slot of 1st-level or higher to do so.
+
+[#wizard-subclass-arcanist-esoteric-talent-quick-step]
+Quick Step::
+After you cast a wizard spell of 1st-level or higher, you can immediately move up to 15 feet without provoking opportunity attacks or spending any of your normal movement.
+
+[#wizard-subclass-arcanist-refined-learning]
+== Refined Learning
+At 6th level, choose one of the following benefits:
+
+[#wizard-subclass-arcanist-refined-learning-arcane-armor]
+Arcane Armor::
+When you cast a wizard spell of 1st-level or higher, you store some of its magic to protect yourself, gaining temporary hit points equal to twice the level of the spell, or three times the spell's level if the spell is from your chosen school.
+Instead of gaining these temporary hit points yourself, you can use your reaction to grant them to a creature you can see within 30 feet.
+
+[#wizard-subclass-arcanist-refined-learning-energy-retention]
+Energy Retention::
+When you expend a spell slot of 2nd-level or higher to cast a wizard spell from your <<wizard-subclass-arcanist-scholarly-speciality,chosen school>>, you regain one expended spell slot.
+The regained spell slot must be of a level no more than half the level of the expended spell slot.
+
+[#wizard-subclass-arcanist-refined-learning-war-magic]
+War Magic::
+When you cast a wizard spell from your <<wizard-subclass-arcanist-scholarly-speciality,chosen school>> that deals damage, you deal additional damage equal to your Intelligence modifier (minimum +1) on the first damage roll for that spell.
+
+[#wizard-subclass-arcanist-superior-talent]
+== Superior Talent
+At 10th level, choose one of the following benefits:
+
+[#wizard-subclass-arcanist-superior-talent-perfect-control]
+Perfect Control::
+When concentrating on a wizard spell of your <<wizard-subclass-arcanist-scholarly-speciality,chosen school>>, you only need to roll to maintain concentration when you take damage from an attack, effect, or spell equal to or greater than your Intelligence score + your wizard level.
+
+[#wizard-subclass-arcanist-superior-talent-secondary-learning]
+Secondary Learning::
+Choose a second school as your <<wizard-subclass-arcanist-scholarly-speciality>> and an additional feature from either <<wizard-subclass-arcanist-esoteric-talent>> or <<wizard-subclass-arcanist-refined-learning>>.
+
+[#wizard-subclass-arcanist-superior-talent-splinter-spell]
+Splinter Spell::
+Once per rest, when you cast a wizard spell from your <<wizard-subclass-arcanist-scholarly-speciality,chosen school>> that only affects one creature, you can choose to affect an additional creature within range.
+
+[#wizard-subclass-arcanist-specialized-mastery]
+== Specialized Mastery
+At 14th level, choose one of the following benefits:
+
+[#wizard-subclass-arcanist-specialized-mastery-battle-hardiness]
+Battle Hardiness::
+When concentrating on a wizard spell from your <<wizard-subclass-arcanist-scholarly-speciality,chosen school>>, you reduce bludgeoning, piercing, and slashing damage you take by an amount equal to the level of the spell.
+
+[#wizard-subclass-arcanist-specialized-mastery-heightened-potency]
+Heightened Potency::
+When you cast a wizard spell from your <<wizard-subclass-arcanist-scholarly-speciality,chosen school>>, it is always treated as though it were cast with a spell slot one level higher (maximum 9th-level) than the one you used, so long as you expended a spell slot to cast it.
+The slot you use to cast the spell must still be at least equal to the level of the spell.
+
+[#wizard-subclass-arcanist-specialized-mastery-precise-understanding]
+Precise Understanding::
+When you see a creature cast a spell from your <<wizard-subclass-arcanist-scholarly-speciality,chosen school>>, you automatically know what spell it's casting.
+In addition, you have advantage on saving throws against spells.
+
+
+:leveloffset: 2
+
+[#wizard-subclass-theurge]
+=== {subclass-name-wizard-theurge}
+:leveloffset: +2
+
+
+Not all wizards focus on one of the traditional 8 schools of magic.
+Wizards of this pursuit delve what other Wizards consider untouchable.
+The secrets of the divine.
+They discover and delve the paths of power that divine magic activates, and seek to recreate it through precise understanding and deep knowledge.
+Some are deeply religious, devoted to gods and seeking to understand them at a higher level, some follow unrestrained academic curiosity, and yet others seek this power for blasphemous reasons.
+
+== Study of the Divine
+Beginning at 2nd level, you delve the secrets of the divine, prying into magic usually denied to the arcane paths.
+Whenever you gain a Wizard level, you can replace one of the Wizard spells you add to your spellbook with a spell from the <<spell-list-cleric,Cleric spell list>>.
+Any Cleric spell you gain from this feature is considered a Wizard spell for you and is recorded in your spellbook, but other Wizards are unable to copy these spells into their own spellbooks.
+The spell must be of a level for which you have spell slots, and can never be a spell level higher than your proficiency bonus (meaning you will be unable to learn Cleric spells of 7th level or higher).
+
+Your ability to recreate divine magic using arcane magic is limited.
+You can cast a number of spells gained from this feature equal to your proficiency bonus.
+You regain all uses when you complete a long rest. When you use your Arcane Recovery feature, you can choose to reset this limit instead of regain spell slots.
+Using divine magic that brings creatures back from the dead strains your body, causing you to gain 2 levels of exhaustion when you cast a spell learned through this feature that restores a creature to life.
+
+== Theologian
+Additionally at 2nd level, you gain proficiency in the Religion skill.
+If you already have proficiency in Religion, you can select another skill to gain proficiency in.
+
+== Celestial Conduit
+Starting at 6th level, when you cast a spell from the Cleric spell list, you gain temporary hit points equal to your Intelligence modifier + the level of the spell.
+
+== Divine Revelation
+Beginning at 10th level, your understanding of divine magic reaches complete comprehension.
+You can copy Cleric spells into your spellbook from scrolls or other written records of them.
+Additionally, when you deal fire or lightning damage, you can replace half the damage dealt with radiant damage. When you deal cold or poison damage, you can replace half the damage dealt with necrotic damage.
+
+== Divine Synthesis
+Starting at 14th level, your research into the synthesis of divine and arcane reveals to you a greater harmony of power.
+When you cast a 1st level or higher spell from the Wizard spell list or a spell from the Cleric spell list as your action, you can cast a 1st level or higher spell from the other list with a casting time of an action or bonus action as a bonus action (regardless of its casting time).
+The total level of the two spells combined cannot exceed your half your Wizard level (rounded down).
+
+
+:leveloffset: 2
+
+
+:leveloffset!:
+
+<<<
+
+[#ancestries]
+== Ancestries
+
+:leveloffset: +1
+
+
+== Ancestral Traits
+The description of each ancestry includes inherited traits that are common to members of that ancestry. The following entries appear among the traits of most ancestries. Some ancestries have variants with traits of the parent ancestry and variant-specific traits.
+
+Age::
+The age entry notes when an ancestry member becomes an adult and its expected lifespan. This helps decide your character’s age at the game’s start. You can choose any age, which may explain ability scores. For instance, a young or old character might have low Strength or Constitution, while advanced age could explain high Intelligence or Wisdom.
+
+Size::
+Characters of most ancestries are Medium, between 4 and 8 feet tall. A few ancestries are Small (2 to 4 feet tall), and some game rules may affect them differently. Small characters may struggle with heavy weapons, as explained in “Equipment.”
+
+Speed::
+Your speed determines how far you can move when traveling (“Adventuring”) and fighting (“Combat”).
+
+Languages::
+By virtue of your ancestry, your character can speak, read, and write certain languages.
+
+[#ancestry-dwarf]
+== Dwarf
+:leveloffset: +1
+
+
+Sturdy and resilient, dwarves are known for their compact build with strong frames and broad features. Their intricate beards and braids often represent cultural pride. Dwarves have a reputation for craftsmanship and have a deep connection to the earth, often favoring mountainous or underground regions.
+
+== Dwarf Traits
+Your dwarf character has an assortment of inborn abilities, part and parcel of dwarven nature.
+
+Age.:: Dwarves mature at the same rate as humans, but they’re considered young until they reach the age of 50. On average, they live about 350 years.
+
+Size.:: Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.
+
+Speed.:: Your base walking speed is 25 feet. Your speed is not reduced by wearing heavy armor.
+
+Darkvision.:: Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.
+
+Dwarven Resilience.:: You have advantage on saving throws against poison, and you have resistance against poison damage.
+
+
+:leveloffset: 1
+
+[#ancestry-elf]
+== Elf
+:leveloffset: +1
+
+
+Elves have sharp, angular features and pointed ears that vary widely in color, often reflecting their connection to nature or magic. They are long-lived, known for valuing art, knowledge, and harmony with their environment.
+
+== Elf Traits
+Your elf character has a variety of natural abilities, the result of thousands of years of elven refinement.
+
+Age.:: Elves reach physical maturity around the same age as humans, but adulthood encompasses worldly experience. They typically claim adulthood and an adult name around 100 and can live up to 750 years.
+
+Size.:: Elves range from under 5 to over 6 feet tall and tend to have slender builds. Your size is Medium.
+
+Speed.:: Your base walking speed is 30 feet.
+
+Darkvision.:: Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.
+
+Keen Senses.:: You have proficiency in the Perception skill.
+
+Fey Ancestry.:: You have advantage on saving throws against being charmed, and magic can’t put you to sleep.
+
+Trance.:: Elves meditate and dream deeply for 4 hours daily, remaining semiconscious, which is called “trance.” These dreams are mental exercises that have become reflexive through practice.
+After resting this way, you gain the same benefit as a human from 8 hours of sleep.
+
+
+
+:leveloffset: 1
+
+
+:leveloffset!:
+
+<<<
+
+== Cultures
+
+:leveloffset: +1
+
+
+Choose a culture for your character.
+While some cultures are closely associated with a specific ancestry, depending on your character’s past, you may choose any culture for them. Each culture has unique traits.
+You gain all traits associated with your chosen culture, unless otherwise stated.
+Characters raised in a culture share common traits.
+
+[#culture-cosmopolitan]
+== Cosmopolitan
+:leveloffset: +1
+
+
+Urban dwellers from this culture value adaptability, social connections, and quick thinking. They thrive in diverse environments, seamlessly navigating social circles and leveraging their resourcefulness.
+
+Discreetly Armed.:: You gain expertise on checks made to persuade others to let you remain armed or to conceal weapons or items about your person.
+
+Fashion Sense.:: After you spend at least 1 minute observing a creature within 60 feet, you can use an action to make either an Insight or History check against a DC equal to the creature’s passive Deception check score. On a success, you learn the following information about that creature:
++
+- Whether the creature has a lower Charisma score than yourself.
+- The creature’s culture and national origin (if any).
+- The creature’s social standing in the local majority culture.
+
+Skill Versatility.:: You gain proficiency in Persuasion and one other skill of your choice.
+
+Urban Denizen.:: You can make an Investigation check to learn a person’s location (or gain a helpful clue) by discreetly asking in the right places.
+The difficulty is DC 15 if they’re not hiding, or DC 20 if they’re trying to conceal it.
+
+Well-Connected.:: You gain an extra connection, selected from a background of your choice.
+This person is of a different heritage or national origin than yourself.
+
+Languages.:: You can speak, read, write, and sign in Common and two additional languages.
+
+
+:leveloffset: 1
+
+[#culture-lone-wanderer]
+== Lone Wanderer
+:leveloffset: +1
+
+
+This culture, characterized by its independent spirit, values self-reliance and adaptability. Its members are resourceful and embrace unique paths in life.
+
+Culture of My Own.:: You gain four skill or tool proficiencies of your choice.
+
+Heirloom.:: Choose one weapon worth 100 gold or less. You begin play with a masterwork version of that weapon.
+
+Languages.:: You can speak, read, write, and sign Common and two additional languages.
+
+
+:leveloffset: 1
+
+
+:leveloffset!:
+
+<<<
+
+== Level Advancement
+
+:leveloffset: +1
+
+
+As your character gains experience points and levels up, they gain additional features and proficiency bonuses.
+Each level also grants an extra Hit Die, which can be rolled and added to your hit point maximum, or used as a fixed value.
+When your Constitution modifier increases, your hit point maximum increases by 1 for each level.
+The <<level-advancement-character-advancement-table,Character Advancement table>> summarizes the XP needed to level up from 1 to 20 and the proficiency bonus for each level.
+Refer to your character’s class description for other level-based improvements.
+
+[#level-advancement-character-advancement-table]
+.Character Advancement (table)
+[%header,cols="2,1,2",format=dsv,separator=;]
+|===
+Experience Points ; Level ; Proficiency Bonus
+
+0                 ; 1     ; +2
+300               ; 2     ; +2
+900               ; 3     ; +2
+2,700             ; 4     ; +2
+6,500             ; 5     ; +3
+14,000            ; 6     ; +3
+23,000            ; 7     ; +3
+34,000            ; 8     ; +3
+48,000            ; 9     ; +4
+64,000            ; 10    ; +4
+85,000            ; 11    ; +4
+100,000           ; 12    ; +4
+120,000           ; 13    ; +5
+140,000           ; 14    ; +5
+165,000           ; 15    ; +5
+195,000           ; 16    ; +5
+225,000           ; 17    ; +6
+265,000           ; 18    ; +6
+305,000           ; 19    ; +6
+355,000           ; 20    ; +6
+|===
+
+== Multiclassing
+Multiclassing lets you gain levels in multiple classes, mixing their abilities to create unique character concepts.
+You can gain a level in a new class whenever you advance, instead of your current class.
+Levels in all classes add up to determine your character level.
+For instance, three Wizard levels and two Fighter levels make you a 5th-level character.
+
+As you level up, you may stay in your original class with a few levels in another, or change course entirely.
+You might even start progressing in a third or fourth class.
+Compared to a single-class character of the same level, you sacrifice focus for versatility.
+
+=== Prerequisites
+To qualify for a new class, meet the ability score prerequisites for both your current and new classes, as shown in the <<multiclassing-prerequisites-table,Multiclassing Prerequisites table>>.
+For instance, a {class-name-barbarian} multiclassing into {class-name-druid} must have 13 or higher Strength and Wisdom scores.
+Without the training of a beginning character, you must be a quick learner with natural aptitude reflected by higher-than-average ability scores.
+
+[#multiclassing-prerequisites-table]
+.Multiclassing Prerequisites (table)
+[%header,cols="1,4",format=dsv,separator=;]
+|===
+Class       ; Ability Score Minimum
+
+Dreadnought ; Strength 13
+Bard        ; Charisma 13
+Cleric      ; Wisdom 13
+Primal      ; Wisdom 13
+Fighter     ; Strength 13 or Dexterity 13
+Adept       ; Dexterity 13 and Wisdom 13
+Vanguard    ; Strength 13 and Charisma 13
+Ranger      ; Dexterity 13 and Wisdom 13
+Rogue       ; Dexterity 13
+Sorcerer    ; Charisma 13
+Warlock     ; Charisma 13
+Wizard      ; Intelligence 13
+|===
+
+== Proficiencies
+When you gain your first level in a class other than your initial class, you gain only some of new class’s starting proficiencies, as shown in the <<multiclassing-proficiencies-table,Multiclassing Proficiencies table>>.
+
+[#multiclassing-proficiencies-table]
+.Multiclassing Proficiencies (table)
+[%header,cols="1,4",format=dsv,separator=;]
+|===
+Class       ; Proficiencies Gained
+
+Dreadnought ; Shields, simple weapons, martial weapons
+Bard        ; Light armor, one skill of your choice, one musical instrument of your choice
+Cleric      ; Light armor, medium armor, shields
+Primal      ; Light armor, medium armor, shields (Primals will not wear armor or use shields made of metal)
+Fighter     ; Light armor, medium armor, shields, simple weapons, martial weapons
+Adept       ; Simple weapons, shortswords
+Vanguard    ; Light armor, medium armor, shields, simple weapons, martial weapons
+Ranger      ; Light armor, medium armor, shields, simple weapons, martial weapons, one skill from the class’s skill list
+Rogue       ; Light armor, one skill from the class’s skill list, thieves’ tools
+Sorcerer    ; —
+Warlock     ; Light armor, simple weapons
+Wizard      ; —
+|===
+
+[#languages]
+=== Languages
+Your culture determines your default languages that you can read, speak, write, and sign, provided there is no disability or condition that prevents you from doing so.
+Your background may grant access to additional languages of your choice.
+Note these languages on your character sheet.
+
+Choose from the <<languages-standard-table,Standard Languages table>>, or a common language in your campaign.
+With your GM’s permission, you can choose an <<languages-exotic-table,exotic language>> if it fits your background.
+
+Some languages are families with many dialects.
+For instance, the Primordial language includes Auran, Aquan, Ignan, and Terran dialects for each elemental plane.
+Creatures speaking different dialects of the same language can communicate.
+
+[#languages-standard-table]
+.Standard Languages (table)
+[%header,cols="1,1,1",format=dsv,separator=;]
+|===
+Language  ; Typical Speakers  ; Script
+
+Common    ; Humans            ; Common
+Dwarvish  ; Dwarves           ; Dwarvish
+Elvish    ; Elves             ; Elvish
+Giant     ; Ogres, giants     ; Dwarvish
+Gnomish   ; Gnomes            ; Dwarvish
+Goblin    ; Goblinoids        ; Dwarvish
+Halfling  ; Halflings         ; Common
+Orc       ; Orcs              ; Dwarvish
+|===
+
+[#languages-exotic-table]
+.Exotic Languages (table)
+[%header,cols="1,1,1",format=dsv,separator=;]
+|===
+Language      ; Typical Speakers      ; Script
+
+Abyssal       ; Demons                ; Infernal
+Celestial     ; Celestials            ; Celestial
+Draconic      ; Dragons, dragonborn   ; Draconic
+Deep Speech   ; Aboleths, cloakers    ; —
+Infernal      ; Devils                ; Infernal
+Primordial    ; Elementals            ; Dwarvish
+Sylvan        ; Fey creatures         ; Elvish
+Undercommon   ; Underworld traders    ; Elvish
+|===
+
+.Signing
+[sidbebar]
+****
+You must have at least one hand free to communicate by sign, and the creature you are communicating with must be able to see you.
+When attempting to make subtle signs, to remain unnoticed you must succeed on a Sleight of Hand check against the passive Perception scores of observers.
+****
+
+
+:leveloffset!:
+
+<<<
+
+[#equipment]
+== Equipment
+:leveloffset: +0
+
+
+Common coins are made of gold, silver, and copper, with different denominations based on their metal worth.
+
+A gold piece can buy a bedroll, rope, or a goat. Skilled artisans earn one gold piece daily.
+Gold is the standard unit of wealth, though coins aren’t commonly used.
+When discussing deals worth hundreds or thousands of gold pieces, transactions usually involve gold bars, letters of credit, or valuable goods.
+
+A gold piece is worth ten silver pieces, which buy a laborer’s work, lamp oil, or a poor inn’s night’s rest.
+A silver piece is worth ten copper pieces, which buy candles, torches, or chalk.
+
+Unusual coins made of other precious metals, like electrum and platinum, sometimes appear in treasure hoards.
+Electrum is worth five silver pieces, and platinum is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+.Standard Exchange Rates (table)
+[%header,cols="2,1,1,1,1,1",format=dsv,separator=;]
+|===
+Coin          ; CP          ; SP          ; EP          ; GP            ; PP
+
+Copper (cp)   ; stem:[1]    ; stem:[1/10] ; stem:[1/50] ; stem:[1/100]  ; stem:[1/1000] 
+Silver (sp)   ; stem:[10]   ; stem:[1]    ; stem:[1/5]  ; stem:[1/10]   ; stem:[1/100]
+Electrum (ep) ; stem:[50]   ; stem:[5]    ; stem:[1]    ; stem:[1/2]    ; stem:[1/20]
+Gold (gp)     ; stem:[100]  ; stem:[10]   ; stem:[2]    ; stem:[1]      ; stem:[1/10]
+Platinum (pp) ; stem:[1000] ; stem:[100]  ; stem:[20]   ; stem:[10]     ; stem:[1]
+|===
+
+
+:leveloffset!:
+
+[#equipment-selling-treasure]
+=== Selling Treasure
+:leveloffset: +1
+
+
+Opportunities arise to find treasure, equipment, weapons, armor, and more in dungeons. You can sell your loot in towns or settlements if you find buyers.
+
+Undamaged weapons, armor, and other equipment fetch half their cost in markets. Monsters’ weapons and armor are rarely in good condition for sale.
+
+Selling magic items is tricky.
+Potions and scrolls are easy to find buyers for, but other items are rare and expensive, mostly for wealthy nobles.
+Magic items are far more valuable than gold and should be treated as such.
+
+Gems, jewelry, and art objects retain their full value and can be traded for coin or used as currency.
+For exceptionally valuable treasures, the GM may require you to find a buyer in a large town or community.
+
+Trade goods such as grain, salt, and domesticated beasts are sought after everywhere and so are unlikely to diminish much in value from place to place.
+
+
+:leveloffset!:
+
+[#equipment-armor]
+=== Armor
+:leveloffset: +1
+
+
+Fantasy gaming worlds have diverse cultures with varying technology levels, offering adventurers a wide range of armor types, from leather to chain mail and costly plate armor.
+The Armor table categorizes these common armor types into light, medium, and heavy armor, along with their cost, weight, and other properties. Many warriors also use shields.
+
+Armor Proficiency.:: Anyone can put on a suit of armor or strap a shield to an arm.
+Only those proficient in the armor’s use know how to wear it effectively, however.
+Your class gives you proficiency with certain types of armor.
+If you wear armor that you lack proficiency with, you have disadvantage on any ability check, saving throw, or attack roll that involves Strength or Dexterity, and you can’t cast spells.
+
+Armor Class (AC).:: Armor protects its wearer from attacks. The armor (and shield) you wear determines your base Armor Class.
+
+Heavy Armor.:: Heavier armor interferes with the wearer’s ability to move quickly, stealthily, and freely.
+If the Armor table shows “Str 13” or “Str 15” in the Strength column for an armor type, the armor reduces the wearer’s speed by 10 feet unless the wearer has a Strength score equal to or higher than the listed score.
+
+Stealth.:: If the Armor table shows “Disadvantage” in the Stealth column, the wearer has disadvantage on Dexterity (Stealth) checks.
+
+Shields.:: A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.
+
+[#equipment-armor-light-armor]
+== Light Armor
+Made from supple and thin materials, light armor favors agile adventurers since it offers some protection without sacrificing mobility.
+If you wear light armor, you add your Dexterity modifier to the base number from your armor type to determine your Armor Class.
+
+Padded.:: Padded armor consists of quilted layers of cloth and batting.
+Leather.:: The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.
+Studded Leather.:: Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.
+
+[#equipment-armor-medium-armor]
+== Medium Armor
+Medium armor offers more protection than light armor, but it also impairs movement more. If you wear medium armor, you add your Dexterity modifier, to a maximum of +2, to the base number from your armor type to determine your Armor Class.
+
+Hide.:: This crude armor consists of thick furs and pelts.
+Chain Shirt.:: Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather.
+This armor offers modest protection to the wearer’s upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers.
+Scale Mail.:: This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish.
+The suit includes gauntlets.
+Breastplate.:: This armor consists of a fitted metal chest piece worn with supple leather.
+Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer’s vital organs while leaving the wearer relatively unencumbered.
+Half Plate.:: Half plate consists of shaped metal plates that cover most of the wearer’s body.
+It does not include leg protection beyond simple greaves that are attached with leather straps.
+
+[#equipment-armor-heavy-armor]
+== Heavy Armor
+Of all the armor categories, heavy armor offers the best protection. These suits of armor cover the entire body and are designed to stop a wide range of attacks. Only proficient warriors can manage their weight and bulk.
+
+Heavy armor doesn’t let you add your Dexterity modifier to your Armor Class, but it also doesn’t penalize you if your Dexterity modifier is negative.
+
+Ring Mail.:: This armor is leather armor with heavy rings sewn into it. The rings help reinforce the armor against blows from swords and axes. Ring mail is inferior to chain mail, and it's usually worn only by those who can’t afford better armor.
+Chain Mail.:: Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.
+Splint.:: This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints.
+Plate.:: Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.
+
+[#equipment-armor-table]
+== Armor table
+// Markdonw cannot handle multi-column cells, so we have to handle that case differently
+
+.Armor (table)
+[%header,cols="2,1,2,1,2,1"]
+|===
+| Armor | Cost | Armor Class (AC) | Strength | Stealth | Weight
+
+ifndef::markdown[]
+6+^s| Light Armor
+endif::[]
+ifdef::markdown[]
+| **Light Armor** | | | | |
+endif::[]
+
+| Padded
+| 5 gp
+| 11 + Dex modifier
+| —
+| Disadvantage
+| 8 lb.
+
+| Leather
+| 10 gp
+| 11 + Dex modifier
+| —
+| —
+| 10 lb.
+
+| Studded leather
+| 45 gp
+| 12 + Dex modifier
+| —
+| —
+| 13 lb.
+
+ifndef::markdown[]
+6+^s| Medium Armor
+endif::[]
+ifdef::markdown[]
+| **Medium Armor** | | | | |
+endif::[]
+
+| Hide
+| 10 gp
+| 12 + Dex modifier (max 2)
+| —
+| —
+| 12 lb.
+
+| Chain shirt
+| 50 gp
+| 13 + Dex modifier (max 2)
+| —
+| —
+| 20 lb.
+
+| Scale mail
+| 50 gp
+| 14 + Dex modifier (max 2)
+| —
+| Disadvantage
+| 45 lb.
+
+| Breastplate
+| 400 gp
+| 14 + Dex modifier (max 2)
+| —
+| —
+| 20 lb.
+
+| Half plate
+| 750 gp
+| 15 + Dex modifier (max 2)
+| —
+| Disadvantage
+| 40 lb.
+
+ifndef::markdown[]
+6+^s| Heavy Armor
+endif::[]
+ifdef::markdown[]
+| **Heavy Armor** | | | | |
+endif::[]
+
+| Ring mail
+| 30 gp
+| 14
+| —
+| Disadvantage
+| 40 lb.
+
+| Chain mail
+| 75 gp
+| 16
+| Str 13
+| Disadvantage
+| 55 lb.
+
+| Splint
+| 200 gp
+| 17
+| Str 15
+| Disadvantage
+| 60 lb.
+
+| Plate
+| 1,500 gp
+| 18
+| Str 15
+| Disadvantage
+| 65 lb.
+
+ifndef::markdown[]
+6+^s| Shield
+endif::[]
+ifdef::markdown[]
+| **Shield** | | | | |
+endif::[]
+
+| Shield
+| 10 gp
+| +2
+| —
+| —
+| 6 lb.
+|===
+
+[#equipment-armor-don-and-dof]
+== Getting Into and Out of Armor
+The time it takes to don or doff armor depends on the armor’s category.
+
+Don.:: This is the time it takes to put on armor. You benefit from the armor’s AC only if you take the full time to don the suit of armor.
+Doff.:: This is the time it takes to take off armor. If you have help, reduce this time by half.
+
+[#equipment-armor-don-and-dof-table]
+.Donning and Doffing Armor (table)
+[%header,cols="1,1,1",format=dsv,separator=;]
+|===
+Category      ; Don         ; Doff
+
+Light Armor   ; 1 minute    ; 1 minute
+Medium Armor  ; 5 minutes   ; 1 minute
+Heavy Armor   ; 10 minutes  ; 5 minutes
+Shield        ; 1 action    ; 1 action
+|===
+
+
+:leveloffset!:
+
+<<<
+
+[#playing-the-game]
+= Playing the Game
+
+== Using Ability Scores
+:leveloffset: +1
+
+
+Six abilities provide a quick description of every creature’s physical and mental characteristics:
+[horizontal]
+Strength,:: measuring physical power
+Dexterity,:: measuring agility
+Constitution,:: measuring endurance
+Intelligence,:: measuring reasoning and memory
+Wisdom,:: measuring perception and insight
+Charisma,:: measuring force of personality
+
+Is a character muscle-bound and insightful?
+Brilliant and charming?
+Nimble and hardy?
+Ability scores define these qualities—a creature’s assets as well as weaknesses.
+
+The three main rolls of the game—the ability check, the saving throw, and the attack roll—rely on the six ability scores.
+The book’s introduction describes the basic rule behind these rolls: roll a d20, add an ability modifier derived from one of the six ability scores, and compare the total to a target number.
+
+
+:leveloffset!:
+
+<<<
+
+[#spellcasting]
+= Spellcasting
+
+:leveloffset: +0
+
+
+Magic rules fantasy gaming worlds, often as spells.
+This section covers spellcasting.
+Character classes and monsters have unique spell learning and preparation methods.
+Regardless of origin, spells follow these rules.
+
+== What Is a Spell?
+A spell is a discrete magical effect, a single shaping of magical energies in the multiverse.
+Casting a spell involves plucking, pinning, vibrating, and releasing invisible strands of magic to unleash the desired effect, usually in seconds.
+Spells can be versatile tools, weapons, or protective wards, dealing damage, undoing it, imposing or removing conditions, draining life energy, or restoring it.
+Thousands of spells have been created throughout history, many forgotten.
+Some might be recorded in ancient spellbooks or trapped in the minds of dead gods, while others could be reinvented by powerful characters.
+
+== Concentration
+Some spells require concentration to maintain their magic. If you lose concentration, the spell ends.
+If a spell needs concentration, its Duration entry specifies how long you can concentrate.
+You can end concentration anytime. Normal activity doesn’t interfere.
+The following can break concentration:
+
+Casting another spell that requires concentration.:: You lose concentration on a spell if you cast another spell that requires concentration.
+You can’t concentrate on two spells at once.
+Taking damage.:: Whenever you take damage while concentrating on a spell, make a Constitution saving throw to maintain concentration.
+The DC is 10 or half the damage, whichever is higher.
+If you take damage from multiple sources, make a separate saving throw for each.
+Being incapacitated or killed.:: You lose concentration on a spell if incapacitated or die.
+The GM may also require a DC 10 Constitution saving throw to maintain concentration on a spell due to certain environmental phenomena, like a crashing wave on a storm-tossed ship.
+
+
+:leveloffset!:
+
+== Spell Lists
+
+[#spell-list-cleric]
+=== {class-name-cleric} Spells
+
+:leveloffset: +2
+
+
+== Cantrips (0 Level)
+- Guidance
+- Mending
+- Sacred Flame
+
+== 1st Level
+- Bane
+- Ceremony
+- Command
+- <<spell-cure-wounds>>
+- Detect Magic
+- Guiding Bolt
+- Inflict Wounds
+- Protection from Evil and Good
+- Purify Food and Drink
+- Sanctuary
+- Shield of Faith
+
+== 2nd Level
+- <<spell-aid>>
+- Augury
+- Blindness/Deafness
+- Calm Emotions
+- Continual Flame
+- Enhance Ability
+- Find Traps
+- Gentle Repose
+- Hold Person
+- Lesser Restoration
+- Locate Object
+- Prayer of Healing
+- Protection from Poison
+- Silence
+- Spiritual Weapon
+- Warding Bond
+- Zone of Truth
+
+== 3rd Level
+- <<spell-animate-dead>>
+- Beacon of Hope
+- Bestow Curse
+- Clairvoyance
+- Create Food and Water
+- Daylight
+- Dispel Magic
+- Glyph of Warding
+- Magic Circle
+- Mass Healing Word
+- Meld into Stone
+- Protection from Energy
+- Remove Curse
+- Revivify
+- Sending
+- Speak with Dead
+- Spirit Guardians
+- Tongues
+- Water Walk
+
+== 4th Level
+- Banishment
+- Control Water
+- Death Ward
+- Divination
+- Freedom of Movement
+- Guardian of Faith
+- Locate Creature
+
+== 5th Level
+- Commune
+- Dispel Evil and Good
+- Geas
+- Hallow
+- Legend Lore
+- Planar Binding Raise Dead Scrying
+
+== 6th Level
+- Blade Barrier
+- Find the Path
+- Harm
+- Heroes’ Feast
+- True Seeing
+
+== 7th Level
+- Conjure Celestial
+- Etherealness
+- Plane Shift
+- Resurrection
+
+== 8th Level
+- Antimagic Field
+- Earthquake
+
+== 9th Level
+- Astral Projection
+- Mass Heal True Resurrection
+
+
+:leveloffset!:
+
+[#spell-list-vanguard]
+=== {class-name-paladin} Spells
+
+:leveloffset: +2
+
+
+== 1st Level
+- <<spell-bless>>
+- Command
+- <<spell-cure-wounds>>
+- Detect Evil and Good
+- Detect Magic
+- Detect Poison and Disease
+- Divine Favor
+- Heroism
+- Protection from Evil and Good
+- Purify Food and Drink
+- Shield of Faith
+
+== 2nd Level
+- <<spell-aid>>
+- Branding Smite
+- Find Steed
+- Lesser Restoration
+- Locate Object
+- Magic Weapon
+- Protection from Poison
+- Zone of Truth
+
+== 3rd Level
+- Create Food and Water
+- Daylight
+- Dispel Magic
+- Magic Circle
+- Remove Curse
+- Revivify
+
+== 4th Level
+- Banishment
+- Locate Creature
+
+== 5th Level
+- Dispel Evil and Good
+- Raise Dead
+
+
+:leveloffset!:
+
+[#spell-list-wizard]
+=== {class-name-wizard} Spells
+
+:leveloffset: +2
+
+
+== Cantrips (0 Level)
+- <<spell-acid-splash>>
+- Chill Touch
+- Dancing Lights
+- Fire Bolt
+- Friends
+- Light
+- Mage Hand
+- Mending
+- Message
+- Minor Illusion
+- Poison Spray
+- Prestidigitation
+- Ray of Frost
+- Shocking Grasp
+- True Strike
+
+== 1st Level
+- Alarm
+- Burning Hands
+- Charm Person
+- Color Spray
+- Comprehend Languages
+- Detect Magic
+- Disguise Self
+- Expeditious Retreat
+- False Life
+- Feather Fall
+- Find Familiar
+- Floating Disk
+- Fog Cloud
+- Hideous Laughter
+- Illusory Script
+- Iz’zart's Swarm Limb
+- Longstrider
+- Magic Missile
+- Shield
+- Thunderwave
+
+== 2nd Level
+- Acid Arrow
+- Arcane Lock
+- Blindness/Deafness
+- Continual Flame
+- Darkvision
+- Enlarge/Reduce
+- Gentle Repose
+- Hold Person
+- Knock
+- Locate Object
+- Magic Weapon
+- Misty Step
+- Rope Trick
+- See Invisibility
+- Spider Climb
+- Web
+
+== 3rd Level
+- <<spell-animate-dead>>
+- Blink
+- Clairvoyance
+- Counterspell
+- Dispel Magic
+- Fear
+- Fireball
+- Fly
+- Gaseous Form
+- Glyph of Warding
+- Haste
+- Hypnotic Pattern
+- Lightning Bolt
+- Magic Circle
+- Major Image
+- Nondetection
+- Phantom Steed
+- Protection from Energy
+- Remove Curse
+- Sending
+- Sleet Storm
+- Slow
+- Stinking Cloud
+- Tiny Hut
+- Tongues
+- Vampiric Touch
+- Water Breathing
+
+== 4th Level
+- Arcane Eye
+- Banishment
+- Black Tentacles
+- Blight
+- Charm Monster
+- Confusion
+- Conjure Minor Elementals
+- Control Water
+- Dimension Door
+- Fabricate
+- Faithful Hound
+- Fire Shield
+- Greater Invisibility
+- Hallucinatory Terrain
+- Ice Storm
+- Locate Creature
+- Phantasmal Killer
+- Polymorph
+- Private Sanctum
+- Resilient Sphere
+- Secret Chest
+- Stone Shape
+- Stoneskin
+- Wall of Fire
+
+== 5th Level
+- <<spell-animate-objects>>
+- Arcane Hand
+- Cone of Cold
+- Contact Other Plane
+- Dominate Person
+- Geas
+- Legend Lore
+- Modify Memory
+- Planar Binding
+- Scrying
+- Seeming
+- Telepathic Bond
+- Wall of Force
+
+== 6th Level
+- Chain Lightning
+- Create Undead
+- Eyebite
+- Globe of Invulnerability
+- Instant Summons
+- Magic Jar
+- Move Earth
+- Sunbeam
+- Wall of Ice
+
+== 7th Level
+- Arcane Sword
+- Etherealness
+- Forcecage
+- Mirage Arcane
+- Prismatic Spray
+- Project Image
+- Reverse Gravity
+- Sequester
+- Simulacrum
+- Symbol
+- Teleport
+
+== 8th Level
+- Antimagic Field
+- Antipathy/Sympathy
+- Clone
+- Control Weather
+- Demiplane
+- Dominate Monster
+- Feeblemind
+- Incendiary Cloud
+- Maze
+- Mind Blank
+- Power Word Stun
+- Sunburst
+
+== 9th Level
+- Astral Projection
+- Foresight
+- Gate
+- Imprisonment
+- Meteor Swarm
+- Power Word Kill
+- Prismatic Wall
+- Shapechange
+- Time Stop
+- True Polymorph
+- Weird
+- Wish
+
+
+:leveloffset!:
+
+<<<
+
+== Spell Descriptions
+
+:leveloffset: +1
+
+
+[#spell-acid-splash]
+== Acid Splash
+:leveloffset: +2
+
+
+_Conjuration cantrip_
+[horizontal]
+{spellcasting-casting-time}:: 1 action
+{spellcasting-range}:: 60 feet
+{spellcasting-target}:: Up to two creatures within 5 feet of each other
+{spellcasting-components}:: V, S
+{spellcasting-duration}:: Instantaneous
+{spellcasting-saving-throw}:: Dexterity negates
+
+A stinking bubble of acid is conjured out of thin air to fly at the targets, dealing 1d6 acid damage.
+
+This spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).
+
+
+:leveloffset: 1
+
+[#spell-aid]
+== Aid
+:leveloffset: +2
+
+
+_2nd-level abjuration_
+[horizontal]
+{spellcasting-casting-time}:: 1 action
+{spellcasting-range}:: 60 feet
+{spellcasting-target}:: Up to three creatures
+{spellcasting-components}:: V, S, M (measure of spirits)
+{spellcasting-duration}:: 8 hours
+
+You draw upon divine power, imbuing the targets with fortitude.
+Until the spell ends, each target increases its hit point maximum and current hit points by 5.
+
+{spellcasting-at-higher-levels}.:: The granted hit points increase by an additional 5 for each slot level above 2nd.
+
+
+:leveloffset: 1
+
+[#spell-animate-dead]
+== Animate Dead
+:leveloffset: +2
+
+
+_3rd-level necromancy_
+[horizontal]
+{spellcasting-casting-time}:: 1 minute
+{spellcasting-range}:: Touch
+{spellcasting-components}:: V, S, M (two copper coins)
+{spellcasting-duration}:: Instantaneous
+
+You animate a mortal’s remains to become your undead servant.
+
+If the spell is cast upon bones you create a skeleton, and if cast upon a corpse you can choose to create a skeleton or a zombie. The GM has the undead’s statistics.
+
+While it is within 60 feet you can use a bonus action to mentally command any undead you created with this spell. When you command multiple undead using this spell, you must give them all the same command. You may decide the creature’s exact action and move, or you can issue a general command, such as guarding an area, which it follows until the task is complete or you issue it a new command. If not given a command, the undead only defends itself.
+
+The undead is under your control for 24 hours unless you cast this spell on it before the spell ends to maintain control of it for another 24 hours. Casting the spell in this way reasserts control over up to 4 of your previously-animated undead instead of animating a new one. When no longer under your control, the undead no longer obeys your commands.
+
+{spellcasting-at-higher-levels}.:: You create or maintain control over 2 additional undead for each slot level above 3rd.
+
+
+:leveloffset: 1
+
+[#spell-animate-objects]
+== Animate Objects
+:leveloffset: +2
+
+
+_5th-level transmutation_
+[horizontal]
+Casting Time:: 1 action
+Range:: Long (120 feet)
+Components:: V, S
+Duration:: Concentration (1 minute)
+
+Choose up to 6 unattended nonmagical Small or Tiny objects. You may also choose larger objects; treat Medium objects as 2 objects, Large objects as 3 objects, and Huge objects as 6 objects.
+
+Until the spell ends or a target is reduced to 0 hit points, you animate the targets and turn them into constructs under your control.
+
+Each construct has Constitution 10, Intelligence 3, Wisdom 3, and Charisma 1, as well as a flying speed of 30 feet and the ability to hover (if securely fastened to something larger, it has a Speed of 0), and blindsight to a range of 30 feet (blind beyond that distance).
+Otherwise a construct’s statistics are determined by its size.
+
+If you animate 4 or more Small or Tiny objects, instead of controlling each construct individually they function as a construct swarm. Add together all swarm’s total hit points.
+Attacks against a construct swarm deal half damage. The construct swarm reverts to individual constructs when it is reduced to 15 hit points or less.
+
+You can use a bonus action to mentally command any construct made with this spell while within 500 feet of it. When you command multiple constructs using this spell, you must give them all the same command.
+You may decide the creature’s exact action and move, or you can issue a general command, such as guarding an area, which it follows until the task is complete or you issue it a new command.
+If not given a command, the construct only defends itself.
+
+When you command a construct to attack, it makes a slam, a melee attack, against a creature within 5 feet of it.
+On a hit the construct deals bludgeoning, piercing, or slashing damage appropriate to its shape.
+
+When the construct drops to 0 hit points, any excess damage carries over to its inanimate object form.
+
+At Higher Levels.:: You can animate 2 additional Small or Tiny objects for each slot level above 5th.
+
+.Animate Objects Table
+[%header,cols="2,^1,^1,4,^1,^1"]
+|===
+| Size | HP | AC | Attack | STR | DEX
+
+| Tiny
+| 5
+| 14
+| +6 to hit, 1d4 – 3 damage
+| 4
+| 18
+
+| Small
+| 10
+| 12
+| +4 to hit, 1d6 – 2 damage
+| 6
+| 14
+
+| Swarm of Tiny and Small
+| varies
+| 13
+| +5 to hit, 2d6 damage (1d6 damage if bloodied)
+| 5
+| 16
+
+| Medium
+| 20
+| 11
+| +3 to hit, 1d8 damage
+| 10
+| 12
+
+| Large
+| 40
+| 10
+| +4 to hit, 2d8 + 2 damage
+| 14
+| 10
+
+| Huge
+| 80
+| 8
+| +6 to hit, 2d12 + 4 damage
+| 18
+| 6
+|===
+
+
+:leveloffset: 1
+
+[#spell-bless]
+== Bless
+:leveloffset: +2
+
+
+_1st-level enchantment_
+[horizontal]
+{spellcasting-casting-time}:: 1 action
+{spellcasting-range}:: 30 feet
+{spellcasting-components}:: V, S, M (a sprinkling of holy water)
+{spellcasting-duration}:: Concentration, up to 1 minute
+
+Until the spell ends, a d4 is added to attack rolls and saving throws made by a target.
+
+{spellcasting-at-higher-levels}.:: You target one additional creature for each slot level above 1st.
+
+
+:leveloffset: 1
+
+[#spell-cure-wounds]
+== Cure Wounds
+:leveloffset: +2
+
+
+_1st-level evocation_
+[horizontal]
+{spellcasting-casting-time}:: 1 action
+{spellcasting-range}:: Touch
+{spellcasting-components}:: V, S
+{spellcasting-duration}:: Instantaneous
+
+One creature that is neither a construct nor undead regains hit points equal to 1d8 + your spellcasting ability modifier.
+
+{spellcasting-at-higher-levels}.:: The hit points regained increase by 1d8 for each slot level above 1st.
+
+
+:leveloffset: 1
+
+
+:leveloffset!:
+
+<<<
+
+[appendix]
+= Credits
+[horizontal]
+Project Lead & Writer:: Dale Critchley https://wyrmworkspublishing.com
+Collaborator, Writer, & Editor:: PJ Coffey https://homebrewandhacking.com/
+Layout & Accessibility:: Chris Hopper https://bio.link/chrishopper
+
+=== Artists
+
+=== Primary Sources
+This project was made possible by Sly Flourish, EN Publishing, KibblesTasty, and Wizards of the Coast, who generously made content available under a Creative Commons license.
+We are deeply grateful for their contributions.
+
+[appendix]
+= Legal
+This work includes material taken from the A5E System Reference Document (A5ESRD) by EN Publishing and available at A5ESRD.com, based on Level Up: Advanced 5th Edition, available at www.levelup5e.com[].
+The A5ESRD is licensed under the Creative Commons Attribution 4.0 International License available at https://creativecommons.org/licenses/by/4.0/legalcode[].
+
+This work includes material taken from the System Reference Document 5.1 (“SRD 5.1”) by Wizards of the Coast LLC and available at https://dnd.Wizards.com/resources/systems-reference-document[].
+The SRD 5.1 is licensed under the Creative Commons Attribution 4.0 International License available at https://creativecommons.org/licenses/by/4.0/legalcode.
+
+This work includes material taken from the Lazy GM's Resource Document by Michael E. Shea of SlyFlourish.com, available under a Creative Commons Attribution 4.0 International License.
+
+This work includes content from Kibbles’ Compendium of Legends and Legacies by KibblesTasty Homebrew LLC and available at https://www.kthomebrew.com/krd[].
+The Kibbles’ Compendium of Legends and Legacies is licensed under the Creative Commons Attribution 4.0 International License (CC-BY-4.0) available at https://creativecommons.org/licenses/by/4.0/legalcode[].
+
+The text of Free5e Player's Guide © 2025 by Wyrmworks Publishing and available at https://free5e.com[] is licensed under Creative Commons Attribution 4.0 International.
+To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/
+You are free to use this content in any manner permitted by that license as long as you include the following attribution statement in your own work:
+
+This work includes material adapted from the **Free5e Player's Guide**, © 2025 by Wyrmworks Publishing, and available at https://free5e.com[].
+The Free5e Player's Guide is licensed under the Creative Commons Attribution 4.0 International License (CC-BY-4.0).
+To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/[].
+
+This adaptation also includes material originally taken from:
+
+- The **A5E System Reference Document (A5ESRD)** by EN Publishing, available at A5ESRD.com and licensed under CC-BY-4.0.
+- The **System Reference Document 5.1 (SRD 5.1)** by Wizards of the Coast LLC, available at https://dnd.Wizards.com/resources/systems-reference-document[] and licensed under CC-BY-4.0.
+- The **Lazy GM’s Resource Document** by Michael E. Shea of SlyFlourish.com, licensed under CC-BY-4.0.
+- The **Kibbles’ Compendium of Legends and Legacies** by KibblesTasty Homebrew LLC, available at https://www.kthomebrew.com/krd[] and licensed under CC-BY-4.0.
+
+All artwork contained in this book is licensed under CC-BY-4.0 or CC-0. To use that artwork outside of this project, see the accompanying document with specific licensing and credit information.
+If you received this copy without that document, you can obtain a copy at https://free5e.com[].
