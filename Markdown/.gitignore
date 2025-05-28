@@ -1,3 +1,4 @@
 *.adoc
 *.bak
-generated/
+#generated/
+!generated/*.adoc
