@@ -117,5 +117,3 @@ pandoc \
   --to latex \
   --output generated/${BASE_FILE_NAME}.tex \
   generated/${BASE_FILE_NAME}.xml
-
-cp ${BASE_FILE_NAME}.adoc generated/
