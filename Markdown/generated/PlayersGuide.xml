@@ -1,0 +1,1781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?asciidoc-toc maxdepth="4"?>
+<?asciidoc-numbered?>
+<book xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en-US" xml:id="PlayersGuide_free5e-players-guide">
+<info>
+<title>Free5e Player&#8217;s Guide</title>
+<date>2025-05-28</date>
+<copyright>
+<holder>Creative Commons Attribution 4.0 International License (CC-BY-4.0)</holder>
+</copyright>
+</info>
+<preface>
+<title></title>
+<simpara><emphasis role="marked">Highlighted Portions</emphasis> are scheduled for significant modification.<?asciidoc-br?>
+Sign up to receive email updates at <link xl:href="https://wyrmworkspublishing.com/hoard">https://wyrmworkspublishing.com/hoard</link><?asciidoc-br?>
+Follow and Back the Kickstarter to make this a reality at <link xl:href="https://www.kickstarter.com/projects/wyrmworkspublishing/free5e-a-free-open-source-dungeons-and-dragons-alternative?ref=dmx0j9">https://www.kickstarter.com/projects/wyrmworkspublishing/free5e-a-free-open-source-dungeons-and-dragons-alternative?ref=dmx0j9</link></simpara>
+</preface>
+<chapter xml:id="PlayersGuide_preface">
+<title>Preface</title>
+<section xml:id="Introduction_introduction">
+<title>Introduction</title>
+<simpara>Welcome to the Free5e Player&#8217;s Guide, brought to you by Wyrmworks Publishing. Our mission is to enhance inclusivity and accessibility in tabletop roleplaying. This guide is designed to help you create unique characters, embark on exciting adventures, and explore worlds where everyone can play, create, and share.</simpara>
+<section xml:id="Introduction_how-to-play">
+<title>How to Play</title>
+<simpara>Playing a tabletop roleplaying game (TTRPG) is all about imagining a character in a fantasy world and using dice to determine what happens. Here&#8217;s how it works:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Choose a Game Master (GM).</emphasis><?asciidoc-br?>
+One player is the GM, who creates the story, controls the world, and describes everything and everyone around you.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Create Your Character.</emphasis><?asciidoc-br?>
+Choose an ancestry, class, and background for your character. This is your hero in the game world!</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Playing an Encounter</emphasis><?asciidoc-br?>
+On your turn, you describe what your character does. Do you swing your sword, cast a spell, or talk to someone? To see whether you succeed, you roll a 20-sided die (d20) and add your ability score modifier and, maybe, a proficiency bonus. Higher rolls are better!</simpara>
+</listitem>
+</itemizedlist>
+<simpara><emphasis role="strong">Example of play</emphasis></simpara>
+<simpara><emphasis role="strong"><emphasis>Grey (GM):</emphasis></emphasis> The village elder has asked you to investigate a strange ruin in the nearby forest. After hours of travel, you arrive at a crumbling stone structure covered in moss. Inside, the air is damp, and faint echoes of scratching come from within the stony depths.. What do you do?</simpara>
+<simpara><emphasis role="strong"><emphasis>Susan (playing Sylvana, a halfling Bard):</emphasis></emphasis> I step in quietly and take a closer look at the walls. Do I recognize any symbols or writing?</simpara>
+<simpara><emphasis role="strong"><emphasis>GM:</emphasis></emphasis> Make an Investigation check, using Intelligence.</simpara>
+<simpara><emphasis role="strong"><emphasis>Susan:</emphasis></emphasis> (Rolls d20) That&#8217;s a 12, plus 1 for Intelligence and 2 from my Investigation proficiency, so 15 total.</simpara>
+<simpara><emphasis role="strong"><emphasis>GM:</emphasis></emphasis> You recognize some faded symbols of an ancient order dedicated to protecting the forest. This was likely a Primal temple.</simpara>
+<simpara><emphasis role="strong"><emphasis>Owen (playing Osmus, a human Ranger):</emphasis></emphasis> I listen closely to pinpoint where the scratching is coming from. Perception check?</simpara>
+<simpara><emphasis role="strong"><emphasis>GM:</emphasis></emphasis> Go ahead.</simpara>
+<simpara><emphasis role="strong"><emphasis>Owen:</emphasis></emphasis> (Rolls d20) I got a 10, plus 4 for Wisdom is 14.</simpara>
+<simpara><emphasis role="strong"><emphasis>GM:</emphasis></emphasis> The scratching is coming from behind a door at the far end of a corridor leading inside the temple.</simpara>
+<simpara><emphasis role="strong"><emphasis>Sylvana:</emphasis></emphasis> I cautiously open the door and peek inside.</simpara>
+<simpara><emphasis role="strong"><emphasis>GM:</emphasis></emphasis> The door creaks open, revealing dim light glinting off something large in the shadows. Its long, slimy tentacles sway as it shifts, and you hear its beak click. It hisses, sensing you. Perched on the ceiling, it stares down.</simpara>
+<simpara><emphasis role="strong"><emphasis>Osmus:</emphasis></emphasis> What is that thing? It looks dangerous!</simpara>
+<simpara><emphasis role="strong"><emphasis>GM:</emphasis></emphasis> It&#8217;s certainly not friendly. Roll Initiative! (Rolls d20) With its Dexterity bonus, it gets a 9.</simpara>
+<simpara><emphasis role="strong"><emphasis>Osmus:</emphasis></emphasis> (Rolls d20) 9, plus 3 for Dexterity is 12.</simpara>
+<simpara><emphasis role="strong"><emphasis>Sylvana:</emphasis></emphasis> (Rolls d20) 15! I&#8217;m first! I try to confuse it with a quick spell. I cast Vicious Mockery, shouting, <quote>You look like something the forest spit out!</quote> It needs to make a Wisdom saving throw.</simpara>
+<simpara><emphasis role="strong"><emphasis>GM:</emphasis></emphasis> (Rolls for the creature) That&#8217;s a 6. It fails.</simpara>
+<simpara><emphasis role="strong"><emphasis>Sylvana:</emphasis></emphasis> (Rolls 1d4) It takes 3 psychic damage and has disadvantage on its next attack!</simpara>
+<simpara><emphasis role="strong"><emphasis>GM:</emphasis></emphasis> The creature seems momentarily stunned, its many eyes narrowing as it hisses. Osmus, your turn!</simpara>
+<simpara><emphasis role="strong"><emphasis>Osmus:</emphasis></emphasis> I fire an arrow at it! (Rolls d20) That&#8217;s a 17, plus 5 to hit. Does that hit?</simpara>
+<simpara><emphasis role="strong"><emphasis>GM:</emphasis></emphasis> Yes, that hits. Roll for damage.</simpara>
+<simpara><emphasis role="strong"><emphasis>Osmus:</emphasis></emphasis> (Rolls 1d8) That&#8217;s a 2, but I add my Dexterity so that&#8217;s a total 5 damage!</simpara>
+<simpara><emphasis role="strong"><emphasis>GM:</emphasis></emphasis> The arrow strikes true, but the creature&#8217;s tough hide absorbs some of the blow. It lunges with its tentacles!</simpara>
+<simpara><emphasis role="strong"><emphasis>GM (as the creature):</emphasis></emphasis> (Rolls to attack Osmus with the tentacles) That&#8217;s a 22 to hit versus your Armor Class.</simpara>
+<simpara><emphasis role="strong"><emphasis>Osmus:</emphasis></emphasis> Ouch, I&#8217;ve only got 15 so that hits!</simpara>
+<simpara><emphasis role="strong"><emphasis>GM:</emphasis></emphasis> (Rolls for damage) You take 10 bludgeoning damage, and I need you to make a Strength saving throw to avoid being pulled in.</simpara>
+<simpara><emphasis role="strong"><emphasis>Osmus:</emphasis></emphasis> (Rolls d20) That&#8217;s a 14, plus 3 for Strength, so 17.</simpara>
+<simpara><emphasis role="strong"><emphasis>GM:</emphasis></emphasis> You hold your ground, but the creature&#8217;s tentacles are still trying to wrap around you. It&#8217;ll try again. What&#8217;s your next move?</simpara>
+<simpara><emphasis role="strong"><emphasis>Sylvana:</emphasis></emphasis> I step back and cast Command on the creature and shout <quote>Flee!</quote> to force it to flee! It needs to make a Wisdom saving throw, DC 13.</simpara>
+<simpara><emphasis role="strong"><emphasis>GM:</emphasis></emphasis> (Rolls for the creature) That&#8217;s a 9. It fails!</simpara>
+<simpara><emphasis role="strong"><emphasis>Sylvana:</emphasis></emphasis> It must use its reaction to move as far away as possible!</simpara>
+<simpara><emphasis role="strong"><emphasis>GM:</emphasis></emphasis> The creature screeches in pain, skittering across the ceiling to the far corner, giving you space. It looks weakened but still dangerous.</simpara>
+<simpara><emphasis role="strong"><emphasis>Osmus:</emphasis></emphasis> Let&#8217;s finish this!
+The battle continues, with the party using teamwork and clever spells to face down the fearsome creature!</simpara>
+<simpara>In every game, describe your actions, roll dice to succeed, and react to the unfolding story. The rules guide you, but the fun comes from your shared stories. Let your imagination soar!</simpara>
+</section>
+</section>
+<section xml:id="Creating_a_Character_creating-a-character">
+<title>Creating a Character</title>
+<simpara>As a player, begin by creating a character on the character sheet in the back of this book or a color-coded one at [LINK]. If you&#8217;re using a paper copy, we recommend writing in an erasable medium like pencil.</simpara>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara>Think of a fantasy character concept that you&#8217;d like to play</simpara>
+</listitem>
+<listitem>
+<simpara>Determine ability scores</simpara>
+</listitem>
+<listitem>
+<simpara>Choose your class</simpara>
+</listitem>
+<listitem>
+<simpara>Choose your ancestry</simpara>
+</listitem>
+<listitem>
+<simpara>Choose your heritage</simpara>
+</listitem>
+<listitem>
+<simpara>Choose your background</simpara>
+</listitem>
+<listitem>
+<simpara>Choose your starting equipment</simpara>
+</listitem>
+<listitem>
+<simpara>Choose starting spells if applicable</simpara>
+</listitem>
+<listitem>
+<simpara>Add details like appearance, personality, etc. Consider drawing a picture of your character. It doesn&#8217;t have to be fancy! It&#8217;s just for your friends! (If you&#8217;d like to commission a professional portrait of your character, check the credits of this book for some great artists who love illustrating characters!)</simpara>
+</listitem>
+</orderedlist>
+<section xml:id="Creating_a_Character_determine-ability-scores">
+<title>Determine Ability Scores</title>
+<simpara>Use the following scores: 15, 14, 13, 12, 10, 8. Assign each of these numbers to one of your character&#8217;s six abilities: Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma. Then add 3 points to the character&#8217;s abilities, no more than two to any single ability.</simpara>
+</section>
+<section xml:id="Creating_a_Character_variant-ability-score-point-buy">
+<title>Variant: Ability Score Point Buy</title>
+<simpara>You have 27 points to spend on ability scores. The cost of each score is shown on the Ability Score Point Cost table. Then add 3 points to the character&#8217;s abilities, no more than two to any single ability.</simpara>
+<simpara><emphasis role="strong">Ability Score Point Cost</emphasis></simpara>
+<informaltable frame="all" rowsep="1" colsep="1">
+<tgroup cols="2">
+<colspec colname="col_1" colwidth="50*"/>
+<colspec colname="col_2" colwidth="50*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Score</entry>
+<entry align="left" valign="top">Cost</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>8</simpara></entry>
+<entry align="left" valign="top"><simpara>0</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>9</simpara></entry>
+<entry align="left" valign="top"><simpara>1</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>10</simpara></entry>
+<entry align="left" valign="top"><simpara>2</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>11</simpara></entry>
+<entry align="left" valign="top"><simpara>3</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>12</simpara></entry>
+<entry align="left" valign="top"><simpara>4</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>13</simpara></entry>
+<entry align="left" valign="top"><simpara>5</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>14</simpara></entry>
+<entry align="left" valign="top"><simpara>7</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>15</simpara></entry>
+<entry align="left" valign="top"><simpara>9</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</section>
+<section xml:id="Creating_a_Character_ability-modifiers">
+<title>Ability Modifiers</title>
+<simpara>Your final ability scores determine your modifiers. Find your modifier by subtracting 10 from the ability score and dividing by 2 (round down).</simpara>
+</section>
+</section>
+</chapter>
+<chapter xml:id="PlayersGuide_classes">
+<title>Classes</title>
+<simpara><emphasis role="strong">Class Name Changes</emphasis></simpara>
+<simpara>Some class names in Free5e have been updated to remove outdated or problematic references while staying true to their themes.
+They use the same game mechanics as the original classes.</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Barbarian -&gt; Dreadnought</emphasis><?asciidoc-br?>
+Replacing a derogatory cultural slur</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Druid -&gt; Primal</emphasis><?asciidoc-br?>
+Removed inaccurate and appropriated portrayal of real-world religion</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Monk -&gt; Adept</emphasis><?asciidoc-br?>
+Expanding the concept without appropriating a cultural tradition</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Paladin -&gt; Vanguard</emphasis><?asciidoc-br?>
+Removing the association with a real-world religious conflict}</simpara>
+</listitem>
+</itemizedlist>
+<section xml:id="Cleric_cleric">
+<title>Cleric</title>
+<simpara>Clerics wield divine power as weapons and shields, serving as living conduits of their deity&#8217;s will.</simpara>
+<section xml:id="Cleric_class-features">
+<title>Class Features</title>
+<simpara>As a Cleric, you gain the following class features.</simpara>
+<section xml:id="Cleric_hit-points">
+<title>Hit Points</title>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Hit Dice</emphasis><?asciidoc-br?>
+1d8 per Cleric level</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Hit Points at 1st Level</emphasis><?asciidoc-br?>
+8 + your Constitution modifier</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Hit Points at Higher Levels</emphasis><?asciidoc-br?>
+1d8 (or 5) + your Constitution modifier per Cleric level after 1st</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="Cleric_proficiencies">
+<title>Proficiencies</title>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Armor</emphasis><?asciidoc-br?>
+Light armor, medium armor, shields</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Weapons</emphasis><?asciidoc-br?>
+Simple weapons</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Tools</emphasis><?asciidoc-br?>
+None</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Saving Throws</emphasis><?asciidoc-br?>
+Wisdom, Charisma</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Skills</emphasis><?asciidoc-br?>
+Choose two from History, Insight, Medicine, Persuasion, and Religion</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="Cleric_equipment">
+<title>Equipment</title>
+<simpara>You start with the following equipment, in addition to the equipment granted by your background:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>(a) a mace or (b) a warhammer (if proficient)</simpara>
+</listitem>
+<listitem>
+<simpara>(a) scale mail, (b) leather armor, or (c) chain mail (if proficient)</simpara>
+</listitem>
+<listitem>
+<simpara>(a) a light crossbow and 20 bolts or (b) any simple weapon</simpara>
+</listitem>
+<listitem>
+<simpara>(a) a priest&#8217;s pack or (b) an explorer&#8217;s pack</simpara>
+</listitem>
+<listitem>
+<simpara>A shield and a holy symbol</simpara>
+</listitem>
+</itemizedlist>
+<simpara><a name="cleric-table"></a><emphasis role="strong">The Cleric (table)</emphasis></simpara>
+<informaltable frame="all" rowsep="1" colsep="1">
+<tgroup cols="13">
+<colspec colname="col_1" colwidth="7.6923*"/>
+<colspec colname="col_2" colwidth="7.6923*"/>
+<colspec colname="col_3" colwidth="7.6923*"/>
+<colspec colname="col_4" colwidth="7.6923*"/>
+<colspec colname="col_5" colwidth="7.6923*"/>
+<colspec colname="col_6" colwidth="7.6923*"/>
+<colspec colname="col_7" colwidth="7.6923*"/>
+<colspec colname="col_8" colwidth="7.6923*"/>
+<colspec colname="col_9" colwidth="7.6923*"/>
+<colspec colname="col_10" colwidth="7.6923*"/>
+<colspec colname="col_11" colwidth="7.6923*"/>
+<colspec colname="col_12" colwidth="7.6923*"/>
+<colspec colname="col_13" colwidth="7.6924*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Level</entry>
+<entry align="left" valign="top">Proficiency Bonus</entry>
+<entry align="center" valign="top">Cantrips Known</entry>
+<entry align="center" valign="top">1st</entry>
+<entry align="center" valign="top">2nd</entry>
+<entry align="center" valign="top">3rd</entry>
+<entry align="center" valign="top">4th</entry>
+<entry align="center" valign="top">5th</entry>
+<entry align="center" valign="top">6th</entry>
+<entry align="center" valign="top">7th</entry>
+<entry align="center" valign="top">8th</entry>
+<entry align="center" valign="top">9th</entry>
+<entry align="left" valign="top">Features</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>1st</simpara></entry>
+<entry align="left" valign="top"><simpara>+2</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>2</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="left" valign="top"><simpara><link linkend="Cleric_spellcasting">Spellcasting</link>, <link linkend="Cleric_divine-domain">Divine Domain</link></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>2nd</simpara></entry>
+<entry align="left" valign="top"><simpara>+2</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="left" valign="top"><simpara><link linkend="Cleric_channel-divinity">Channel Divinity</link> (1/rest), <link linkend="Cleric_divine-domain">Divine Domain</link> feature</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>3rd</simpara></entry>
+<entry align="left" valign="top"><simpara>+2</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>4</simpara></entry>
+<entry align="center" valign="top"><simpara>2</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="left" valign="top"><simpara>-</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>4th</simpara></entry>
+<entry align="left" valign="top"><simpara>+2</simpara></entry>
+<entry align="center" valign="top"><simpara>4</simpara></entry>
+<entry align="center" valign="top"><simpara>4</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="left" valign="top"><simpara><link linkend="Cleric_ability-score-improvement">Ability Score Improvement</link></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>5th</simpara></entry>
+<entry align="left" valign="top"><simpara>+3</simpara></entry>
+<entry align="center" valign="top"><simpara>4</simpara></entry>
+<entry align="center" valign="top"><simpara>4</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>2</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="left" valign="top"><simpara><link linkend="Cleric_destroy-undead">Destroy Undead</link> (CR 1/2)</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>6th</simpara></entry>
+<entry align="left" valign="top"><simpara>+3</simpara></entry>
+<entry align="center" valign="top"><simpara>4</simpara></entry>
+<entry align="center" valign="top"><simpara>4</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="left" valign="top"><simpara><link linkend="Cleric_channel-divinity">Channel Divinity</link> (2/rest), <link linkend="Cleric_divine-domain">Divine Domain</link> feature</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>7th</simpara></entry>
+<entry align="left" valign="top"><simpara>+3</simpara></entry>
+<entry align="center" valign="top"><simpara>4</simpara></entry>
+<entry align="center" valign="top"><simpara>4</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>1</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="left" valign="top"><simpara>-</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>8th</simpara></entry>
+<entry align="left" valign="top"><simpara>+3</simpara></entry>
+<entry align="center" valign="top"><simpara>4</simpara></entry>
+<entry align="center" valign="top"><simpara>4</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>2</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="left" valign="top"><simpara><link linkend="Cleric_ability-score-improvement">Ability Score Improvement</link>, <link linkend="Cleric_destroy-undead">Destroy Undead</link> (CR 1), <link linkend="Cleric_divine-domain">Divine Domain</link> feature</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>9th</simpara></entry>
+<entry align="left" valign="top"><simpara>+4</simpara></entry>
+<entry align="center" valign="top"><simpara>4</simpara></entry>
+<entry align="center" valign="top"><simpara>4</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>1</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="left" valign="top"><simpara>-</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>10th</simpara></entry>
+<entry align="left" valign="top"><simpara>+4</simpara></entry>
+<entry align="center" valign="top"><simpara>5</simpara></entry>
+<entry align="center" valign="top"><simpara>4</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>2</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="left" valign="top"><simpara><link linkend="Cleric_divine-intervention">Divine Intervention</link></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>11th</simpara></entry>
+<entry align="left" valign="top"><simpara>+4</simpara></entry>
+<entry align="center" valign="top"><simpara>5</simpara></entry>
+<entry align="center" valign="top"><simpara>4</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>2</simpara></entry>
+<entry align="center" valign="top"><simpara>1</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="left" valign="top"><simpara><link linkend="Cleric_destroy-undead">Destroy Undead</link> (CR 2)</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>12th</simpara></entry>
+<entry align="left" valign="top"><simpara>+4</simpara></entry>
+<entry align="center" valign="top"><simpara>5</simpara></entry>
+<entry align="center" valign="top"><simpara>4</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>2</simpara></entry>
+<entry align="center" valign="top"><simpara>1</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="left" valign="top"><simpara><link linkend="Cleric_ability-score-improvement">Ability Score Improvement</link></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>13th</simpara></entry>
+<entry align="left" valign="top"><simpara>+5</simpara></entry>
+<entry align="center" valign="top"><simpara>5</simpara></entry>
+<entry align="center" valign="top"><simpara>4</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>2</simpara></entry>
+<entry align="center" valign="top"><simpara>1</simpara></entry>
+<entry align="center" valign="top"><simpara>1</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="left" valign="top"><simpara>-</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>14th</simpara></entry>
+<entry align="left" valign="top"><simpara>+5</simpara></entry>
+<entry align="center" valign="top"><simpara>5</simpara></entry>
+<entry align="center" valign="top"><simpara>4</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>2</simpara></entry>
+<entry align="center" valign="top"><simpara>1</simpara></entry>
+<entry align="center" valign="top"><simpara>1</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="left" valign="top"><simpara><link linkend="Cleric_destroy-undead">Destroy Undead</link> (CR 3)</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>15th</simpara></entry>
+<entry align="left" valign="top"><simpara>+5</simpara></entry>
+<entry align="center" valign="top"><simpara>5</simpara></entry>
+<entry align="center" valign="top"><simpara>4</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>2</simpara></entry>
+<entry align="center" valign="top"><simpara>1</simpara></entry>
+<entry align="center" valign="top"><simpara>1</simpara></entry>
+<entry align="center" valign="top"><simpara>1</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="left" valign="top"><simpara>-</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>16th</simpara></entry>
+<entry align="left" valign="top"><simpara>+5</simpara></entry>
+<entry align="center" valign="top"><simpara>5</simpara></entry>
+<entry align="center" valign="top"><simpara>4</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>2</simpara></entry>
+<entry align="center" valign="top"><simpara>1</simpara></entry>
+<entry align="center" valign="top"><simpara>1</simpara></entry>
+<entry align="center" valign="top"><simpara>1</simpara></entry>
+<entry align="center" valign="top"><simpara>-</simpara></entry>
+<entry align="left" valign="top"><simpara><link linkend="Cleric_ability-score-improvement">Ability Score Improvement</link></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>17th</simpara></entry>
+<entry align="left" valign="top"><simpara>+6</simpara></entry>
+<entry align="center" valign="top"><simpara>5</simpara></entry>
+<entry align="center" valign="top"><simpara>4</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>2</simpara></entry>
+<entry align="center" valign="top"><simpara>1</simpara></entry>
+<entry align="center" valign="top"><simpara>1</simpara></entry>
+<entry align="center" valign="top"><simpara>1</simpara></entry>
+<entry align="center" valign="top"><simpara>1</simpara></entry>
+<entry align="left" valign="top"><simpara><link linkend="Cleric_destroy-undead">Destroy Undead</link> (CR 4), <link linkend="Cleric_divine-domain">Divine Domain</link> feature</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>18th</simpara></entry>
+<entry align="left" valign="top"><simpara>+6</simpara></entry>
+<entry align="center" valign="top"><simpara>5</simpara></entry>
+<entry align="center" valign="top"><simpara>4</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>1</simpara></entry>
+<entry align="center" valign="top"><simpara>1</simpara></entry>
+<entry align="center" valign="top"><simpara>1</simpara></entry>
+<entry align="center" valign="top"><simpara>1</simpara></entry>
+<entry align="left" valign="top"><simpara><link linkend="Cleric_channel-divinity">Channel Divinity</link> (3/rest)</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>19th</simpara></entry>
+<entry align="left" valign="top"><simpara>+6</simpara></entry>
+<entry align="center" valign="top"><simpara>5</simpara></entry>
+<entry align="center" valign="top"><simpara>4</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>2</simpara></entry>
+<entry align="center" valign="top"><simpara>1</simpara></entry>
+<entry align="center" valign="top"><simpara>1</simpara></entry>
+<entry align="center" valign="top"><simpara>1</simpara></entry>
+<entry align="left" valign="top"><simpara><link linkend="Cleric_ability-score-improvement">Ability Score Improvement</link></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>20th</simpara></entry>
+<entry align="left" valign="top"><simpara>+6</simpara></entry>
+<entry align="center" valign="top"><simpara>5</simpara></entry>
+<entry align="center" valign="top"><simpara>4</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>3</simpara></entry>
+<entry align="center" valign="top"><simpara>2</simpara></entry>
+<entry align="center" valign="top"><simpara>2</simpara></entry>
+<entry align="center" valign="top"><simpara>1</simpara></entry>
+<entry align="center" valign="top"><simpara>1</simpara></entry>
+<entry align="left" valign="top"><simpara><link linkend="Cleric_divine-intervention">Divine Intervention</link> improvement</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</section>
+</section>
+<section xml:id="Cleric_spellcasting">
+<title>Spellcasting</title>
+<simpara>As a conduit for divine power, you can cast Cleric spells.</simpara>
+<section xml:id="Cleric_cantrips">
+<title>Cantrips</title>
+<simpara>At 1st level, you know three cantrips of your choice from the <link linkend="Cleric_Spells_cleric-spells">Cleric spell list</link>.
+You learn additional Cleric cantrips of your choice at higher levels, as shown in the Cantrips Known column of the <link linkend="cleric-table">Cleric table</link>.</simpara>
+</section>
+<section xml:id="Cleric_preparing-and-casting-spells">
+<title>Preparing and Casting Spells</title>
+<simpara>The <link linkend="cleric-table">Cleric table</link> shows how many spell slots you have to cast your spells of 1st level and higher.
+To cast one of these spells, you must expend a slot of the spell&#8217;s level or higher.
+You regain all expended spell slots when you finish a long rest.</simpara>
+<simpara>You prepare the list of Cleric spells that are available for you to cast, choosing from the <link linkend="Cleric_Spells_cleric-spells">Cleric spell list</link>.
+When you do so, choose a number of Cleric spells equal to your Wisdom modifier + your Cleric level (minimum of one spell).
+The spells must be of a level for which you have spell slots.</simpara>
+<simpara>For example, if you are a 3rd-level Cleric, you have four 1st-level and two 2nd-level spell slots.
+With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination.
+If you prepare the 1st-level spell Cure Wounds, you can cast it using a 1st-level or 2nd-level slot.
+Casting the spell doesn&#8217;t remove it from your list of prepared spells.</simpara>
+<simpara>You can change your list of prepared spells when you finish a long rest.
+Preparing a new list of Cleric spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.</simpara>
+</section>
+<section xml:id="Cleric_spellcasting-ability">
+<title>Spellcasting Ability</title>
+<simpara>Wisdom is your spellcasting ability for your Cleric spells.
+The power of your spells comes from your devotion to your deity.
+You use your Wisdom whenever a Cleric spell refers to your spellcasting ability.
+In addition, you use your Wisdom modifier when setting the saving throw DC for a Cleric spell you cast and when making an attack roll with one.</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Spell save DC</emphasis><?asciidoc-br?>
+= 8 + your proficiency bonus + your Wisdom modifier</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Spell attack modifier</emphasis><?asciidoc-br?>
+= your proficiency bonus + your Wisdom modifier</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="Cleric_ritual-casting">
+<title>Ritual Casting</title>
+<simpara>You can cast a Cleric spell as a ritual if that spell has the ritual tag and you have the spell prepared.</simpara>
+</section>
+<section xml:id="Cleric_spellcasting-focus">
+<title>Spellcasting Focus</title>
+<simpara>You can use a holy symbol (see chapter Equipment) as a spellcasting focus for your Cleric spells.</simpara>
+</section>
+</section>
+<section xml:id="Cleric_divine-domain">
+<title>Divine Domain</title>
+<simpara>Choose one <link linkend="Cleric_domains">domain related to your deity</link>.
+Your choice grants you domain spells and other features when you choose it at 1st level.
+It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels.</simpara>
+<section xml:id="Cleric_domain-spells">
+<title>Domain Spells</title>
+<simpara>Each domain has a list of spells&#8212;&#8203;its domain spells&#8212;&#8203;that you gain at the Cleric levels noted in the domain description.
+Once you gain a domain spell, you always have it prepared, and it doesn&#8217;t count against the number of spells you can prepare each day.</simpara>
+<simpara>If you have a domain spell that doesn&#8217;t appear on the Cleric spell list, the spell is nonetheless a Cleric spell for you.</simpara>
+</section>
+</section>
+<section xml:id="Cleric_channel-divinity">
+<title>Channel Divinity</title>
+<simpara>At 2nd level, you gain the ability to channel divine energy directly from your deity, using that energy to fuel magical effects.
+You start with two such effects: <link linkend="Cleric_channel-divinity-turn-undead">Turn Undead</link> and an effect determined by your domain.
+Some domains grant you additional effects as you advance in levels, as noted in the domain description.</simpara>
+<simpara>When you use your Channel Divinity, you choose which effect to create.
+You must then finish a short or long rest to use your Channel Divinity again.</simpara>
+<simpara>Some Channel Divinity effects require saving throws.
+When you use such an effect from this class, the DC equals your Cleric spell save DC.</simpara>
+<simpara>Beginning at 6th level, you can use your Channel Divinity twice between rests, and beginning at 18th level, you can use it three times between rests.
+When you finish a short or long rest, you regain your expended uses.</simpara>
+<section xml:id="Cleric_channel-divinity-turn-undead">
+<title>Channel Divinity: Turn Undead</title>
+<simpara>As an action, you present your holy symbol and speak a prayer censuring the undead.
+Each undead that can see or hear you within 30 feet of you must make a Wisdom saving throw.
+If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.</simpara>
+<simpara>A turned creature must spend its turns trying to move as far away from you as it can, and it can&#8217;t willingly move to a space within 30 feet of you. It also can&#8217;t take reactions.
+For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving.
+If there&#8217;s nowhere to move, the creature can use the Dodge action.</simpara>
+</section>
+</section>
+<section xml:id="Cleric_ability-score-improvement">
+<title>Ability Score Improvement</title>
+<simpara>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1.
+As normal, you can&#8217;t increase an ability score above 20 using this feature.</simpara>
+</section>
+<section xml:id="Cleric_destroy-undead">
+<title>Destroy Undead</title>
+<simpara>Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold, as shown in the <link linkend="cleric-feature-destroy-undead-table">Destroy Undead table</link>.</simpara>
+<simpara><a name="cleric-feature-destroy-undead-table"></a><emphasis role="strong">Destroy Undead (table)</emphasis></simpara>
+<informaltable frame="all" rowsep="1" colsep="1">
+<tgroup cols="2">
+<colspec colname="col_1" colwidth="50*"/>
+<colspec colname="col_2" colwidth="50*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Cleric Level</entry>
+<entry align="left" valign="top">Destroys Undead of CR&#8230;&#8203;</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>5th</simpara></entry>
+<entry align="left" valign="top"><simpara>$1/2$ or lower</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>8th</simpara></entry>
+<entry align="left" valign="top"><simpara>1 or lower</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>11th</simpara></entry>
+<entry align="left" valign="top"><simpara>$2$ or lower</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>14th</simpara></entry>
+<entry align="left" valign="top"><simpara>$3$ or lower</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>17th</simpara></entry>
+<entry align="left" valign="top"><simpara>$4$ or lower</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</section>
+<section xml:id="Cleric_divine-intervention">
+<title>Divine Intervention</title>
+<simpara>Beginning at 10th level, you can call on your deity to intervene on your behalf when your need is great.</simpara>
+<simpara>Imploring your deity&#8217;s aid requires you to use your action.
+Describe the assistance you seek, and roll percentile dice.
+If you roll a number equal to or lower than your Cleric level, your deity intervenes.
+The GM chooses the nature of the intervention; the effect of any Cleric spell or Cleric domain spell would be appropriate.</simpara>
+<simpara>If your deity intervenes, you can&#8217;t use this feature again for 7 days.
+Otherwise, you can use it again after you finish a long rest.</simpara>
+<simpara>At 20th level, your call for intervention succeeds automatically, no roll required.</simpara>
+</section>
+<section xml:id="Cleric_domains">
+<title>Domains</title>
+
+</section>
+<section xml:id="Martyr_Domain_matyr-domain">
+<title>Matyr Domain</title>
+<simpara>Followers of gods that believe in taking on the suffering of those around them.
+Stalwart and unflinching, these intrepid souls seek to ease the suffering of those around them.
+While typically altruistic, sometimes their motivations are further afield, belonging to strange cults of suffering or acceptance.</simpara>
+<section xml:id="Martyr_Domain_domain-spells">
+<title>Domain Spells</title>
+<simpara>You gain domain spells at the Cleric levels listed on the <link linkend="cleric-domain-martry-spells-table">Martyr Domain Spells table</link>.
+Once you gain a domain spell, you always have it prepared, and it doesn&#8217;t count against the number of spells you can prepare each day.
+If you have a domain spell that doesn&#8217;t appear on the Cleric spell list, the spell is nonetheless a Cleric spell for you.</simpara>
+<simpara><a name="cleric-domain-martry-spells-table"></a><emphasis role="strong">Martyr Domain Domain Spells (table)</emphasis></simpara>
+<informaltable frame="all" rowsep="1" colsep="1">
+<tgroup cols="2">
+<colspec colname="col_1" colwidth="50*"/>
+<colspec colname="col_2" colwidth="50*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Cleric Level</entry>
+<entry align="left" valign="top">Spells</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>1st</simpara></entry>
+<entry align="left" valign="top"><simpara><link linkend="Spell_Cure_Wounds_cure-wounds">Cure Wounds</link>, Shield of Faith</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>3rd</simpara></entry>
+<entry align="left" valign="top"><simpara>Lesser Restoration, Warding Bond</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>5th</simpara></entry>
+<entry align="left" valign="top"><simpara>Remove Curse, Revivify</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>7th</simpara></entry>
+<entry align="left" valign="top"><simpara>Death Ward, Resilient Sphere</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>9th</simpara></entry>
+<entry align="left" valign="top"><simpara>Greater Restoration, Mass Cure Wounds</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</section>
+<section xml:id="Martyr_Domain_clad-in-grace">
+<title>Clad in Grace</title>
+<simpara>Starting at 1st level, while you are not wearing any armor, your Armor Class equals 10 + your Constitution modifier + your Wisdom modifier.
+You can use a shield and still gain this benefit.</simpara>
+</section>
+<section xml:id="Martyr_Domain_relieve-suffering">
+<title>Relieve Suffering</title>
+<simpara>Starting at 1st level, when you cast a spell of 1st level or higher that restores hit points, you can expend some of your own hit points to increase the amount another creature that is healed by the spell regains, expending a number of hit points up to your Cleric level to increase the amount one creature is healed by an equivalent value.</simpara>
+<simpara>Additionally, you can touch a creature suffering a disease or the blinded, deafened, paralyzed or poisoned condition and transfer that disease or condition to yourself.
+Starting at 9th level, the range of conditions you can take increases, including exhaustion (1 level at a time), petrified, stunned, the effect of a curse, or any reduction to their ability scores.
+You are afflicted by the effect in the same manner the creature you took it was, for the same duration and possible methods of ending the effect.</simpara>
+<simpara>You can transfer a condition affecting another creature to yourself a number of times equal to your Wisdom modifier, regaining all uses on a long rest.</simpara>
+</section>
+<section xml:id="Martyr_Domain_channel-divinity-bear-the-burden">
+<title>Channel Divinity: Bear the Burden</title>
+<simpara>Starting at 2nd level, you can use your <link linkend="Cleric_channel-divinity">Channel Divinity</link> to bring all the suffering your allies suffer onto yourself.</simpara>
+<simpara>As an action, you present your holy symbol and enter a divine trance.
+Until the start of your next turn, your movement speed becomes zero and you gain temporary hit points equal to twice your Cleric level.
+Any time an allied creature within 30 feet of you takes damage, they have resistance to the damage taken, but you take damage equal to the damage they take.</simpara>
+</section>
+<section xml:id="Martyr_Domain_overcome-adversity">
+<title>Overcome Adversity</title>
+<simpara>Starting at 6th level, when you use your <link linkend="Martyr_Domain_relieve-suffering">Relieve Suffering</link> to take the condition affecting a creature, you can repeat the original saving throw against the feature if it had one.
+On success, the condition ends instead of being transferred.</simpara>
+<simpara>Additionally, when you take damage as a result of the Warding Bond spell, you have resistance to that damage.</simpara>
+</section>
+<section xml:id="Martyr_Domain_divine-empowerment">
+<title>Divine Empowerment</title>
+<simpara>At 8th level, pick one of the following options:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Divine Strike</emphasis><?asciidoc-br?>
+At 8th level, you gain the ability to infuse your weapon strikes with divine energy.
+Once on each of your turns when you hit a creature with a weapon attack made as part of the attack action, you can cause the attack to deal an extra 1d8 radiant damage to the target.</simpara>
+<simpara><a name="cleric-subclass-matryr-divine-strike"></a>When you reach 11th level, the extra damage increases to 2d8, and when you reach 17th level, the extra damage increases to 3d8.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Potent Spellcasting</emphasis><?asciidoc-br?>
+Starting at 8th level, you add your Wisdom modifier to the damage you deal with any Cleric cantrip.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="Martyr_Domain_unyielding-concentration">
+<title>Unyielding Concentration</title>
+<simpara>Starting at 17th level, while you are concentrating on a Cleric spell that targets you or your allies, your concentration can&#8217;t be broken as a result of taking damage.</simpara>
+</section>
+</section>
+<section xml:id="Sacred_Mandate_sacred-mandate">
+<title>Sacred Mandate</title>
+<simpara>Your deity doesn&#8217;t assign you a job&#8212;&#8203;they grant you a mandate.</simpara>
+<simpara>You embody a divine imperative&#8212;&#8203;an expression of your deity&#8217;s focus.
+This Sacred Mandate grants you access to specific powers that you shape through your chosen domain.</simpara>
+<simpara>At 1st level, you choose a <emphasis role="strong"><emphasis>Mandate Domain</emphasis></emphasis>, such as Knowledge, Life, or War.
+Your mandate grants you a collection of features as outlined below.</simpara>
+<section xml:id="Sacred_Mandate_mandate-spells">
+<title>Mandate Spells</title>
+<simpara>You gain the spell list associated with your selected domain.
+These spells count as Cleric spells for you and are always prepared.</simpara>
+<simpara><emphasis role="strong">The Mandate Spells (table)</emphasis></simpara>
+<informaltable frame="all" rowsep="1" colsep="1">
+<tgroup cols="6">
+<colspec colname="col_1" colwidth="16.6666*"/>
+<colspec colname="col_2" colwidth="16.6666*"/>
+<colspec colname="col_3" colwidth="16.6666*"/>
+<colspec colname="col_4" colwidth="16.6666*"/>
+<colspec colname="col_5" colwidth="16.6666*"/>
+<colspec colname="col_6" colwidth="16.667*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Domain</entry>
+<entry align="left" valign="top">1st Level</entry>
+<entry align="left" valign="top">3rd Level</entry>
+<entry align="left" valign="top">5th Level</entry>
+<entry align="left" valign="top">7th Level</entry>
+<entry align="left" valign="top">9th Level</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Knowledge</simpara></entry>
+<entry align="left" valign="top"><simpara>Identify, Command</simpara></entry>
+<entry align="left" valign="top"><simpara>Augury, Detect Thoughts</simpara></entry>
+<entry align="left" valign="top"><simpara>Clairvoyance, Speak with Dead</simpara></entry>
+<entry align="left" valign="top"><simpara>Arcane Eye, Divination</simpara></entry>
+<entry align="left" valign="top"><simpara>Legend Lore, Scrying</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Life</simpara></entry>
+<entry align="left" valign="top"><simpara><link linkend="Spell_Cure_Wounds_cure-wounds">Cure Wounds</link>, <link linkend="Spell_Bless_bless">Bless</link></simpara></entry>
+<entry align="left" valign="top"><simpara>Lesser Restoration, Spiritual Weapon</simpara></entry>
+<entry align="left" valign="top"><simpara>Beacon of Hope, Revivify</simpara></entry>
+<entry align="left" valign="top"><simpara>Death Ward, Guardian of Faith</simpara></entry>
+<entry align="left" valign="top"><simpara>Mass Cure Wounds, Raise Dead</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Light</simpara></entry>
+<entry align="left" valign="top"><simpara>Color Spray, Guiding Bolt</simpara></entry>
+<entry align="left" valign="top"><simpara>Continual Flame, Moonbeam</simpara></entry>
+<entry align="left" valign="top"><simpara>Daylight, Spirit Guardians</simpara></entry>
+<entry align="left" valign="top"><simpara>Arcane Eye, Divination</simpara></entry>
+<entry align="left" valign="top"><simpara>Dream, Scrying</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Storm</simpara></entry>
+<entry align="left" valign="top"><simpara>Thunderwave, Fog Cloud</simpara></entry>
+<entry align="left" valign="top"><simpara>Gust of Wind, Shatter</simpara></entry>
+<entry align="left" valign="top"><simpara>Call Lightning, Wind Wall</simpara></entry>
+<entry align="left" valign="top"><simpara>Control Water, Ice Storm</simpara></entry>
+<entry align="left" valign="top"><simpara>Control Weather, Flame Strike</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Trickery</simpara></entry>
+<entry align="left" valign="top"><simpara>Disguise Self, Charm Person</simpara></entry>
+<entry align="left" valign="top"><simpara>Mirror Image, Pass Without Trace</simpara></entry>
+<entry align="left" valign="top"><simpara>Bestow Curse, Major Image</simpara></entry>
+<entry align="left" valign="top"><simpara>Greater Invisibility, Hallucinatory Terrain</simpara></entry>
+<entry align="left" valign="top"><simpara>Mislead, Seeming</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>War</simpara></entry>
+<entry align="left" valign="top"><simpara>Divine Favor, Shield of Faith</simpara></entry>
+<entry align="left" valign="top"><simpara>Magic Weapon, Spiritual Weapon</simpara></entry>
+<entry align="left" valign="top"><simpara>Revivify, Slow</simpara></entry>
+<entry align="left" valign="top"><simpara>Stoneskin, Freedom of Movement</simpara></entry>
+<entry align="left" valign="top"><simpara>Hold Monster, Flame Strike</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</section>
+<section xml:id="Sacred_Mandate_mandate-proficiency">
+<title>Mandate Proficiency</title>
+<simpara>When you choose this domain at 1st level, choose one additional proficiency from a list thematic to your mandate:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Knowledge</emphasis><?asciidoc-br?>
+One language, Arcana or History</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Life</emphasis><?asciidoc-br?>
+Medicine or Herbalism Kit</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Light</emphasis><?asciidoc-br?>
+Performance or Persuasion</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Storm</emphasis><?asciidoc-br?>
+Athletics or Nature</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Trickery</emphasis><?asciidoc-br?>
+Deception or Sleight of Hand</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">War</emphasis><?asciidoc-br?>
+Martial weapon or Heavy armor</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="Sacred_Mandate_divine-gift">
+<title>Divine Gift</title>
+<simpara>Starting at 1st level, you gain a unique gift granted by your divine mandate.
+You may use this feature a number of times equal to your Wisdom modifier (minimum of once) per long rest.</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Guided Smite (War, Storm, Light, Trickery)</emphasis><?asciidoc-br?>
+When you take the Attack action, you may make an additional weapon attack as a bonus action.
+This attack deals extra radiant, thunder, lightning, or psychic damage (choose one).</simpara>
+<simpara>When you reach 10th Level, on a critical hit, you can make another weapon attack as part of the same action.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Protective Intercession (Life, Light, Knowledge)</emphasis><?asciidoc-br?>
+When a creature within 30 feet takes damage, you can use your reaction to reduce the damage by 1d10 + your Wisdom modifier.</simpara>
+<simpara>When you reach 10th Level, the creature gains temporary hit points equal to your Cleric level.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Insightful Surge (Knowledge, Trickery)</emphasis><?asciidoc-br?>
+As a bonus action, you grant a creature that can see or hear you within 30 feet advantage on their next attack roll, ability check, or saving throw.</simpara>
+<simpara>When you reach 10th Level, when using this ability, you also give a creature within range that can see or hear you, disadvantage on its next attack roll or ability check as you momentarily distract it or otherwise exploit a subtle weakness.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="Sacred_Mandate_channel-divinity">
+<title>Channel Divinity</title>
+<simpara>Starting at 2nd level, you gain one of the following Channel Divinity options.</simpara>
+<simpara>When you reach 6th level, the effects improve or gain additional features.</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Channel Divinity: War Cry (War, Storm)</emphasis><?asciidoc-br?>
+As a bonus action, choose a number of creatures equal to your Wisdom modifier (minimum 1) that you can see within 30 feet.
+Each target can immediately use their reaction to move up to half their speed without provoking an opportunity attack and make one weapon attack.</simpara>
+<simpara>When you reach 6th Level, targets add your Cleric level to their damage roll for this attack.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Channel Divinity: Luminous Infusion (Light, Storm)</emphasis><?asciidoc-br?>
+As an action, you cause divine light to flare in a 15-foot radius centered on yourself.
+Choose one damage type: radiant, lightning, or fire. Until the start of your next turn, any creature that enters or ends its turn in the area or hits you with a melee attack takes 3 damage.
+The damage increases by 2 each time your proficiency bonus increases.</simpara>
+<simpara>When you reach 6th Level, allies in the aura deal +1d4 + your proficiency bonus damage of the chosen type on weapon attacks.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Channel Divinity: Revelatory Surge (Knowledge, Life, Trickery)</emphasis><?asciidoc-br?>
+You call forth a flash of divine understanding as an action that momentarily reveals hidden truths.
+For 1 minute, you and allies in the area gain advantage on one Intelligence, Wisdom, or Charisma check of your choice, as divine clarity sharpens your senses and mind.</simpara>
+<simpara>When you reach 6th Level, you and each creature of your choice within 30 feet have truesight for one minute.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Channel Divinity: Phantom&#8217;s Whim (Trickery, Knowledge)</emphasis><?asciidoc-br?>
+As a bonus action, you cloak a creature that you choose within 30 feet in illusions.
+Until the start of your next turn, each target has partial cover and can take the Hide action as a bonus action.</simpara>
+<simpara>When you reach 6th Level, the number of affected creatures increases by your proficiency bonus.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Channel Divinity: Aegis of Faith (Life, War)</emphasis><?asciidoc-br?>
+As an action, you conjure a divine shield around an ally within 30 feet.
+Until the end of their next turn, the target adds your proficiency bonus to AC or resistance to necrotic or radiant damage.</simpara>
+<simpara>When you reach 6th Level, the target also gains temporary hit points equal to 2d6 + your Wisdom modifier when you use this feature.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Channel Divinity: Echo of Command (Trickery, War)</emphasis><?asciidoc-br?>
+As a bonus action, choose a creature whose location you know within 30 feet.</simpara>
+<simpara>If the creature is an ally, it can immediately use its reaction to make one weapon attack or cast a cantrip.
+It adds your Wisdom modifier to the attack roll.</simpara>
+<simpara>If the creature is an enemy, it must make a Wisdom saving throw.
+On a failure, it uses its reaction to make a weapon attack or a spell attack with a cantrip, targeting a creature you choose.</simpara>
+<simpara>When you reach 6th Level, when you use this ability, you may choose whether affected creatures can be frightened or charmed until the end of their next turn.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="Sacred_Mandate_divine-strike-or-potent-spellcasting">
+<title>Divine Strike or Potent Spellcasting</title>
+<simpara>When you reach 8th level, choose one of the following:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Divine Strike.</emphasis><?asciidoc-br?>
+Your weapon attacks deal an extra 1d8 damage of a type appropriate to your mandate, increasing to 2d8 at 14th level.</simpara>
+<simpara>Suggested Damage Types:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Knowledge</emphasis><?asciidoc-br?>
+Psychic</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Life</emphasis><?asciidoc-br?>
+Radiant</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Light</emphasis><?asciidoc-br?>
+Radiant</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Storm</emphasis><?asciidoc-br?>
+Lightning or Thunder (choose one)</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Trickery</emphasis><?asciidoc-br?>
+Poison or Acid (choose one)</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">War</emphasis><?asciidoc-br?>
+Bludgeoning, Piercing, or Slashing (choose one)</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Potent Spellcasting.</emphasis><?asciidoc-br?>
+You add your Wisdom modifier to the damage you deal with Cleric cantrips.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="Sacred_Mandate_exalted-mandate">
+<title>Exalted Mandate</title>
+<simpara>At 17th level, choose one matching your mandate.
+You can use this feature once per long rest.</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Avatar of War (War, Storm)</emphasis><?asciidoc-br?>
+When reduced to 0 hit points, you drop to 1 hit pointinstead and may use your reaction to make one weapon attack.
+You also gain resistance to bludgeoning, piercing, and slashing damage for 1 minute.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Illuminated Soul (Light, Life)</emphasis><?asciidoc-br?>
+As an action, you emit a 30 foot aura for 1 minute.
+Allies in the area gain advantage on saving throws against being blinded, charmed, or frightened and regain 1d6 HP at the start of their turns.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Shifting Facade (Trickery, Knowledge)</emphasis><?asciidoc-br?>
+The locations of anyone within 30 feet of you become difficult for enemies to determine for one minute, as all creatures that you choose, including you, seem to switch places with each other.
+Enemies must succeed on a Wisdom saving throw or target a random creature when trying to attack any creature within range.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+</section>
+</section>
+</chapter>
+<chapter xml:id="PlayersGuide_playing-the-game">
+<title>Playing the Game</title>
+<section xml:id="Using_Ability_Scores_using-ability-scores">
+<title>Using Ability Scores</title>
+<simpara>Six abilities provide a quick description of every creature&#8217;s physical and mental characteristics:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Strength,</emphasis><?asciidoc-br?>
+measuring physical power</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Dexterity,</emphasis><?asciidoc-br?>
+measuring agility</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Constitution,</emphasis><?asciidoc-br?>
+measuring endurance</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Intelligence,</emphasis><?asciidoc-br?>
+measuring reasoning and memory</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Wisdom,</emphasis><?asciidoc-br?>
+measuring perception and insight</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Charisma,</emphasis><?asciidoc-br?>
+measuring force of personality</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Is a character muscle-bound and insightful?
+Brilliant and charming?
+Nimble and hardy?
+Ability scores define these qualities&#8212;&#8203;a creature&#8217;s assets as well as weaknesses.</simpara>
+<simpara>The three main rolls of the game&#8212;&#8203;the ability check, the saving throw, and the attack roll&#8212;&#8203;rely on the six ability scores.
+The book&#8217;s introduction describes the basic rule behind these rolls: roll a d20, add an ability modifier derived from one of the six ability scores, and compare the total to a target number.</simpara>
+</section>
+</chapter>
+<chapter xml:id="PlayersGuide_rules-of-magic">
+<title>Rules of Magic</title>
+<section xml:id="About_Spellcasting_spellcasting">
+<title>Spellcasting</title>
+<simpara>Magic rules fantasy gaming worlds, often as spells.
+This section covers spellcasting.
+Character classes and monsters have unique spell learning and preparation methods.
+Regardless of origin, spells follow these rules.</simpara>
+<section xml:id="About_Spellcasting_what-is-a-spell">
+<title>What Is a Spell?</title>
+<simpara>A spell is a discrete magical effect, a single shaping of magical energies in the multiverse.
+Casting a spell involves plucking, pinning, vibrating, and releasing invisible strands of magic to unleash the desired effect, usually in seconds.
+Spells can be versatile tools, weapons, or protective wards, dealing damage, undoing it, imposing or removing conditions, draining life energy, or restoring it.
+Thousands of spells have been created throughout history, many forgotten.
+Some might be recorded in ancient spellbooks or trapped in the minds of dead gods, while others could be reinvented by powerful characters.</simpara>
+</section>
+<section xml:id="About_Spellcasting_concentration">
+<title>Concentration</title>
+<simpara>Some spells require concentration to maintain their magic. If you lose concentration, the spell ends.
+If a spell needs concentration, its Duration entry specifies how long you can concentrate.
+You can end concentration anytime. Normal activity doesn&#8217;t interfere.
+The following can break concentration:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Casting another spell that requires concentration.</emphasis><?asciidoc-br?>
+You lose concentration on a spell if you cast another spell that requires concentration.
+You can&#8217;t concentrate on two spells at once.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Taking damage.</emphasis><?asciidoc-br?>
+Whenever you take damage while concentrating on a spell, make a Constitution saving throw to maintain concentration.
+The DC is 10 or half the damage, whichever is higher.
+If you take damage from multiple sources, make a separate saving throw for each.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Being incapacitated or killed.</emphasis><?asciidoc-br?>
+You lose concentration on a spell if incapacitated or die.
+The GM may also require a DC 10 Constitution saving throw to maintain concentration on a spell due to certain environmental phenomena, like a crashing wave on a storm-tossed ship.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+</section>
+<section xml:id="PlayersGuide_spell-lists">
+<title>Spell Lists</title>
+<section xml:id="Cleric_Spells_cleric-spells">
+<title>Cleric Spells</title>
+<section xml:id="Cleric_Spells_cantrips-0-level">
+<title>Cantrips (0 Level)</title>
+<itemizedlist>
+<listitem>
+<simpara>Guidance</simpara>
+</listitem>
+<listitem>
+<simpara>Mending</simpara>
+</listitem>
+<listitem>
+<simpara>Sacred Flame</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="Cleric_Spells_1st-level">
+<title>1st Level</title>
+<itemizedlist>
+<listitem>
+<simpara>Bane</simpara>
+</listitem>
+<listitem>
+<simpara>Ceremony</simpara>
+</listitem>
+<listitem>
+<simpara>Command</simpara>
+</listitem>
+<listitem>
+<simpara><link linkend="Spell_Cure_Wounds_cure-wounds">Cure Wounds</link></simpara>
+</listitem>
+<listitem>
+<simpara>Detect Magic</simpara>
+</listitem>
+<listitem>
+<simpara>Guiding Bolt</simpara>
+</listitem>
+<listitem>
+<simpara>Inflict Wounds</simpara>
+</listitem>
+<listitem>
+<simpara>Protection from Evil and Good</simpara>
+</listitem>
+<listitem>
+<simpara>Purify Food and Drink</simpara>
+</listitem>
+<listitem>
+<simpara>Sanctuary</simpara>
+</listitem>
+<listitem>
+<simpara>Shield of Faith</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="Cleric_Spells_2nd-level">
+<title>2nd Level</title>
+<itemizedlist>
+<listitem>
+<simpara><link linkend="Spell_Aid_aid">Aid</link></simpara>
+</listitem>
+<listitem>
+<simpara>Augury</simpara>
+</listitem>
+<listitem>
+<simpara>Blindness/Deafness</simpara>
+</listitem>
+<listitem>
+<simpara>Calm Emotions</simpara>
+</listitem>
+<listitem>
+<simpara>Continual Flame</simpara>
+</listitem>
+<listitem>
+<simpara>Enhance Ability</simpara>
+</listitem>
+<listitem>
+<simpara>Find Traps</simpara>
+</listitem>
+<listitem>
+<simpara>Gentle Repose</simpara>
+</listitem>
+<listitem>
+<simpara>Hold Person</simpara>
+</listitem>
+<listitem>
+<simpara>Lesser Restoration</simpara>
+</listitem>
+<listitem>
+<simpara>Locate Object</simpara>
+</listitem>
+<listitem>
+<simpara>Prayer of Healing</simpara>
+</listitem>
+<listitem>
+<simpara>Protection from Poison</simpara>
+</listitem>
+<listitem>
+<simpara>Silence</simpara>
+</listitem>
+<listitem>
+<simpara>Spiritual Weapon</simpara>
+</listitem>
+<listitem>
+<simpara>Warding Bond</simpara>
+</listitem>
+<listitem>
+<simpara>Zone of Truth</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="Cleric_Spells_3rd-level">
+<title>3rd Level</title>
+<itemizedlist>
+<listitem>
+<simpara><link linkend="Spell_Animate_Dead_animate-dead">Animate Dead</link></simpara>
+</listitem>
+<listitem>
+<simpara>Beacon of Hope</simpara>
+</listitem>
+<listitem>
+<simpara>Bestow Curse</simpara>
+</listitem>
+<listitem>
+<simpara>Clairvoyance</simpara>
+</listitem>
+<listitem>
+<simpara>Create Food and Water</simpara>
+</listitem>
+<listitem>
+<simpara>Daylight</simpara>
+</listitem>
+<listitem>
+<simpara>Dispel Magic</simpara>
+</listitem>
+<listitem>
+<simpara>Glyph of Warding</simpara>
+</listitem>
+<listitem>
+<simpara>Magic Circle</simpara>
+</listitem>
+<listitem>
+<simpara>Mass Healing Word</simpara>
+</listitem>
+<listitem>
+<simpara>Meld into Stone</simpara>
+</listitem>
+<listitem>
+<simpara>Protection from Energy</simpara>
+</listitem>
+<listitem>
+<simpara>Remove Curse</simpara>
+</listitem>
+<listitem>
+<simpara>Revivify</simpara>
+</listitem>
+<listitem>
+<simpara>Sending</simpara>
+</listitem>
+<listitem>
+<simpara>Speak with Dead</simpara>
+</listitem>
+<listitem>
+<simpara>Spirit Guardians</simpara>
+</listitem>
+<listitem>
+<simpara>Tongues</simpara>
+</listitem>
+<listitem>
+<simpara>Water Walk</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="Cleric_Spells_4th-level">
+<title>4th Level</title>
+<itemizedlist>
+<listitem>
+<simpara>Banishment</simpara>
+</listitem>
+<listitem>
+<simpara>Control Water</simpara>
+</listitem>
+<listitem>
+<simpara>Death Ward</simpara>
+</listitem>
+<listitem>
+<simpara>Divination</simpara>
+</listitem>
+<listitem>
+<simpara>Freedom of Movement</simpara>
+</listitem>
+<listitem>
+<simpara>Guardian of Faith</simpara>
+</listitem>
+<listitem>
+<simpara>Locate Creature</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="Cleric_Spells_5th-level">
+<title>5th Level</title>
+<itemizedlist>
+<listitem>
+<simpara>Commune</simpara>
+</listitem>
+<listitem>
+<simpara>Dispel Evil and Good</simpara>
+</listitem>
+<listitem>
+<simpara>Geas</simpara>
+</listitem>
+<listitem>
+<simpara>Hallow</simpara>
+</listitem>
+<listitem>
+<simpara>Legend Lore</simpara>
+</listitem>
+<listitem>
+<simpara>Planar Binding Raise Dead Scrying</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="Cleric_Spells_6th-level">
+<title>6th Level</title>
+<itemizedlist>
+<listitem>
+<simpara>Blade Barrier</simpara>
+</listitem>
+<listitem>
+<simpara>Find the Path</simpara>
+</listitem>
+<listitem>
+<simpara>Harm</simpara>
+</listitem>
+<listitem>
+<simpara>Heroes&#8217; Feast</simpara>
+</listitem>
+<listitem>
+<simpara>True Seeing</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="Cleric_Spells_7th-level">
+<title>7th Level</title>
+<itemizedlist>
+<listitem>
+<simpara>Conjure Celestial</simpara>
+</listitem>
+<listitem>
+<simpara>Etherealness</simpara>
+</listitem>
+<listitem>
+<simpara>Plane Shift</simpara>
+</listitem>
+<listitem>
+<simpara>Resurrection</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="Cleric_Spells_8th-level">
+<title>8th Level</title>
+<itemizedlist>
+<listitem>
+<simpara>Antimagic Field</simpara>
+</listitem>
+<listitem>
+<simpara>Earthquake</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="Cleric_Spells_9th-level">
+<title>9th Level</title>
+<itemizedlist>
+<listitem>
+<simpara>Astral Projection</simpara>
+</listitem>
+<listitem>
+<simpara>Mass Heal True Resurrection</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="All_Spell_Descriptions_spell-descriptions">
+<title>Spell Descriptions</title>
+<section xml:id="Spell_Acid_Splash_acid-splash">
+<title>Acid Splash</title>
+<simpara><emphasis>Conjuration cantrip</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Casting Time</emphasis><?asciidoc-br?>
+1 action</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Range</emphasis><?asciidoc-br?>
+60 feet</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Target</emphasis><?asciidoc-br?>
+Up to two creatures within 5 feet of each other</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Components</emphasis><?asciidoc-br?>
+V, S</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Duration</emphasis><?asciidoc-br?>
+Instantaneous</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Saving Throw</emphasis><?asciidoc-br?>
+Dexterity negates</simpara>
+</listitem>
+</itemizedlist>
+<simpara>A stinking bubble of acid is conjured out of thin air to fly at the targets, dealing 1d6 acid damage.</simpara>
+<simpara>This spell&#8217;s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</simpara>
+</section>
+<section xml:id="Spell_Aid_aid">
+<title>Aid</title>
+<simpara><emphasis>2nd-level abjuration</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Casting Time</emphasis><?asciidoc-br?>
+1 action</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Range</emphasis><?asciidoc-br?>
+60 feet</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Target</emphasis><?asciidoc-br?>
+Up to three creatures</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Components</emphasis><?asciidoc-br?>
+V, S, M (measure of spirits)</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Duration</emphasis><?asciidoc-br?>
+8 hours</simpara>
+</listitem>
+</itemizedlist>
+<simpara>You draw upon divine power, imbuing the targets with fortitude.
+Until the spell ends, each target increases its hit point maximum and current hit points by 5.</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">At Higher Levels.</emphasis><?asciidoc-br?>
+The granted hit points increase by an additional 5 for each slot level above 2nd.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="Spell_Animate_Dead_animate-dead">
+<title>Animate Dead</title>
+<simpara><emphasis>3rd-level necromancy</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Casting Time</emphasis><?asciidoc-br?>
+1 minute</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Range</emphasis><?asciidoc-br?>
+Touch</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Components</emphasis><?asciidoc-br?>
+V, S, M (two copper coins)</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Duration</emphasis><?asciidoc-br?>
+Instantaneous</simpara>
+</listitem>
+</itemizedlist>
+<simpara>You animate a mortal&#8217;s remains to become your undead servant.</simpara>
+<simpara>If the spell is cast upon bones you create a skeleton, and if cast upon a corpse you can choose to create a skeleton or a zombie. The GM has the undead&#8217;s statistics.</simpara>
+<simpara>While it is within 60 feet you can use a bonus action to mentally command any undead you created with this spell. When you command multiple undead using this spell, you must give them all the same command. You may decide the creature&#8217;s exact action and move, or you can issue a general command, such as guarding an area, which it follows until the task is complete or you issue it a new command. If not given a command, the undead only defends itself.</simpara>
+<simpara>The undead is under your control for 24 hours unless you cast this spell on it before the spell ends to maintain control of it for another 24 hours. Casting the spell in this way reasserts control over up to 4 of your previously-animated undead instead of animating a new one. When no longer under your control, the undead no longer obeys your commands.</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">At Higher Levels.</emphasis><?asciidoc-br?>
+You create or maintain control over 2 additional undead for each slot level above 3rd.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="Spell_Animate_Objects_animate-objects">
+<title>Animate Objects</title>
+<simpara><emphasis>5th-level transmutation</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Casting Time</emphasis><?asciidoc-br?>
+1 action</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Range</emphasis><?asciidoc-br?>
+Long (120 feet)</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Components</emphasis><?asciidoc-br?>
+V, S</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Duration</emphasis><?asciidoc-br?>
+Concentration (1 minute)</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Choose up to 6 unattended nonmagical Small or Tiny objects. You may also choose larger objects; treat Medium objects as 2 objects, Large objects as 3 objects, and Huge objects as 6 objects.</simpara>
+<simpara>Until the spell ends or a target is reduced to 0 hit points, you animate the targets and turn them into constructs under your control.</simpara>
+<simpara>Each construct has Constitution 10, Intelligence 3, Wisdom 3, and Charisma 1, as well as a flying speed of 30 feet and the ability to hover (if securely fastened to something larger, it has a Speed of 0), and blindsight to a range of 30 feet (blind beyond that distance).
+Otherwise a construct&#8217;s statistics are determined by its size.</simpara>
+<simpara>If you animate 4 or more Small or Tiny objects, instead of controlling each construct individually they function as a construct swarm. Add together all swarm&#8217;s total hit points.
+Attacks against a construct swarm deal half damage. The construct swarm reverts to individual constructs when it is reduced to 15 hit points or less.</simpara>
+<simpara>You can use a bonus action to mentally command any construct made with this spell while within 500 feet of it. When you command multiple constructs using this spell, you must give them all the same command.
+You may decide the creature&#8217;s exact action and move, or you can issue a general command, such as guarding an area, which it follows until the task is complete or you issue it a new command.
+If not given a command, the construct only defends itself.</simpara>
+<simpara>When you command a construct to attack, it makes a slam, a melee attack, against a creature within 5 feet of it.
+On a hit the construct deals bludgeoning, piercing, or slashing damage appropriate to its shape.</simpara>
+<simpara>When the construct drops to 0 hit points, any excess damage carries over to its inanimate object form.</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">At Higher Levels.</emphasis><?asciidoc-br?>
+You can animate 2 additional Small or Tiny objects for each slot level above 5th.</simpara>
+</listitem>
+</itemizedlist>
+<simpara><emphasis role="strong">Animate Objects Table</emphasis></simpara>
+<informaltable frame="all" rowsep="1" colsep="1">
+<tgroup cols="6">
+<colspec colname="col_1" colwidth="16.6666*"/>
+<colspec colname="col_2" colwidth="16.6666*"/>
+<colspec colname="col_3" colwidth="16.6666*"/>
+<colspec colname="col_4" colwidth="16.6666*"/>
+<colspec colname="col_5" colwidth="16.6666*"/>
+<colspec colname="col_6" colwidth="16.667*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Size</entry>
+<entry align="center" valign="top">HP</entry>
+<entry align="center" valign="top">AC</entry>
+<entry align="left" valign="top">Attack</entry>
+<entry align="center" valign="top">STR</entry>
+<entry align="center" valign="top">DEX</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Tiny</simpara></entry>
+<entry align="center" valign="top"><simpara>5</simpara></entry>
+<entry align="center" valign="top"><simpara>14</simpara></entry>
+<entry align="left" valign="top"><simpara>+6 to hit, 1d4&#8201;&#8212;&#8201;3 damage</simpara></entry>
+<entry align="center" valign="top"><simpara>4</simpara></entry>
+<entry align="center" valign="top"><simpara>18</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Small</simpara></entry>
+<entry align="center" valign="top"><simpara>10</simpara></entry>
+<entry align="center" valign="top"><simpara>12</simpara></entry>
+<entry align="left" valign="top"><simpara>+4 to hit, 1d6&#8201;&#8212;&#8201;2 damage</simpara></entry>
+<entry align="center" valign="top"><simpara>6</simpara></entry>
+<entry align="center" valign="top"><simpara>14</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Swarm of Tiny and Small</simpara></entry>
+<entry align="center" valign="top"><simpara>varies</simpara></entry>
+<entry align="center" valign="top"><simpara>13</simpara></entry>
+<entry align="left" valign="top"><simpara>+5 to hit, 2d6 damage (1d6 damage if bloodied)</simpara></entry>
+<entry align="center" valign="top"><simpara>5</simpara></entry>
+<entry align="center" valign="top"><simpara>16</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Medium</simpara></entry>
+<entry align="center" valign="top"><simpara>20</simpara></entry>
+<entry align="center" valign="top"><simpara>11</simpara></entry>
+<entry align="left" valign="top"><simpara>+3 to hit, 1d8 damage</simpara></entry>
+<entry align="center" valign="top"><simpara>10</simpara></entry>
+<entry align="center" valign="top"><simpara>12</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Large</simpara></entry>
+<entry align="center" valign="top"><simpara>40</simpara></entry>
+<entry align="center" valign="top"><simpara>10</simpara></entry>
+<entry align="left" valign="top"><simpara>+4 to hit, 2d8 + 2 damage</simpara></entry>
+<entry align="center" valign="top"><simpara>14</simpara></entry>
+<entry align="center" valign="top"><simpara>10</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Huge</simpara></entry>
+<entry align="center" valign="top"><simpara>80</simpara></entry>
+<entry align="center" valign="top"><simpara>8</simpara></entry>
+<entry align="left" valign="top"><simpara>+6 to hit, 2d12 + 4 damage</simpara></entry>
+<entry align="center" valign="top"><simpara>18</simpara></entry>
+<entry align="center" valign="top"><simpara>6</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</section>
+<section xml:id="Spell_Bless_bless">
+<title>Bless</title>
+<simpara><emphasis>1st-level enchantment</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Casting Time</emphasis><?asciidoc-br?>
+1 action</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Range</emphasis><?asciidoc-br?>
+30 feet</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Components</emphasis><?asciidoc-br?>
+V, S, M (a sprinkling of holy water)</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Duration</emphasis><?asciidoc-br?>
+Concentration, up to 1 minute</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Until the spell ends, a d4 is added to attack rolls and saving throws made by a target.</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">At Higher Levels.</emphasis><?asciidoc-br?>
+You target one additional creature for each slot level above 1st.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="Spell_Cure_Wounds_cure-wounds">
+<title>Cure Wounds</title>
+<simpara><emphasis>1st-level evocation</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Casting Time</emphasis><?asciidoc-br?>
+1 action</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Range</emphasis><?asciidoc-br?>
+Touch</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Components</emphasis><?asciidoc-br?>
+V, S</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Duration</emphasis><?asciidoc-br?>
+Instantaneous</simpara>
+</listitem>
+</itemizedlist>
+<simpara>One creature that is neither a construct nor undead regains hit points equal to 1d8 + your spellcasting ability modifier.</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">At Higher Levels.</emphasis><?asciidoc-br?>
+The hit points regained increase by 1d8 for each slot level above 1st.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+</section>
+</section>
+</section>
+</chapter>
+<chapter xml:id="PlayersGuide_appendix">
+<title>Appendix</title>
+<section xml:id="Credits_credits">
+<title>Credits</title>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Project Lead &amp; Writer</emphasis><?asciidoc-br?>
+Dale Critchley <link xl:href="https://wyrmworkspublishing.com">https://wyrmworkspublishing.com</link></simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Collaborator, Writer, &amp; Editor</emphasis><?asciidoc-br?>
+PJ Coffey <link xl:href="https://homebrewandhacking.com/">https://homebrewandhacking.com/</link></simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Layout &amp; Accessibility</emphasis><?asciidoc-br?>
+Chris Hopper <link xl:href="https://bio.link/chrishopper">https://bio.link/chrishopper</link></simpara>
+</listitem>
+</itemizedlist>
+<section xml:id="Credits_artists">
+<title>Artists</title>
+
+</section>
+<section xml:id="Credits_primary-sources">
+<title>Primary Sources</title>
+<simpara>This project was made possible by Sly Flourish, EN Publishing, KibblesTasty, and Wizards of the Coast, who generously made content available under a Creative Commons license.
+We are deeply grateful for their contributions.</simpara>
+</section>
+</section>
+<section xml:id="Legal_legal">
+<title>Legal</title>
+<simpara>This work includes material taken from the A5E System Reference Document (A5ESRD) by EN Publishing and available at A5ESRD.com, based on Level Up: Advanced 5th Edition, available at www.levelup5e.com[].
+The A5ESRD is licensed under the Creative Commons Attribution 4.0 International License available at <link xl:href="https://creativecommons.org/licenses/by/4.0/legalcode">https://creativecommons.org/licenses/by/4.0/legalcode</link>.</simpara>
+<simpara>This work includes material taken from the System Reference Document 5.1 (<quote>SRD 5.1</quote>) by Wizards of the Coast LLC and available at <link xl:href="https://dnd.Wizards.com/resources/systems-reference-document">https://dnd.Wizards.com/resources/systems-reference-document</link>.
+The SRD 5.1 is licensed under the Creative Commons Attribution 4.0 International License available at <link xl:href="https://creativecommons.org/licenses/by/4.0/legalcode">https://creativecommons.org/licenses/by/4.0/legalcode</link>.</simpara>
+<simpara>This work includes material taken from the Lazy GM&#8217;s Resource Document by Michael E. Shea of SlyFlourish.com, available under a Creative Commons Attribution 4.0 International License.</simpara>
+<simpara>This work includes content from Kibbles&#8217; Compendium of Legends and Legacies by KibblesTasty Homebrew LLC and available at <link xl:href="https://www.kthomebrew.com/krd">https://www.kthomebrew.com/krd</link>.
+The Kibbles&#8217; Compendium of Legends and Legacies is licensed under the Creative Commons Attribution 4.0 International License (CC-BY-4.0) available at <link xl:href="https://creativecommons.org/licenses/by/4.0/legalcode">https://creativecommons.org/licenses/by/4.0/legalcode</link>.</simpara>
+<simpara>The text of Free5e Player&#8217;s Guide © 2025 by Wyrmworks Publishing and available at <link xl:href="https://free5e.com">https://free5e.com</link> is licensed under Creative Commons Attribution 4.0 International.
+To view a copy of this license, visit <link xl:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</link>
+You are free to use this content in any manner permitted by that license as long as you include the following attribution statement in your own work:</simpara>
+<simpara>This work includes material adapted from the <emphasis role="strong"><emphasis>Free5e Player&#8217;s Guide</emphasis></emphasis>, © 2025 by Wyrmworks Publishing, and available at <link xl:href="https://free5e.com">https://free5e.com</link>.
+The Free5e Player&#8217;s Guide is licensed under the Creative Commons Attribution 4.0 International License (CC-BY-4.0).
+To view a copy of this license, visit <link xl:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</link>.</simpara>
+<simpara>This adaptation also includes material originally taken from:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>The <emphasis role="strong"><emphasis>A5E System Reference Document (A5ESRD)</emphasis></emphasis> by EN Publishing, available at A5ESRD.com and licensed under CC-BY-4.0.</simpara>
+</listitem>
+<listitem>
+<simpara>The <emphasis role="strong"><emphasis>System Reference Document 5.1 (SRD 5.1)</emphasis></emphasis> by Wizards of the Coast LLC, available at <link xl:href="https://dnd.Wizards.com/resources/systems-reference-document">https://dnd.Wizards.com/resources/systems-reference-document</link> and licensed under CC-BY-4.0.</simpara>
+</listitem>
+<listitem>
+<simpara>The <emphasis role="strong"><emphasis>Lazy GM&#8217;s Resource Document</emphasis></emphasis> by Michael E. Shea of SlyFlourish.com, licensed under CC-BY-4.0.</simpara>
+</listitem>
+<listitem>
+<simpara>The <emphasis role="strong"><emphasis>Kibbles&#8217; Compendium of Legends and Legacies</emphasis></emphasis> by KibblesTasty Homebrew LLC, available at <link xl:href="https://www.kthomebrew.com/krd">https://www.kthomebrew.com/krd</link> and licensed under CC-BY-4.0.</simpara>
+</listitem>
+</itemizedlist>
+<simpara>All artwork contained in this book is licensed under CC-BY-4.0 or CC-0. To use that artwork outside of this project, see the accompanying document with specific licensing and credit information.
+If you received this copy without that document, you can obtain a copy at <link xl:href="https://free5e.com">https://free5e.com</link>.</simpara>
+</section>
+</chapter>
+</book>

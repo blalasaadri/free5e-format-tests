@@ -1,0 +1,4 @@
+*.adoc
+*.bak
+#generated/
+!generated/*.adoc
