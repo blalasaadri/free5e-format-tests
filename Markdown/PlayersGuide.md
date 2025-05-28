@@ -28,6 +28,8 @@ Follow and Back the Kickstarter to make this a reality at https://www.kickstarte
 
 [Cleric Spells](04_Rules_of_Magic/Spell_Lists/Cleric_Spells.md)
 
+[Spell Descriptions](04_Rules_of_Magic/All_Spell_Descriptions.md)
+
 ## Appendix
 
 [Credits](Appendix/Credits.md)

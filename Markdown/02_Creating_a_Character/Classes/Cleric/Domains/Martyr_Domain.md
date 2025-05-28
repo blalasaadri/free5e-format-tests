@@ -9,11 +9,11 @@ You gain domain spells at the Cleric levels listed on the [Martyr Domain Spells 
 Once you gain a domain spell, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day.
 If you have a domain spell that doesn’t appear on the Cleric spell list, the spell is nonetheless a Cleric spell for you.
 
-**Martyr Domain Domain Spells (table)**
+<a name="cleric-domain-martry-spells-table"></a>**Martyr Domain Domain Spells (table)**
 
 | Cleric Level | Spells |
 | --- | --- |
-| 1st | [Cure Wounds](#cure-wounds), Shield of Faith |
+| 1st | [Cure Wounds](#Spell_Cure_Wounds_cure-wounds), Shield of Faith |
 | 3rd | Lesser Restoration, Warding Bond |
 | 5th | Remove Curse, Revivify |
 | 7th | Death Ward, Resilient Sphere |
@@ -33,14 +33,14 @@ You are afflicted by the effect in the same manner the creature you took it was,
 You can transfer a condition affecting another creature to yourself a number of times equal to your Wisdom modifier, regaining all uses on a long rest.
 
 ##### Channel Divinity: Bear the Burden
-Starting at 2nd level, you can use your [Channel Divinity](#cleric-feature-channel-divinity) to bring all the suffering your allies suffer onto yourself.
+Starting at 2nd level, you can use your [Channel Divinity](#Cleric_channel-divinity) to bring all the suffering your allies suffer onto yourself.
 
 As an action, you present your holy symbol and enter a divine trance.
 Until the start of your next turn, your movement speed becomes zero and you gain temporary hit points equal to twice your Cleric level.
 Any time an allied creature within 30 feet of you takes damage, they have resistance to the damage taken, but you take damage equal to the damage they take.
 
 ##### Overcome Adversity
-Starting at 6th level, when you use your [Relieve Suffering](#relieve-suffering) to take the condition affecting a creature, you can repeat the original saving throw against the feature if it had one.
+Starting at 6th level, when you use your [Relieve Suffering](#Martyr_Domain_relieve-suffering) to take the condition affecting a creature, you can repeat the original saving throw against the feature if it had one.
 On success, the condition ends instead of being transferred.
 
 Additionally, when you take damage as a result of the Warding Bond spell, you have resistance to that damage.

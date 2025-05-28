@@ -34,36 +34,36 @@ You start with the following equipment, in addition to the equipment granted by 
 * (a) a priest’s pack or (b) an explorer’s pack
 * A shield and a holy symbol
 
-**The Cleric (table)**
+<a name="cleric-table"></a>**The Cleric (table)**
 
 | Level | Proficiency Bonus | Cantrips Known | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th | Features |
 | --- | --- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | --- |
-| 1st | +2 | 3 | 2 | - | - | - | - | - | - | - | - | [Spellcasting](#spellcasting), [Divine Domain](#divine-domain) |
-| 2nd | +2 | 3 | 3 | - | - | - | - | - | - | - | - | [Channel Divinity](#channel-divinity) (1/rest), [Divine Domain](#divine-domain) feature |
+| 1st | +2 | 3 | 2 | - | - | - | - | - | - | - | - | [Spellcasting](#Cleric_spellcasting), [Divine Domain](#Cleric_divine-domain) |
+| 2nd | +2 | 3 | 3 | - | - | - | - | - | - | - | - | [Channel Divinity](#Cleric_channel-divinity) (1/rest), [Divine Domain](#Cleric_divine-domain) feature |
 | 3rd | +2 | 3 | 4 | 2 | - | - | - | - | - | - | - | - |
-| 4th | +2 | 4 | 4 | 3 | - | - | - | - | - | - | - | [Ability Score Improvement](#ability-score-improvement) |
-| 5th | +3 | 4 | 4 | 3 | 2 | - | - | - | - | - | - | [Destroy Undead](#destroy-undead) (CR 1/2) |
-| 6th | +3 | 4 | 4 | 3 | 3 | - | - | - | - | - | - | [Channel Divinity](#channel-divinity) (2/rest), [Divine Domain](#divine-domain) feature |
+| 4th | +2 | 4 | 4 | 3 | - | - | - | - | - | - | - | [Ability Score Improvement](#Cleric_ability-score-improvement) |
+| 5th | +3 | 4 | 4 | 3 | 2 | - | - | - | - | - | - | [Destroy Undead](#Cleric_destroy-undead) (CR 1/2) |
+| 6th | +3 | 4 | 4 | 3 | 3 | - | - | - | - | - | - | [Channel Divinity](#Cleric_channel-divinity) (2/rest), [Divine Domain](#Cleric_divine-domain) feature |
 | 7th | +3 | 4 | 4 | 3 | 3 | 1 | - | - | - | - | - | - |
-| 8th | +3 | 4 | 4 | 3 | 3 | 2 | - | - | - | - | - | [Ability Score Improvement](#ability-score-improvement), [Destroy Undead](#destroy-undead) (CR 1), [Divine Domain](#divine-domain) feature |
+| 8th | +3 | 4 | 4 | 3 | 3 | 2 | - | - | - | - | - | [Ability Score Improvement](#Cleric_ability-score-improvement), [Destroy Undead](#Cleric_destroy-undead) (CR 1), [Divine Domain](#Cleric_divine-domain) feature |
 | 9th | +4 | 4 | 4 | 3 | 3 | 3 | 1 | - | - | - | - | - |
-| 10th | +4 | 5 | 4 | 3 | 3 | 3 | 2 | - | - | - | - | [Divine Intervention](#divine-intervention) |
-| 11th | +4 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | - | - | - | [Destroy Undead](#destroy-undead) (CR 2) |
-| 12th | +4 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | - | - | - | [Ability Score Improvement](#ability-score-improvement) |
+| 10th | +4 | 5 | 4 | 3 | 3 | 3 | 2 | - | - | - | - | [Divine Intervention](#Cleric_divine-intervention) |
+| 11th | +4 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | - | - | - | [Destroy Undead](#Cleric_destroy-undead) (CR 2) |
+| 12th | +4 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | - | - | - | [Ability Score Improvement](#Cleric_ability-score-improvement) |
 | 13th | +5 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | - | - | - |
-| 14th | +5 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | - | - | [Destroy Undead](#destroy-undead) (CR 3) |
+| 14th | +5 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | - | - | [Destroy Undead](#Cleric_destroy-undead) (CR 3) |
 | 15th | +5 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | - | - |
-| 16th | +5 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | - | [Ability Score Improvement](#ability-score-improvement) |
-| 17th | +6 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | 1 | [Destroy Undead](#destroy-undead) (CR 4), [Divine Domain](#divine-domain) feature |
-| 18th | +6 | 5 | 4 | 3 | 3 | 3 | 3 | 1 | 1 | 1 | 1 | [Channel Divinity](#channel-divinity) (3/rest) |
-| 19th | +6 | 5 | 4 | 3 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | [Ability Score Improvement](#ability-score-improvement) |
-| 20th | +6 | 5 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 1 | 1 | [Divine Intervention](#divine-intervention) improvement |
+| 16th | +5 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | - | [Ability Score Improvement](#Cleric_ability-score-improvement) |
+| 17th | +6 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | 1 | [Destroy Undead](#Cleric_destroy-undead) (CR 4), [Divine Domain](#Cleric_divine-domain) feature |
+| 18th | +6 | 5 | 4 | 3 | 3 | 3 | 3 | 1 | 1 | 1 | 1 | [Channel Divinity](#Cleric_channel-divinity) (3/rest) |
+| 19th | +6 | 5 | 4 | 3 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | [Ability Score Improvement](#Cleric_ability-score-improvement) |
+| 20th | +6 | 5 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 1 | 1 | [Divine Intervention](#Cleric_divine-intervention) improvement |
 
 #### Spellcasting
 As a conduit for divine power, you can cast Cleric spells.
 
 ##### Cantrips
-At 1st level, you know three cantrips of your choice from the [Cleric spell list](#cleric-spells).
+At 1st level, you know three cantrips of your choice from the [Cleric spell list](#Cleric_Spells_cleric-spells).
 You learn additional Cleric cantrips of your choice at higher levels, as shown in the Cantrips Known column of the [Cleric table](#cleric-table).
 
 ##### Preparing and Casting Spells
@@ -71,7 +71,7 @@ The [Cleric table](#cleric-table) shows how many spell slots you have to cast yo
 To cast one of these spells, you must expend a slot of the spell’s level or higher.
 You regain all expended spell slots when you finish a long rest.
 
-You prepare the list of Cleric spells that are available for you to cast, choosing from the [Cleric spell list](#cleric-spells).
+You prepare the list of Cleric spells that are available for you to cast, choosing from the [Cleric spell list](#Cleric_Spells_cleric-spells).
 When you do so, choose a number of Cleric spells equal to your Wisdom modifier + your Cleric level (minimum of one spell).
 The spells must be of a level for which you have spell slots.
 
@@ -98,10 +98,10 @@ In addition, you use your Wisdom modifier when setting the saving throw DC for a
 You can cast a Cleric spell as a ritual if that spell has the ritual tag and you have the spell prepared.
 
 ##### Spellcasting Focus
-You can use a holy symbol (see chapter ["Equipment"](#equipment)) as a spellcasting focus for your Cleric spells.
+You can use a holy symbol (see chapter Equipment) as a spellcasting focus for your Cleric spells.
 
 #### Divine Domain
-Choose one [domain related to your deity](#cleric-domains).
+Choose one [domain related to your deity](#Cleric_domains).
 Your choice grants you domain spells and other features when you choose it at 1st level.
 It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels.
 
@@ -113,7 +113,7 @@ If you have a domain spell that doesn’t appear on the Cleric spell list, the s
 
 #### Channel Divinity
 At 2nd level, you gain the ability to channel divine energy directly from your deity, using that energy to fuel magical effects.
-You start with two such effects: [Turn Undead](#channel-divinity:-turn-undead) and an effect determined by your domain.
+You start with two such effects: [Turn Undead](#Cleric_channel-divinity-turn-undead) and an effect determined by your domain.
 Some domains grant you additional effects as you advance in levels, as noted in the domain description.
 
 When you use your Channel Divinity, you choose which effect to create.
@@ -141,7 +141,7 @@ As normal, you can’t increase an ability score above 20 using this feature.
 #### Destroy Undead
 Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold, as shown in the [Destroy Undead table](#cleric-feature-destroy-undead-table).
 
-**Destroy Undead (table)**
+<a name="cleric-feature-destroy-undead-table"></a>**Destroy Undead (table)**
 
 | Cleric Level | Destroys Undead of CR... |
 | --- | --- |

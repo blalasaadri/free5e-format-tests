@@ -1,15 +1,15 @@
-### Cleric Spells
+#### Cleric Spells
 
-#### Cantrips (0 Level)
+##### Cantrips (0 Level)
 * Guidance
 * Mending
 * Sacred Flame
 
-#### 1st Level
+##### 1st Level
 * Bane
 * Ceremony
 * Command
-* [Cure Wounds](#cure-wounds)
+* [Cure Wounds](#Spell_Cure_Wounds_cure-wounds)
 * Detect Magic
 * Guiding Bolt
 * Inflict Wounds
@@ -18,8 +18,8 @@
 * Sanctuary
 * Shield of Faith
 
-#### 2nd Level
-* [Aid](#aid)
+##### 2nd Level
+* [Aid](#Spell_Aid_aid)
 * Augury
 * Blindness/Deafness
 * Calm Emotions
@@ -37,8 +37,8 @@
 * Warding Bond
 * Zone of Truth
 
-#### 3rd Level
-* [Animate Dead](#animate-dead)
+##### 3rd Level
+* [Animate Dead](#Spell_Animate_Dead_animate-dead)
 * Beacon of Hope
 * Bestow Curse
 * Clairvoyance
@@ -58,7 +58,7 @@
 * Tongues
 * Water Walk
 
-#### 4th Level
+##### 4th Level
 * Banishment
 * Control Water
 * Death Ward
@@ -67,7 +67,7 @@
 * Guardian of Faith
 * Locate Creature
 
-#### 5th Level
+##### 5th Level
 * Commune
 * Dispel Evil and Good
 * Geas
@@ -75,23 +75,23 @@
 * Legend Lore
 * Planar Binding Raise Dead Scrying
 
-#### 6th Level
+##### 6th Level
 * Blade Barrier
 * Find the Path
 * Harm
 * Heroes’ Feast
 * True Seeing
 
-#### 7th Level
+##### 7th Level
 * Conjure Celestial
 * Etherealness
 * Plane Shift
 * Resurrection
 
-#### 8th Level
+##### 8th Level
 * Antimagic Field
 * Earthquake
 
-#### 9th Level
+##### 9th Level
 * Astral Projection
 * Mass Heal True Resurrection

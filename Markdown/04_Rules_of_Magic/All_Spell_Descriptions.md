@@ -1,13 +1,13 @@
-# Spell Descriptions
+##### Spell Descriptions
 
-## Acid Splash
+[Acid Splash](Spell_Descriptions/Spell_Acid_Splash.md)
 
-## Aid
+[Aid](Spell_Descriptions/Spell_Aid.md)
 
-## Animate Dead 
+[Animate Dead](Spell_Descriptions/Spell_Animate_Dead.md)
 
-## Animate Objects 
+[Animate Objects](Spell_Descriptions/Spell_Animate_Objects.md)
 
-## Bless
+[Bless](Spell_Descriptions/Spell_Bless.md)
 
-## Cure Wounds
+[Cure Wounds](Spell_Descriptions/Spell_Cure_Wounds.md)

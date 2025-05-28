@@ -18,7 +18,7 @@ These spells count as Cleric spells for you and are always prepared.
 | Domain | 1st Level | 3rd Level | 5th Level | 7th Level | 9th Level |
 | --- | --- | --- | --- | --- | --- |
 | Knowledge | Identify, Command | Augury, Detect Thoughts | Clairvoyance, Speak with Dead | Arcane Eye, Divination | Legend Lore, Scrying |
-| Life | [Cure Wounds](#cure-wounds), [Bless](#bless) | Lesser Restoration, Spiritual Weapon | Beacon of Hope, Revivify | Death Ward, Guardian of Faith | Mass Cure Wounds, Raise Dead |
+| Life | [Cure Wounds](#Spell_Cure_Wounds_cure-wounds), [Bless](#Spell_Bless_bless) | Lesser Restoration, Spiritual Weapon | Beacon of Hope, Revivify | Death Ward, Guardian of Faith | Mass Cure Wounds, Raise Dead |
 | Light | Color Spray, Guiding Bolt | Continual Flame, Moonbeam | Daylight, Spirit Guardians | Arcane Eye, Divination | Dream, Scrying |
 | Storm | Thunderwave, Fog Cloud | Gust of Wind, Shatter | Call Lightning, Wind Wall | Control Water, Ice Storm | Control Weather, Flame Strike |
 | Trickery | Disguise Self, Charm Person | Mirror Image, Pass Without Trace | Bestow Curse, Major Image | Greater Invisibility, Hallucinatory Terrain | Mislead, Seeming |
