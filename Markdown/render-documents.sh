@@ -9,7 +9,12 @@ for adoc in $(find . -name '*.adoc'); do
 done
 
 for md in $(find . -name '*.md'); do
-  kramdoc -a icons=font -a lang=en-US -a stem $md
+  kramdoc \
+    -a icons=font \
+    -a lang=en-US \
+    -a stem \
+    -a revdate="$(git log -1 --pretty="format:%cs" $md)" \
+    $md
 done
 
 for adoc in $(find . -name '*.adoc'); do
@@ -22,6 +27,7 @@ asciidoctor \
   -a doctype=book \
   -a partnums \
   -a reproducible \
+  -a revdate="$(git log -1 --pretty="format:%cs" .)" \
   -a sectnums \
   -a sectnumelevels=1 \
   -a stylesdir=css \
